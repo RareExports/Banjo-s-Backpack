@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: F:\BanjosBackpack\BB.exe-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{788BF2A0-91A1-4FCD-ACF5-9A9400953082}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AssemblyName>BanjoKazooieLevelEditor</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <ApplicationVersion>2.0.19.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Globalizer">
+      <HintPath>lib\Globalizer.dll</HintPath>
+    </Reference>
+    <Reference Include="Magick.NET-x86">
+      <HintPath>lib\Magick.NET-x86.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK">
+      <HintPath>lib\OpenTK.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.Compatibility">
+      <HintPath>lib\OpenTK.Compatibility.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenTK.GLControl">
+      <HintPath>lib\OpenTK.GLControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="RummageAttributes\RummageNoRemoveAttribute.cs" />
+    <Compile Include="RummageAttributes\RummageNoRenameAttribute.cs" />
+    <Compile Include="RummageAttributes\RummageNoRenameAnythingAttribute.cs" />
+    <Compile Include="RummageAttributes\RummageNoUnnestAttribute.cs" />
+    <Compile Include="RummageAttributes\RummageNoMarkPublicAttribute.cs" />
+    <Compile Include="RummageAttributes\RummageNoInlineAttribute.cs" />
+    <Compile Include="RummageAttributes\RummageInlineAttribute.cs" />
+    <Compile Include="RummageAttributes\RummageKeepReflectionSafeAttribute.cs" />
+    <Compile Include="RummageAttributes\RummageKeepArgumentsReflectionSafeAttribute.cs" />
+    <Compile Include="RummageAttributes\RummageKeepUsersReflectionSafeAttribute.cs" />
+    <Compile Include="RummageAttributes\RummageAssumeTypeSafeAttribute.cs" />
+    <Compile Include="RummageAttributes\Rummage.cs" />
+    <Compile Include="Collada141\COLLADA.cs" />
+    <Compile Include="Collada141\asset.cs" />
+    <Compile Include="Collada141\assetContributor.cs" />
+    <Compile Include="Collada141\fx_surface_init_from_common.cs" />
+    <Compile Include="Collada141\fx_surface_face_enum.cs" />
+    <Compile Include="Collada141\common_newparam_type.cs" />
+    <Compile Include="Collada141\fx_sampler2D_common.cs" />
+    <Compile Include="Collada141\fx_sampler_wrap_common.cs" />
+    <Compile Include="Collada141\fx_sampler_filter_common.cs" />
+    <Compile Include="Collada141\extra.cs" />
+    <Compile Include="Collada141\technique.cs" />
+    <Compile Include="Collada141\fx_surface_common.cs" />
+    <Compile Include="Collada141\fx_surface_init_cube_common.cs" />
+    <Compile Include="Collada141\fx_surface_init_cube_commonAll.cs" />
+    <Compile Include="Collada141\fx_surface_init_cube_commonFace.cs" />
+    <Compile Include="Collada141\fx_surface_init_cube_commonPrimary.cs" />
+    <Compile Include="Collada141\fx_surface_init_volume_common.cs" />
+    <Compile Include="Collada141\fx_surface_init_volume_commonAll.cs" />
+    <Compile Include="Collada141\fx_surface_init_volume_commonPrimary.cs" />
+    <Compile Include="Collada141\fx_surface_init_planar_common.cs" />
+    <Compile Include="Collada141\fx_surface_init_planar_commonAll.cs" />
+    <Compile Include="Collada141\fx_surface_format_hint_common.cs" />
+    <Compile Include="Collada141\fx_surface_format_hint_channels_enum.cs" />
+    <Compile Include="Collada141\fx_surface_format_hint_range_enum.cs" />
+    <Compile Include="Collada141\fx_surface_format_hint_precision_enum.cs" />
+    <Compile Include="Collada141\fx_surface_format_hint_option_enum.cs" />
+    <Compile Include="Collada141\fx_surface_type_enum.cs" />
+    <Compile Include="Collada141\ItemChoiceType.cs" />
+    <Compile Include="Collada141\common_color_or_texture_type.cs" />
+    <Compile Include="Collada141\common_color_or_texture_typeColor.cs" />
+    <Compile Include="Collada141\common_color_or_texture_typeParam.cs" />
+    <Compile Include="Collada141\common_color_or_texture_typeTexture.cs" />
+    <Compile Include="Collada141\common_transparent_type.cs" />
+    <Compile Include="Collada141\fx_opaque_enum.cs" />
+    <Compile Include="Collada141\common_float_or_param_type.cs" />
+    <Compile Include="Collada141\common_float_or_param_typeFloat.cs" />
+    <Compile Include="Collada141\common_float_or_param_typeParam.cs" />
+    <Compile Include="Collada141\fx_include_common.cs" />
+    <Compile Include="Collada141\fx_samplerDEPTH_common.cs" />
+    <Compile Include="Collada141\fx_samplerRECT_common.cs" />
+    <Compile Include="Collada141\fx_samplerCUBE_common.cs" />
+    <Compile Include="Collada141\fx_sampler3D_common.cs" />
+    <Compile Include="Collada141\fx_sampler1D_common.cs" />
+    <Compile Include="Collada141\InputGlobal.cs" />
+    <Compile Include="Collada141\fx_newparam_common.cs" />
+    <Compile Include="Collada141\fx_annotate_common.cs" />
+    <Compile Include="Collada141\fx_modifier_enum_common.cs" />
+    <Compile Include="Collada141\InputLocalOffset.cs" />
+    <Compile Include="Collada141\TargetableFloat.cs" />
+    <Compile Include="Collada141\InputLocal.cs" />
+    <Compile Include="Collada141\instance_material.cs" />
+    <Compile Include="Collada141\instance_materialBind.cs" />
+    <Compile Include="Collada141\instance_materialBind_vertex_input.cs" />
+    <Compile Include="Collada141\assetUnit.cs" />
+    <Compile Include="Collada141\UpAxisType.cs" />
+    <Compile Include="Collada141\library_animation_clips.cs" />
+    <Compile Include="Collada141\animation_clip.cs" />
+    <Compile Include="Collada141\InstanceWithExtra.cs" />
+    <Compile Include="Collada141\library_animations.cs" />
+    <Compile Include="Collada141\animation.cs" />
+    <Compile Include="Collada141\channel.cs" />
+    <Compile Include="Collada141\sampler.cs" />
+    <Compile Include="Collada141\source.cs" />
+    <Compile Include="Collada141\IDREF_array.cs" />
+    <Compile Include="Collada141\Name_array.cs" />
+    <Compile Include="Collada141\bool_array.cs" />
+    <Compile Include="Collada141\float_array.cs" />
+    <Compile Include="Collada141\int_array.cs" />
+    <Compile Include="Collada141\sourceTechnique_common.cs" />
+    <Compile Include="Collada141\accessor.cs" />
+    <Compile Include="Collada141\param.cs" />
+    <Compile Include="Collada141\library_cameras.cs" />
+    <Compile Include="Collada141\camera.cs" />
+    <Compile Include="Collada141\cameraOptics.cs" />
+    <Compile Include="Collada141\cameraOpticsTechnique_common.cs" />
+    <Compile Include="Collada141\cameraOpticsTechnique_commonOrthographic.cs" />
+    <Compile Include="Collada141\ItemsChoiceType.cs" />
+    <Compile Include="Collada141\cameraOpticsTechnique_commonPerspective.cs" />
+    <Compile Include="Collada141\ItemsChoiceType1.cs" />
+    <Compile Include="Collada141\cameraImager.cs" />
+    <Compile Include="Collada141\library_controllers.cs" />
+    <Compile Include="Collada141\controller.cs" />
+    <Compile Include="Collada141\morph.cs" />
+    <Compile Include="Collada141\morphTargets.cs" />
+    <Compile Include="Collada141\MorphMethodType.cs" />
+    <Compile Include="Collada141\skin.cs" />
+    <Compile Include="Collada141\skinJoints.cs" />
+    <Compile Include="Collada141\skinVertex_weights.cs" />
+    <Compile Include="Collada141\library_effects.cs" />
+    <Compile Include="Collada141\effect.cs" />
+    <Compile Include="Collada141\image.cs" />
+    <Compile Include="Collada141\effectFx_profile_abstractProfile_COMMON.cs" />
+    <Compile Include="Collada141\effectFx_profile_abstractProfile_COMMONTechnique.cs" />
+    <Compile Include="Collada141\effectFx_profile_abstractProfile_COMMONTechniqueBl.cs" />
+    <Compile Include="Collada141\effectFx_profile_abstractProfile_COMMONTechniqueCo.cs" />
+    <Compile Include="Collada141\effectFx_profile_abstractProfile_COMMONTechniqueLa.cs" />
+    <Compile Include="Collada141\effectFx_profile_abstractProfile_COMMONTechniquePh.cs" />
+    <Compile Include="Collada141\library_force_fields.cs" />
+    <Compile Include="Collada141\force_field.cs" />
+    <Compile Include="Collada141\library_geometries.cs" />
+    <Compile Include="Collada141\geometry.cs" />
+    <Compile Include="Collada141\convex_mesh.cs" />
+    <Compile Include="Collada141\vertices.cs" />
+    <Compile Include="Collada141\lines.cs" />
+    <Compile Include="Collada141\linestrips.cs" />
+    <Compile Include="Collada141\polygons.cs" />
+    <Compile Include="Collada141\polygonsPH.cs" />
+    <Compile Include="Collada141\polylist.cs" />
+    <Compile Include="Collada141\triangles.cs" />
+    <Compile Include="Collada141\trifans.cs" />
+    <Compile Include="Collada141\tristrips.cs" />
+    <Compile Include="Collada141\mesh.cs" />
+    <Compile Include="Collada141\spline.cs" />
+    <Compile Include="Collada141\splineControl_vertices.cs" />
+    <Compile Include="Collada141\library_images.cs" />
+    <Compile Include="Collada141\library_lights.cs" />
+    <Compile Include="Collada141\light.cs" />
+    <Compile Include="Collada141\lightTechnique_common.cs" />
+    <Compile Include="Collada141\lightTechnique_commonAmbient.cs" />
+    <Compile Include="Collada141\TargetableFloat3.cs" />
+    <Compile Include="Collada141\lightTechnique_commonDirectional.cs" />
+    <Compile Include="Collada141\lightTechnique_commonPoint.cs" />
+    <Compile Include="Collada141\lightTechnique_commonSpot.cs" />
+    <Compile Include="Collada141\library_materials.cs" />
+    <Compile Include="Collada141\material.cs" />
+    <Compile Include="Collada141\instance_effect.cs" />
+    <Compile Include="Collada141\instance_effectTechnique_hint.cs" />
+    <Compile Include="Collada141\instance_effectSetparam.cs" />
+    <Compile Include="Collada141\library_nodes.cs" />
+    <Compile Include="Collada141\node.cs" />
+    <Compile Include="Collada141\lookat.cs" />
+    <Compile Include="Collada141\matrix.cs" />
+    <Compile Include="Collada141\rotate.cs" />
+    <Compile Include="Collada141\skew.cs" />
+    <Compile Include="Collada141\ItemsChoiceType2.cs" />
+    <Compile Include="Collada141\instance_controller.cs" />
+    <Compile Include="Collada141\bind_material.cs" />
+    <Compile Include="Collada141\instance_geometry.cs" />
+    <Compile Include="Collada141\NodeType.cs" />
+    <Compile Include="Collada141\library_physics_materials.cs" />
+    <Compile Include="Collada141\physics_material.cs" />
+    <Compile Include="Collada141\physics_materialTechnique_common.cs" />
+    <Compile Include="Collada141\library_physics_models.cs" />
+    <Compile Include="Collada141\physics_model.cs" />
+    <Compile Include="Collada141\rigid_body.cs" />
+    <Compile Include="Collada141\rigid_bodyTechnique_common.cs" />
+    <Compile Include="Collada141\rigid_bodyTechnique_commonDynamic.cs" />
+    <Compile Include="Collada141\rigid_bodyTechnique_commonShape.cs" />
+    <Compile Include="Collada141\rigid_bodyTechnique_commonShapeHollow.cs" />
+    <Compile Include="Collada141\box.cs" />
+    <Compile Include="Collada141\capsule.cs" />
+    <Compile Include="Collada141\cylinder.cs" />
+    <Compile Include="Collada141\plane.cs" />
+    <Compile Include="Collada141\sphere.cs" />
+    <Compile Include="Collada141\tapered_capsule.cs" />
+    <Compile Include="Collada141\tapered_cylinder.cs" />
+    <Compile Include="Collada141\rigid_constraint.cs" />
+    <Compile Include="Collada141\rigid_constraintRef_attachment.cs" />
+    <Compile Include="Collada141\rigid_constraintAttachment.cs" />
+    <Compile Include="Collada141\rigid_constraintTechnique_common.cs" />
+    <Compile Include="Collada141\rigid_constraintTechnique_commonEnabled.cs" />
+    <Compile Include="Collada141\rigid_constraintTechnique_commonInterpenetrate.cs" />
+    <Compile Include="Collada141\rigid_constraintTechnique_commonLimits.cs" />
+    <Compile Include="Collada141\rigid_constraintTechnique_commonLimitsSwing_cone_a.cs" />
+    <Compile Include="Collada141\rigid_constraintTechnique_commonLimitsLinear.cs" />
+    <Compile Include="Collada141\rigid_constraintTechnique_commonSpring.cs" />
+    <Compile Include="Collada141\rigid_constraintTechnique_commonSpringAngular.cs" />
+    <Compile Include="Collada141\rigid_constraintTechnique_commonSpringLinear.cs" />
+    <Compile Include="Collada141\instance_physics_model.cs" />
+    <Compile Include="Collada141\instance_rigid_body.cs" />
+    <Compile Include="Collada141\instance_rigid_bodyTechnique_common.cs" />
+    <Compile Include="Collada141\instance_rigid_bodyTechnique_commonDynamic.cs" />
+    <Compile Include="Collada141\instance_rigid_bodyTechnique_commonShape.cs" />
+    <Compile Include="Collada141\instance_rigid_bodyTechnique_commonShapeHollow.cs" />
+    <Compile Include="Collada141\instance_rigid_constraint.cs" />
+    <Compile Include="Collada141\library_physics_scenes.cs" />
+    <Compile Include="Collada141\physics_scene.cs" />
+    <Compile Include="Collada141\physics_sceneTechnique_common.cs" />
+    <Compile Include="Collada141\library_visual_scenes.cs" />
+    <Compile Include="Collada141\visual_scene.cs" />
+    <Compile Include="Collada141\visual_sceneEvaluate_scene.cs" />
+    <Compile Include="Collada141\visual_sceneEvaluate_sceneRender.cs" />
+    <Compile Include="Collada141\COLLADAScene.cs" />
+    <Compile Include="Collada141\VersionType.cs" />
+    <Compile Include="Collada141\ellipsoid.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Mode.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\PathMode.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\MTransform.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\SpriteTextureFormat.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BBUI.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BBXML.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\ScrollSpeed.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\ObjectType.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\CollisionType.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\GroundType.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\SoundType.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\TransformationType.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BKCharacterHead.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BaseCamera.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\CameraObject.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\CharacterHeadChangeForm.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\GLCamera.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\RomHandler.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Sprite.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Core.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\CharacterHeadClick.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\DeleteDialog.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\DialogControl.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\F3DEX.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\F3DEX_VERT.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\AboutBox.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Poles.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\ColorTrackBar.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\ColorTrackBarDesigner.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\GEOBJ.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Vector3.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Matrix.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Matrix3.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Matrix4.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\TrackEvent.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\MidiParse.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\MidiToolForm.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BKMidi.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\ModelViewer.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\MusicReassignment.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\TextureOffset.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\VertProperties.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\ObjImporter.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\GeneralSettings.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BKLevelName.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BKLevelMap.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BKMusicMap.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BKTrack.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BKSceneDigit.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BkSkyBoxDigit.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BKSkyBox.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\ScenePickerForm.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\SceneReassignmentForm.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\SearchForm.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\SearchCriteria.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\SkyBoxReassignment.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\SkyboxScale.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\SNSEditor.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\SNSItem.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\SpriteEditorForm.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\ImageHandler.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\TextEditorForm.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\TextFilePart.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\TextFile.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Progress.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\WarpDestinationForm.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\GECompression.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\ModelImportForm.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\OpenSetFileForm.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\ASMPointer.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\RomBuilder.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\WarpEntryPointForm.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\WarpLocation.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\EntryPoint.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\World.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\SetupFileWritter.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\PickableObject.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Face.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\VertGL.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\TriangleGL.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\CollisionTriangle.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\TextureData.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\TextureSetting.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\LevelEntryPoint.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Form1.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\DrawCommand.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\ActiveBone.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\AnimationFile.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BKAnimation.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BKAnimationSection.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BKAnimationCommand.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Bone.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BoundingBox.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\ObjectData.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\BKPath.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\LevelStat.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\ErasedObject.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Program.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\SetupFile.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\SetupFileReader.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Texture.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\WrittenFile.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Properties\Resources.cs" />
+    <Compile Include="BanjoKazooieLevelEditor\Properties\Settings.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\AboutBox.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\CharacterHeadChangeForm.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\DialogControl.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\Form1.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\GeneralSettings.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\MidiToolForm.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\ModelImportForm.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\ModelViewer.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\MusicReassignment.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\OpenSetFileForm.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\Progress.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\Properties\Resources.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\ScenePickerForm.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\SceneReassignmentForm.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\SearchForm.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\SkyBoxReassignment.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\SkyboxScale.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\SNSEditor.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\SpriteEditorForm.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\TextEditorForm.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\WarpDestinationForm.resx" />
+    <EmbeddedResource Include="BanjoKazooieLevelEditor\WarpEntryPointForm.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
