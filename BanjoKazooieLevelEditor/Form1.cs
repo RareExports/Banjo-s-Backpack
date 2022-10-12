@@ -4480,18 +4480,18 @@ namespace BanjoKazooieLevelEditor
 
     private void updateBounds_btn_Click(object sender, EventArgs e)
     {
-      if (!(this.replacedModel != ""))
-        return;
-      BoundingBox bounds = this.world.file.bounds with
-      {
-        smallX = (int) Convert.ToInt16(this.minX_Bounds_tb.Text),
-        smallY = (int) Convert.ToInt16(this.minY_Bounds_tb.Text),
-        smallZ = (int) Convert.ToInt16(this.minZ_Bounds_tb.Text),
-        largeX = (int) Convert.ToInt16(this.maxX_Bounds_tb.Text),
-        largeY = (int) Convert.ToInt16(this.maxY_Bounds_tb.Text),
-        largeZ = (int) Convert.ToInt16(this.maxZ_Bounds_tb.Text)
-      };
-      this.world.file.bounds = bounds;
+            if (!(this.replacedModel != ""))
+                return;
+            BoundingBox bounds = this.world.file.bounds;
+            this.minX_Bounds_tb.Text = ((short)bounds.smallX).ToString();
+            this.minY_Bounds_tb.Text = ((short)bounds.smallY).ToString();
+            this.minZ_Bounds_tb.Text = ((short)bounds.smallZ).ToString();
+            this.maxX_Bounds_tb.Text = ((short)bounds.largeX).ToString();
+            this.maxY_Bounds_tb.Text = ((short)bounds.largeY).ToString();
+            this.maxZ_Bounds_tb.Text = ((short)bounds.largeZ).ToString();
+            this.Refresh();
+            this.world.file.bounds = bounds;
+            this.world.file.bounds = bounds;
       this.world.DrawLevelBoundary();
       this.forceRedraw = true;
       BinaryReader binaryReader = new BinaryReader((Stream) File.Open(this.replacedModel, FileMode.Open));

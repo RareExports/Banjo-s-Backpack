@@ -1,0 +1,9 @@
+﻿*.exe
+Backup
+bin
+obj
+Debug
+UpgradeLog.htm
+Banjo-s-Backpack.7z
+Core.cs.old
+.vs
