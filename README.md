@@ -2,5 +2,6 @@
 Banjo Kazooie level editor
 
 Displays maps/objects perfectly for the game.
-Map exports use RGBAOBJ
-Map imports use GEOBJ
+Map exports use RGBAOBJ.
+
+Map imports use GEOBJ.
