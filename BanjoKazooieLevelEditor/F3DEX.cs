@@ -496,7 +496,7 @@ namespace BanjoKazooieLevelEditor
           for (int index4 = 0; index4 < texture.textureWidth; ++index4)
           {
             byte num1 = (byte) ((uint) textureN64Bytes[index2] >> 4);
-            byte num2 = (byte) ((int) textureN64Bytes[index2] << 4 >> 4);
+            byte num2 = (byte) ((int) textureN64Bytes[index2] & 0xF);
             numArray[index1] = (byte) ((uint) num1 * 17U);
             numArray[index1 + 1] = (byte) ((uint) num1 * 17U);
             numArray[index1 + 2] = (byte) ((uint) num1 * 17U);
