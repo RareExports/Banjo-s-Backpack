@@ -4100,6 +4100,10 @@ namespace BanjoKazooieLevelEditor
         this.world.getRomStats(this.F9CAE0);
         this.getEntryPoints();
         this.AssociateScenesWithLevels();
+
+        // BEN: Add rom path to title bar when loading with the file dialog
+        StreamReader streamReader = new StreamReader(Application.StartupPath + "\\resources\\mw.ini");
+        this.Text = ("Banjo's Backpack: " + streamReader.ReadToEnd());
         return 2;
       }
       catch (Exception ex)
@@ -8533,6 +8537,9 @@ namespace BanjoKazooieLevelEditor
       this.MainMenuStrip = this.menuStrip1;
       this.Name = nameof (Form1);
       this.Text = "Banjo's Backpack";
+      // BEN: Add rom path to title bar after auto load of ROM from ini
+      StreamReader streamReader = new StreamReader(Application.StartupPath + "\\resources\\mw.ini");
+      this.Text = ("Banjo's Backpack: " + streamReader.ReadToEnd());
       this.FormClosed += new FormClosedEventHandler(this.Form1_FormClosed);
       this.Load += new EventHandler(this.Form1_Load);
       this.ResizeEnd += new EventHandler(this.Form1_ResizeEnd);
