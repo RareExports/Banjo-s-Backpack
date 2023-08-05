@@ -3190,6 +3190,11 @@ namespace BanjoKazooieLevelEditor
         case Keys.W:
           this.zoomIn = false;
           break;
+        // Ben: Shortcut for deleting selected objects. Does nothing when no object is selected. 
+        // Works in select, create, camera mode but does trigger when editing text fields
+        case Keys.Delete:
+          this.deleteSelected();
+          break;
       }
     }
 
