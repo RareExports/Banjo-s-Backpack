@@ -4311,6 +4311,8 @@ namespace BanjoKazooieLevelEditor
 
     private void Form1_KeyDown(object sender, KeyEventArgs e)
     {
+      if (e.KeyCode == Keys.Delete)
+        this.deleteSelected(); // Ben: Add shortcut for deleting selected objects. Does nothing when no object is selected. Works in select, create, camera mode, etc
       if (e.Alt && e.KeyCode == Keys.M && this.obj_move_btn.Enabled && this.obj_move_btn.Visible)
       {
         if (this.selectMode)
