@@ -968,7 +968,7 @@ namespace BanjoKazooieLevelEditor
       this.Controls.Add((Control) this.label2);
       this.Controls.Add((Control) this.menuStrip1);
       this.MinimizeBox = false;
-      this.Name = nameof (TextEditorForm);
+      this.Name = "TextEditorForm";
       this.ShowIcon = false;
       this.ShowInTaskbar = false;
       this.Text = "Text Editor";

@@ -2878,7 +2878,7 @@ namespace BanjoKazooieLevelEditor
       this.Controls.Add((Control) this.tabControl1);
       this.MaximizeBox = false;
       this.MinimizeBox = false;
-      this.Name = nameof (GeneralSettings);
+      this.Name = "GeneralSettings";
       this.ShowIcon = false;
       this.Text = "General Settings";
       this.tableLayoutPanel2.ResumeLayout(false);

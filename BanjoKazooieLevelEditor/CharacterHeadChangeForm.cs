@@ -105,7 +105,7 @@ namespace BanjoKazooieLevelEditor
       this.Controls.Add((Control) this.ok_btn);
       this.MaximizeBox = false;
       this.MinimizeBox = false;
-      this.Name = nameof (CharacterHeadChangeForm);
+      this.Name = "CharacterHeadChangeForm";
       this.ShowIcon = false;
       this.ShowInTaskbar = false;
       this.Text = "Change Head";

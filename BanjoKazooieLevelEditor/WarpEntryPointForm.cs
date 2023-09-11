@@ -120,7 +120,7 @@ namespace BanjoKazooieLevelEditor
       this.ClientSize = new Size(308, 420);
       this.Controls.Add((Control) this.ok_btn);
       this.Controls.Add((Control) this.entrypoints_lb);
-      this.Name = nameof (WarpEntryPointForm);
+      this.Name = "WarpEntryPointForm";
       this.ShowIcon = false;
       this.Text = "Select Entry Point";
       this.ResumeLayout(false);

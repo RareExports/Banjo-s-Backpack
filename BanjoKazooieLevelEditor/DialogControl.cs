@@ -127,7 +127,7 @@ namespace BanjoKazooieLevelEditor
       this.Controls.Add((Control) this.tb_group);
       this.Controls.Add((Control) this.tb_text);
       this.Controls.Add((Control) this.pb_character);
-      this.Name = nameof (DialogControl);
+      this.Name = "DialogControl";
       this.Size = new Size(650, 50);
       ((ISupportInitialize) this.pb_character).EndInit();
       this.ResumeLayout(false);

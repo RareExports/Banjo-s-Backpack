@@ -5571,7 +5571,7 @@ namespace BanjoKazooieLevelEditor
     private void InitializeComponent()
     {
       this.components = (IContainer) new Container();
-      ComponentResourceManager componentResourceManager = new ComponentResourceManager(typeof (Form1));
+      ComponentResourceManager resources = new ComponentResourceManager(typeof (Form1));
       DataGridViewCellStyle gridViewCellStyle1 = new DataGridViewCellStyle();
       DataGridViewCellStyle gridViewCellStyle2 = new DataGridViewCellStyle();
       DataGridViewCellStyle gridViewCellStyle3 = new DataGridViewCellStyle();
@@ -6123,7 +6123,7 @@ namespace BanjoKazooieLevelEditor
       this.aboutToolStripMenuItem.Size = new Size(150, 22);
       this.aboutToolStripMenuItem.Text = "About";
       this.aboutToolStripMenuItem.Click += new EventHandler(this.aboutToolStripMenuItem_Click);
-      this.objectImages_il.ImageStream = (ImageListStreamer) componentResourceManager.GetObject("objectImages_il.ImageStream");
+      this.objectImages_il.ImageStream = (ImageListStreamer) resources.GetObject("objectImages_il.ImageStream");
       this.objectImages_il.TransparentColor = Color.Transparent;
       this.objectImages_il.Images.SetKeyName(0, "AnicentOne_head.png");
       this.objectImages_il.Images.SetKeyName(1, "Ant_Head.png");
@@ -8027,7 +8027,7 @@ namespace BanjoKazooieLevelEditor
       this.mode_cb.SelectedIndexChanged += new EventHandler(this.mode_cb_SelectedIndexChanged);
       this.rectSelect_btn.AutoToolTip = false;
       this.rectSelect_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.rectSelect_btn.Image = (Image) componentResourceManager.GetObject("rectSelect_btn.Image");
+      this.rectSelect_btn.Image = (Image) resources.GetObject("rectSelect_btn.Image");
       this.rectSelect_btn.ImageTransparentColor = Color.Magenta;
       this.rectSelect_btn.Name = "rectSelect_btn";
       this.rectSelect_btn.Size = new Size(97, 23);
@@ -8038,7 +8038,7 @@ namespace BanjoKazooieLevelEditor
       this.cam_moveToCurrent_btn.AutoToolTip = false;
       this.cam_moveToCurrent_btn.BackColor = SystemColors.ActiveBorder;
       this.cam_moveToCurrent_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.cam_moveToCurrent_btn.Image = (Image) componentResourceManager.GetObject("cam_moveToCurrent_btn.Image");
+      this.cam_moveToCurrent_btn.Image = (Image) resources.GetObject("cam_moveToCurrent_btn.Image");
       this.cam_moveToCurrent_btn.ImageTransparentColor = Color.Magenta;
       this.cam_moveToCurrent_btn.Name = "cam_moveToCurrent_btn";
       this.cam_moveToCurrent_btn.Size = new Size(102, 23);
@@ -8047,7 +8047,7 @@ namespace BanjoKazooieLevelEditor
       this.obj_move_btn.AutoToolTip = false;
       this.obj_move_btn.BackColor = SystemColors.ActiveBorder;
       this.obj_move_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.obj_move_btn.Image = (Image) componentResourceManager.GetObject("obj_move_btn.Image");
+      this.obj_move_btn.Image = (Image) resources.GetObject("obj_move_btn.Image");
       this.obj_move_btn.ImageTransparentColor = Color.Magenta;
       this.obj_move_btn.Name = "obj_move_btn";
       this.obj_move_btn.Size = new Size(41, 23);
@@ -8055,7 +8055,7 @@ namespace BanjoKazooieLevelEditor
       this.obj_move_btn.Click += new EventHandler(this.obj_move_btn_Click);
       this.obj_rot_btn.AutoToolTip = false;
       this.obj_rot_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.obj_rot_btn.Image = (Image) componentResourceManager.GetObject("obj_rot_btn.Image");
+      this.obj_rot_btn.Image = (Image) resources.GetObject("obj_rot_btn.Image");
       this.obj_rot_btn.ImageTransparentColor = Color.Magenta;
       this.obj_rot_btn.Name = "obj_rot_btn";
       this.obj_rot_btn.Size = new Size(45, 23);
@@ -8063,7 +8063,7 @@ namespace BanjoKazooieLevelEditor
       this.obj_rot_btn.Click += new EventHandler(this.obj_rot_btn_Click);
       this.obj_scale_btn.AutoToolTip = false;
       this.obj_scale_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.obj_scale_btn.Image = (Image) componentResourceManager.GetObject("obj_scale_btn.Image");
+      this.obj_scale_btn.Image = (Image) resources.GetObject("obj_scale_btn.Image");
       this.obj_scale_btn.ImageTransparentColor = Color.Magenta;
       this.obj_scale_btn.Name = "obj_scale_btn";
       this.obj_scale_btn.Size = new Size(38, 23);
@@ -8071,7 +8071,7 @@ namespace BanjoKazooieLevelEditor
       this.obj_scale_btn.Click += new EventHandler(this.obj_scale_btn_Click);
       this.obj_duplicate_btn.AutoToolTip = false;
       this.obj_duplicate_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.obj_duplicate_btn.Image = (Image) componentResourceManager.GetObject("obj_duplicate_btn.Image");
+      this.obj_duplicate_btn.Image = (Image) resources.GetObject("obj_duplicate_btn.Image");
       this.obj_duplicate_btn.ImageTransparentColor = Color.Magenta;
       this.obj_duplicate_btn.Name = "obj_duplicate_btn";
       this.obj_duplicate_btn.Size = new Size(61, 23);
@@ -8079,7 +8079,7 @@ namespace BanjoKazooieLevelEditor
       this.obj_duplicate_btn.Click += new EventHandler(this.obj_duplicate_btn_Click);
       this.cam_yaw_btn.AutoToolTip = false;
       this.cam_yaw_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.cam_yaw_btn.Image = (Image) componentResourceManager.GetObject("cam_yaw_btn.Image");
+      this.cam_yaw_btn.Image = (Image) resources.GetObject("cam_yaw_btn.Image");
       this.cam_yaw_btn.ImageTransparentColor = Color.Magenta;
       this.cam_yaw_btn.Name = "cam_yaw_btn";
       this.cam_yaw_btn.Size = new Size(32, 23);
@@ -8087,7 +8087,7 @@ namespace BanjoKazooieLevelEditor
       this.cam_yaw_btn.Click += new EventHandler(this.cam_yaw_btn_Click);
       this.cam_pitch_btn.AutoToolTip = false;
       this.cam_pitch_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.cam_pitch_btn.Image = (Image) componentResourceManager.GetObject("cam_pitch_btn.Image");
+      this.cam_pitch_btn.Image = (Image) resources.GetObject("cam_pitch_btn.Image");
       this.cam_pitch_btn.ImageTransparentColor = Color.Magenta;
       this.cam_pitch_btn.Name = "cam_pitch_btn";
       this.cam_pitch_btn.Size = new Size(38, 23);
@@ -8095,7 +8095,7 @@ namespace BanjoKazooieLevelEditor
       this.cam_pitch_btn.Click += new EventHandler(this.cam_pitch_btn_Click);
       this.cam_roll_btn.AutoToolTip = false;
       this.cam_roll_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.cam_roll_btn.Image = (Image) componentResourceManager.GetObject("cam_roll_btn.Image");
+      this.cam_roll_btn.Image = (Image) resources.GetObject("cam_roll_btn.Image");
       this.cam_roll_btn.ImageTransparentColor = Color.Magenta;
       this.cam_roll_btn.Name = "cam_roll_btn";
       this.cam_roll_btn.Size = new Size(31, 23);
@@ -8103,7 +8103,7 @@ namespace BanjoKazooieLevelEditor
       this.cam_roll_btn.Click += new EventHandler(this.cam_roll_btn_Click);
       this.deselect_btn.AutoToolTip = false;
       this.deselect_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.deselect_btn.Image = (Image) componentResourceManager.GetObject("deselect_btn.Image");
+      this.deselect_btn.Image = (Image) resources.GetObject("deselect_btn.Image");
       this.deselect_btn.ImageTransparentColor = Color.Magenta;
       this.deselect_btn.Name = "deselect_btn";
       this.deselect_btn.Size = new Size(55, 23);
@@ -8111,7 +8111,7 @@ namespace BanjoKazooieLevelEditor
       this.deselect_btn.Click += new EventHandler(this.deselect_btn_Click);
       this.delete_btn.AutoToolTip = false;
       this.delete_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.delete_btn.Image = (Image) componentResourceManager.GetObject("delete_btn.Image");
+      this.delete_btn.Image = (Image) resources.GetObject("delete_btn.Image");
       this.delete_btn.ImageTransparentColor = Color.Magenta;
       this.delete_btn.Name = "delete_btn";
       this.delete_btn.Size = new Size(44, 23);
@@ -8134,7 +8134,7 @@ namespace BanjoKazooieLevelEditor
       this.lockZ_btn.AutoToolTip = false;
       this.lockZ_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
       this.lockZ_btn.Font = new Font("Segoe UI", 6f, FontStyle.Bold);
-      this.lockZ_btn.Image = (Image) componentResourceManager.GetObject("lockZ_btn.Image");
+      this.lockZ_btn.Image = (Image) resources.GetObject("lockZ_btn.Image");
       this.lockZ_btn.ImageTransparentColor = Color.Magenta;
       this.lockZ_btn.Name = "lockZ_btn";
       this.lockZ_btn.Size = new Size(36, 23);
@@ -8144,7 +8144,7 @@ namespace BanjoKazooieLevelEditor
       this.lockY_btn.AutoToolTip = false;
       this.lockY_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
       this.lockY_btn.Font = new Font("Segoe UI", 6f, FontStyle.Bold);
-      this.lockY_btn.Image = (Image) componentResourceManager.GetObject("lockY_btn.Image");
+      this.lockY_btn.Image = (Image) resources.GetObject("lockY_btn.Image");
       this.lockY_btn.ImageTransparentColor = Color.Magenta;
       this.lockY_btn.Name = "lockY_btn";
       this.lockY_btn.Size = new Size(36, 23);
@@ -8154,7 +8154,7 @@ namespace BanjoKazooieLevelEditor
       this.lockX_btn.AutoToolTip = false;
       this.lockX_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
       this.lockX_btn.Font = new Font("Segoe UI", 6f, FontStyle.Bold);
-      this.lockX_btn.Image = (Image) componentResourceManager.GetObject("lockX_btn.Image");
+      this.lockX_btn.Image = (Image) resources.GetObject("lockX_btn.Image");
       this.lockX_btn.ImageTransparentColor = Color.Magenta;
       this.lockX_btn.Name = "lockX_btn";
       this.lockX_btn.Size = new Size(36, 23);
@@ -8162,7 +8162,7 @@ namespace BanjoKazooieLevelEditor
       this.lockX_btn.Click += new EventHandler(this.lockX_btn_Click);
       this.assignObject_btn.AutoToolTip = false;
       this.assignObject_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.assignObject_btn.Image = (Image) componentResourceManager.GetObject("assignObject_btn.Image");
+      this.assignObject_btn.Image = (Image) resources.GetObject("assignObject_btn.Image");
       this.assignObject_btn.ImageTransparentColor = Color.Magenta;
       this.assignObject_btn.Name = "assignObject_btn";
       this.assignObject_btn.Size = new Size(69, 23);
@@ -8170,7 +8170,7 @@ namespace BanjoKazooieLevelEditor
       this.assignObject_btn.Click += new EventHandler(this.assignObject_btn_Click);
       this.moveNode_btn.AutoToolTip = false;
       this.moveNode_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.moveNode_btn.Image = (Image) componentResourceManager.GetObject("moveNode_btn.Image");
+      this.moveNode_btn.Image = (Image) resources.GetObject("moveNode_btn.Image");
       this.moveNode_btn.ImageTransparentColor = Color.Magenta;
       this.moveNode_btn.Name = "moveNode_btn";
       this.moveNode_btn.Size = new Size(73, 23);
@@ -8178,7 +8178,7 @@ namespace BanjoKazooieLevelEditor
       this.moveNode_btn.Click += new EventHandler(this.moveNode_btn_Click);
       this.linkMode_btn.AutoToolTip = false;
       this.linkMode_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.linkMode_btn.Image = (Image) componentResourceManager.GetObject("linkMode_btn.Image");
+      this.linkMode_btn.Image = (Image) resources.GetObject("linkMode_btn.Image");
       this.linkMode_btn.ImageTransparentColor = Color.Magenta;
       this.linkMode_btn.Name = "linkMode_btn";
       this.linkMode_btn.Size = new Size(33, 23);
@@ -8186,7 +8186,7 @@ namespace BanjoKazooieLevelEditor
       this.linkMode_btn.Click += new EventHandler(this.linkMode_btn_Click);
       this.removeNode_btn.AutoToolTip = false;
       this.removeNode_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.removeNode_btn.Image = (Image) componentResourceManager.GetObject("removeNode_btn.Image");
+      this.removeNode_btn.Image = (Image) resources.GetObject("removeNode_btn.Image");
       this.removeNode_btn.ImageTransparentColor = Color.Magenta;
       this.removeNode_btn.Name = "removeNode_btn";
       this.removeNode_btn.Size = new Size(63, 19);
@@ -8194,7 +8194,7 @@ namespace BanjoKazooieLevelEditor
       this.removeNode_btn.Click += new EventHandler(this.removeNode_btn_Click);
       this.endNode_btn.AutoToolTip = false;
       this.endNode_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.endNode_btn.Image = (Image) componentResourceManager.GetObject("endNode_btn.Image");
+      this.endNode_btn.Image = (Image) resources.GetObject("endNode_btn.Image");
       this.endNode_btn.ImageTransparentColor = Color.Magenta;
       this.endNode_btn.Name = "endNode_btn";
       this.endNode_btn.Size = new Size(63, 19);
@@ -8202,7 +8202,7 @@ namespace BanjoKazooieLevelEditor
       this.endNode_btn.Click += new EventHandler(this.endNode_btn_Click);
       this.startNewPath_btn.AutoToolTip = false;
       this.startNewPath_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.startNewPath_btn.Image = (Image) componentResourceManager.GetObject("startNewPath_btn.Image");
+      this.startNewPath_btn.Image = (Image) resources.GetObject("startNewPath_btn.Image");
       this.startNewPath_btn.ImageTransparentColor = Color.Magenta;
       this.startNewPath_btn.Name = "startNewPath_btn";
       this.startNewPath_btn.Size = new Size(62, 19);
@@ -8210,7 +8210,7 @@ namespace BanjoKazooieLevelEditor
       this.startNewPath_btn.Click += new EventHandler(this.startNewPath_btn_Click);
       this.addNode_btn.AutoToolTip = false;
       this.addNode_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.addNode_btn.Image = (Image) componentResourceManager.GetObject("addNode_btn.Image");
+      this.addNode_btn.Image = (Image) resources.GetObject("addNode_btn.Image");
       this.addNode_btn.ImageTransparentColor = Color.Magenta;
       this.addNode_btn.Name = "addNode_btn";
       this.addNode_btn.Size = new Size(65, 19);
@@ -8218,7 +8218,7 @@ namespace BanjoKazooieLevelEditor
       this.addNode_btn.Click += new EventHandler(this.addNode_btn_Click_1);
       this.addControllerNode_btn.AutoToolTip = false;
       this.addControllerNode_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.addControllerNode_btn.Image = (Image) componentResourceManager.GetObject("addControllerNode_btn.Image");
+      this.addControllerNode_btn.Image = (Image) resources.GetObject("addControllerNode_btn.Image");
       this.addControllerNode_btn.ImageTransparentColor = Color.Magenta;
       this.addControllerNode_btn.Name = "addControllerNode_btn";
       this.addControllerNode_btn.Size = new Size(116, 19);
@@ -8226,7 +8226,7 @@ namespace BanjoKazooieLevelEditor
       this.addControllerNode_btn.Click += new EventHandler(this.addAnimationNode_btn_Click);
       this.deselectPath_btn.AutoToolTip = false;
       this.deselectPath_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.deselectPath_btn.Image = (Image) componentResourceManager.GetObject("deselectPath_btn.Image");
+      this.deselectPath_btn.Image = (Image) resources.GetObject("deselectPath_btn.Image");
       this.deselectPath_btn.ImageTransparentColor = Color.Magenta;
       this.deselectPath_btn.Name = "deselectPath_btn";
       this.deselectPath_btn.Size = new Size(82, 19);
@@ -8234,7 +8234,7 @@ namespace BanjoKazooieLevelEditor
       this.deselectPath_btn.Click += new EventHandler(this.deselectPath_btn_Click);
       this.deletePath_btn.AutoToolTip = false;
       this.deletePath_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.deletePath_btn.Image = (Image) componentResourceManager.GetObject("deletePath_btn.Image");
+      this.deletePath_btn.Image = (Image) resources.GetObject("deletePath_btn.Image");
       this.deletePath_btn.ImageTransparentColor = Color.Magenta;
       this.deletePath_btn.Name = "deletePath_btn";
       this.deletePath_btn.Size = new Size(71, 19);
@@ -8244,7 +8244,7 @@ namespace BanjoKazooieLevelEditor
       this.toolStripSeparator4.Size = new Size(6, 26);
       this.eraseAll_btn.AutoToolTip = false;
       this.eraseAll_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.eraseAll_btn.Image = (Image) componentResourceManager.GetObject("eraseAll_btn.Image");
+      this.eraseAll_btn.Image = (Image) resources.GetObject("eraseAll_btn.Image");
       this.eraseAll_btn.ImageTransparentColor = Color.Magenta;
       this.eraseAll_btn.Name = "eraseAll_btn";
       this.eraseAll_btn.Size = new Size(55, 19);
@@ -8528,10 +8528,10 @@ namespace BanjoKazooieLevelEditor
       this.Controls.Add((Control) this.button3);
       this.Controls.Add((Control) this.flowLayoutPanel1);
       this.FormBorderStyle = FormBorderStyle.FixedSingle;
-      this.Icon = (Icon) componentResourceManager.GetObject("$this.Icon");
+      this.Icon = (Icon) resources.GetObject("$this.Icon");
       this.KeyPreview = true;
       this.MainMenuStrip = this.menuStrip1;
-      this.Name = nameof (Form1);
+      this.Name = "Form1";
       this.Text = "Banjo's Backpack";
       this.FormClosed += new FormClosedEventHandler(this.Form1_FormClosed);
       this.Load += new EventHandler(this.Form1_Load);

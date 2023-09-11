@@ -94,7 +94,7 @@ namespace BanjoKazooieLevelEditor
       this.Controls.Add((Control) this.skybox_lb);
       this.MaximizeBox = false;
       this.MinimizeBox = false;
-      this.Name = nameof (SkyBoxReassignment);
+      this.Name = "SkyBoxReassignment";
       this.ShowIcon = false;
       this.Text = "Sky Box Reassignment";
       this.ResumeLayout(false);

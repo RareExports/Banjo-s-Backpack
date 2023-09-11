@@ -96,7 +96,7 @@ namespace BanjoKazooieLevelEditor
       this.Controls.Add((Control) this.scene_lb);
       this.MaximizeBox = false;
       this.MinimizeBox = false;
-      this.Name = nameof (ScenePickerForm);
+      this.Name = "ScenePickerForm";
       this.ShowIcon = false;
       this.Text = "Scene Select";
       this.ResumeLayout(false);
