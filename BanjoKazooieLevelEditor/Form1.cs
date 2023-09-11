@@ -5570,3046 +5570,3994 @@ namespace BanjoKazooieLevelEditor
 
     private void InitializeComponent()
     {
-      this.components = (IContainer) new Container();
-      ComponentResourceManager resources = new ComponentResourceManager(typeof (Form1));
-      DataGridViewCellStyle gridViewCellStyle1 = new DataGridViewCellStyle();
-      DataGridViewCellStyle gridViewCellStyle2 = new DataGridViewCellStyle();
-      DataGridViewCellStyle gridViewCellStyle3 = new DataGridViewCellStyle();
-      DataGridViewCellStyle gridViewCellStyle4 = new DataGridViewCellStyle();
-      DataGridViewCellStyle gridViewCellStyle5 = new DataGridViewCellStyle();
-      DataGridViewCellStyle gridViewCellStyle6 = new DataGridViewCellStyle();
-      DataGridViewCellStyle gridViewCellStyle7 = new DataGridViewCellStyle();
-      DataGridViewCellStyle gridViewCellStyle8 = new DataGridViewCellStyle();
-      DataGridViewCellStyle gridViewCellStyle9 = new DataGridViewCellStyle();
-      DataGridViewCellStyle gridViewCellStyle10 = new DataGridViewCellStyle();
-      DataGridViewCellStyle gridViewCellStyle11 = new DataGridViewCellStyle();
-      DataGridViewCellStyle gridViewCellStyle12 = new DataGridViewCellStyle();
-      DataGridViewCellStyle gridViewCellStyle13 = new DataGridViewCellStyle();
-      DataGridViewCellStyle gridViewCellStyle14 = new DataGridViewCellStyle();
-      DataGridViewCellStyle gridViewCellStyle15 = new DataGridViewCellStyle();
-      this.SetupFileOpenDialog = new OpenFileDialog();
-      this.menuStrip1 = new MenuStrip();
-      this.fileToolStripMenuItem = new ToolStripMenuItem();
-      this.openRomToolStripMenuItem = new ToolStripMenuItem();
-      this.openSetupFileToolStripMenuItem = new ToolStripMenuItem();
-      this.loadSetupFileToolStripMenuItem = new ToolStripMenuItem();
-      this.saveSetupFileToolStripMenuItem = new ToolStripMenuItem();
-      this.save_tsmi = new ToolStripMenuItem();
-      this.saveAsRomToolStripMenuItem = new ToolStripMenuItem();
-      this.saveAsRomskillToolStripMenuItem = new ToolStripMenuItem();
-      this.editToolStripMenuItem = new ToolStripMenuItem();
-      this.undoToolStripMenuItem = new ToolStripMenuItem();
-      this.redoToolStripMenuItem = new ToolStripMenuItem();
-      this.historyToolStripMenuItem = new ToolStripMenuItem();
-      this.optionsToolStripMenuItem = new ToolStripMenuItem();
-      this.knowAllMovesToolStripMenuItem = new ToolStripMenuItem();
-      this.haveNoMovesToolStripMenuItem = new ToolStripMenuItem();
-      this.includeCameraTriggersWhenSavingToolStripMenuItem = new ToolStripMenuItem();
-      this.removeNumbersFromNotedoorToolStripMenuItem = new ToolStripMenuItem();
-      this.hideUnknownBytesToolStripMenuItem = new ToolStripMenuItem();
-      this.toolsToolStripMenuItem = new ToolStripMenuItem();
-      this.importObjToolStripMenuItem = new ToolStripMenuItem();
-      this.modelEditorToolStripMenuItem = new ToolStripMenuItem();
-      this.textEditorToolStripMenuItem = new ToolStripMenuItem();
-      this.midiToolToolStripMenuItem = new ToolStripMenuItem();
-      this.puzzleEditorToolStripMenuItem = new ToolStripMenuItem();
-      this.injectorInToolStripMenuItem = new ToolStripMenuItem();
-      this.sNSEditorToolStripMenuItem = new ToolStripMenuItem();
-      this.spriteManagerToolStripMenuItem = new ToolStripMenuItem();
-      this.helpToolStripMenuItem = new ToolStripMenuItem();
-      this.aboutToolStripMenuItem = new ToolStripMenuItem();
-      this.folderBrowserDialog1 = new FolderBrowserDialog();
-      this.objectImages_il = new ImageList(this.components);
-      this.textUpdate_gb = new GroupBox();
-      this.updateRad_tb = new TextBox();
-      this.rad_lbl = new Label();
-      this.flag_tb = new TextBox();
-      this.flag_lbl = new Label();
-      this.address_lbl = new Label();
-      this.tableLayoutPanel4 = new TableLayoutPanel();
-      this.updateB17_tb = new TextBox();
-      this.updateB16_tb = new TextBox();
-      this.b10_lbl = new Label();
-      this.updateB10_tb = new TextBox();
-      this.updateB18_tb = new TextBox();
-      this.updateB13_tb = new TextBox();
-      this.b18_lbl = new Label();
-      this.b11_lbl = new Label();
-      this.updateB11_tb = new TextBox();
-      this.b13_lbl = new Label();
-      this.b16_lbl = new Label();
-      this.b17_lbl = new Label();
-      this.tableLayoutPanel3 = new TableLayoutPanel();
-      this.label19 = new Label();
-      this.updateX_tb = new TextBox();
-      this.label17 = new Label();
-      this.label18 = new Label();
-      this.updateY_tb = new TextBox();
-      this.updateZ_tb = new TextBox();
-      this.size_lbl = new Label();
-      this.rotByte_lbl = new Label();
-      this.updateSize_tb = new TextBox();
-      this.updateRot_tb = new TextBox();
-      this.cc_failsafe_cb = new CheckBox();
-      this.failsafe_lbl = new Label();
-      this.objID_lbl = new Label();
-      this.id_tb = new TextBox();
-      this.label1 = new Label();
-      this.warp_btn = new Button();
-      this.warpTo_tb = new TextBox();
-      this.warpTo_lbl = new Label();
-      this.id_lbl = new Label();
-      this.updateScript_tb = new TextBox();
-      this.updateName_tb = new TextBox();
-      this.script_lbl = new Label();
-      this.label22 = new Label();
-      this.changeLM_btn = new Button();
-      this.changeLM_ofd = new OpenFileDialog();
-      this.objectMenu = new ContextMenuStrip(this.components);
-      this.CamSpeed_tb = new TrackBar();
-      this.timer1 = new System.Windows.Forms.Timer(this.components);
-      this.label2 = new Label();
-      this.baseLevel_tb = new TextBox();
-      this.extraModel_tb = new TextBox();
-      this.label3 = new Label();
-      this.replaceModelEx_btn = new Button();
-      this.replaceModel_btn = new Button();
-      this.label4 = new Label();
-      this.replacemodel_gb = new GroupBox();
-      this.clear_btn = new Button();
-      this.openFileDialog1 = new OpenFileDialog();
-      this.openFileDialog2 = new OpenFileDialog();
-      this.saveFileDialog = new SaveFileDialog();
-      this.replaceSetup_ofd = new OpenFileDialog();
-      this.saveSetupFileDialog = new SaveFileDialog();
-      this.openSetupFileDialog = new OpenFileDialog();
-      this.saveAsRomFileDialog = new SaveFileDialog();
-      this.flowLayoutPanel1 = new FlowLayoutPanel();
-      this.path_gb = new GroupBox();
-      this.label11 = new Label();
-      this.label10 = new Label();
-      this.pathControllers_dgv = new DataGridView();
-      this.nodeID_gb = new Panel();
-      this.tableLayoutPanel13 = new TableLayoutPanel();
-      this.label69 = new Label();
-      this.nodeID_tb = new TextBox();
-      this.label70 = new Label();
-      this.node18_tb = new TextBox();
-      this.button6 = new Button();
-      this.sNode_gb = new Panel();
-      this.tableLayoutPanel2 = new TableLayoutPanel();
-      this.label61 = new Label();
-      this.sNodeF_tb = new TextBox();
-      this.label9 = new Label();
-      this.pathID_tb = new TextBox();
-      this.sNodeUNK3_tb = new TextBox();
-      this.label67 = new Label();
-      this.panel1 = new Panel();
-      this.useAnimation_cb = new CheckBox();
-      this.animation_cb = new ComboBox();
-      this.panel2 = new Panel();
-      this.usePause_cb = new CheckBox();
-      this.pauseTime_tb = new TextBox();
-      this.panel3 = new Panel();
-      this.useSpeed_cb = new CheckBox();
-      this.sNodeSpeed_tb = new TextBox();
-      this.label57 = new Label();
-      this.animation_lbl = new Label();
-      this.label62 = new Label();
-      this.label63 = new Label();
-      this.sNodeW1_tb = new TextBox();
-      this.button5 = new Button();
-      this.nodeProperties_gb = new Panel();
-      this.button4 = new Button();
-      this.nodeProperties_lp = new TableLayoutPanel();
-      this.label53 = new Label();
-      this.nodeX_tb = new TextBox();
-      this.label55 = new Label();
-      this.label54 = new Label();
-      this.nodeY_tb = new TextBox();
-      this.nodeZ_tb = new TextBox();
-      this.col_selPath_btn = new Button();
-      this.pathObject_gb = new GroupBox();
-      this.tableLayoutPanel16 = new TableLayoutPanel();
-      this.label60 = new Label();
-      this.objectNode_tb = new TextBox();
-      this.path_dgv = new DataGridView();
-      this.col_obj_details_btn = new Button();
-      this.col_cam_btn = new Button();
-      this.cam3_gb = new GroupBox();
-      this.tableLayoutPanel10 = new TableLayoutPanel();
-      this.label33 = new Label();
-      this.label34 = new Label();
-      this.label35 = new Label();
-      this.camFDist_tb = new TextBox();
-      this.camCDist_tb = new TextBox();
-      this.label49 = new Label();
-      this.label48 = new Label();
-      this.camZ_tb = new TextBox();
-      this.camY_tb = new TextBox();
-      this.camX_tb = new TextBox();
-      this.label43 = new Label();
-      this.camHSpeed_tb = new TextBox();
-      this.label44 = new Label();
-      this.camVSpeed_tb = new TextBox();
-      this.label45 = new Label();
-      this.camRotation_tb = new TextBox();
-      this.label46 = new Label();
-      this.camAccel_tb = new TextBox();
-      this.label36 = new Label();
-      this.camPitch_tb = new TextBox();
-      this.camYaw_tb = new TextBox();
-      this.camRoll_tb = new TextBox();
-      this.cam3A5_tb = new TextBox();
-      this.label37 = new Label();
-      this.label38 = new Label();
-      this.label47 = new Label();
-      this.label39 = new Label();
-      this.camID_tb = new TextBox();
-      this.label40 = new Label();
-      this.col_replacemodel_btn = new Button();
-      this.col_levelbounds_btn = new Button();
-      this.bounds_gb = new GroupBox();
-      this.label29 = new Label();
-      this.updateBounds_btn = new Button();
-      this.tableLayoutPanel8 = new TableLayoutPanel();
-      this.label21 = new Label();
-      this.label23 = new Label();
-      this.label24 = new Label();
-      this.minZ_Bounds_tb = new TextBox();
-      this.minY_Bounds_tb = new TextBox();
-      this.minX_Bounds_tb = new TextBox();
-      this.label25 = new Label();
-      this.label26 = new Label();
-      this.label27 = new Label();
-      this.maxX_Bounds_tb = new TextBox();
-      this.maxY_Bounds_tb = new TextBox();
-      this.maxZ_Bounds_tb = new TextBox();
-      this.label28 = new Label();
-      this.col_levelentries_btn = new Button();
-      this.levelEntries_gb = new GroupBox();
-      this.levelEntries_dgv = new DataGridView();
-      this.col_objects_btn = new Button();
-      this.objects_gb = new GroupBox();
-      this.objects_dgv = new DataGridView();
-      this.col_structs_btn = new Button();
-      this.structs_gb = new GroupBox();
-      this.structs_dgv = new DataGridView();
-      this.tableLayoutPanel6 = new TableLayoutPanel();
-      this.label6 = new Label();
-      this.label7 = new Label();
-      this.groupBox1 = new GroupBox();
-      this.tableLayoutPanel7 = new TableLayoutPanel();
-      this.label8 = new Label();
-      this.label20 = new Label();
-      this.button1 = new Button();
-      this.groupBox2 = new GroupBox();
-      this.label30 = new Label();
-      this.button2 = new Button();
-      this.tableLayoutPanel9 = new TableLayoutPanel();
-      this.label31 = new Label();
-      this.label32 = new Label();
-      this.tableLayoutPanel11 = new TableLayoutPanel();
-      this.label41 = new Label();
-      this.label42 = new Label();
-      this.cameraMenu = new ContextMenuStrip(this.components);
-      this.createCameraToolStripMenuItem = new ToolStripMenuItem();
-      this.createGameplayCameraToolStripMenuItem = new ToolStripMenuItem();
-      this.createGameplayTiggerToolStripMenuItem = new ToolStripMenuItem();
-      this.injectDialog = new OpenFileDialog();
-      this.tableLayoutPanel14 = new TableLayoutPanel();
-      this.label52 = new Label();
-      this.textBox1 = new TextBox();
-      this.tableLayoutPanel15 = new TableLayoutPanel();
-      this.textBox2 = new TextBox();
-      this.label56 = new Label();
-      this.textBox3 = new TextBox();
-      this.groupBox3 = new GroupBox();
-      this.toolTip1 = new ToolTip(this.components);
-      this.toolStrip1 = new ToolStrip();
-      this.mode_lbl = new ToolStripLabel();
-      this.mode_cb = new ToolStripComboBox();
-      this.rectSelect_btn = new ToolStripButton();
-      this.toolStripSeparator1 = new ToolStripSeparator();
-      this.cam_moveToCurrent_btn = new ToolStripButton();
-      this.obj_move_btn = new ToolStripButton();
-      this.obj_rot_btn = new ToolStripButton();
-      this.obj_scale_btn = new ToolStripButton();
-      this.obj_duplicate_btn = new ToolStripButton();
-      this.cam_yaw_btn = new ToolStripButton();
-      this.cam_pitch_btn = new ToolStripButton();
-      this.cam_roll_btn = new ToolStripButton();
-      this.deselect_btn = new ToolStripButton();
-      this.delete_btn = new ToolStripButton();
-      this.toolStripSeparator3 = new ToolStripSeparator();
-      this.yOffset_tb = new ToolStripTextBox();
-      this.toolStripLabel2 = new ToolStripLabel();
-      this.lockZ_btn = new ToolStripButton();
-      this.lockY_btn = new ToolStripButton();
-      this.lockX_btn = new ToolStripButton();
-      this.assignObject_btn = new ToolStripButton();
-      this.moveNode_btn = new ToolStripButton();
-      this.linkMode_btn = new ToolStripButton();
-      this.removeNode_btn = new ToolStripButton();
-      this.endNode_btn = new ToolStripButton();
-      this.startNewPath_btn = new ToolStripButton();
-      this.addNode_btn = new ToolStripButton();
-      this.addControllerNode_btn = new ToolStripButton();
-      this.deselectPath_btn = new ToolStripButton();
-      this.deletePath_btn = new ToolStripButton();
-      this.toolStripSeparator4 = new ToolStripSeparator();
-      this.eraseAll_btn = new ToolStripButton();
-      this.button3 = new Button();
-      this.bgA_cb = new CheckBox();
-      this.bgB_btn = new CheckBox();
-      this.objs_cb = new CheckBox();
-      this.label59 = new Label();
-      this.label51 = new Label();
-      this.label64 = new Label();
-      this.label65 = new Label();
-      this.cameras_cb = new CheckBox();
-      this.tableLayoutPanel1 = new TableLayoutPanel();
-      this.levelBoundAlpha_cb = new CheckBox();
-      this.label5 = new Label();
-      this.levelStats_cb = new CheckBox();
-      this.label14 = new Label();
-      this.label58 = new Label();
-      this.levelBound_cb = new CheckBox();
-      this.label75 = new Label();
-      this.unknownRadius_cb = new CheckBox();
-      this.flagRadius_cb = new Label();
-      this.showFlagRadius_cb = new CheckBox();
-      this.label72 = new Label();
-      this.enemyRadius_cb = new CheckBox();
-      this.label71 = new Label();
-      this.warpRadius_cb = new CheckBox();
-      this.label66 = new Label();
-      this.camTrigger_cb = new CheckBox();
-      this.flowLayoutPanel2 = new FlowLayoutPanel();
-      this.drawDist_tb = new TextBox();
-      this.label12 = new Label();
-      this.LevelViewer = new GLControl();
-      this.menuStrip1.SuspendLayout();
-      this.textUpdate_gb.SuspendLayout();
-      this.tableLayoutPanel4.SuspendLayout();
-      this.tableLayoutPanel3.SuspendLayout();
-      this.CamSpeed_tb.BeginInit();
-      this.replacemodel_gb.SuspendLayout();
-      this.flowLayoutPanel1.SuspendLayout();
-      this.path_gb.SuspendLayout();
-      ((ISupportInitialize) this.pathControllers_dgv).BeginInit();
-      this.nodeID_gb.SuspendLayout();
-      this.tableLayoutPanel13.SuspendLayout();
-      this.sNode_gb.SuspendLayout();
-      this.tableLayoutPanel2.SuspendLayout();
-      this.panel1.SuspendLayout();
-      this.panel2.SuspendLayout();
-      this.panel3.SuspendLayout();
-      this.nodeProperties_gb.SuspendLayout();
-      this.nodeProperties_lp.SuspendLayout();
-      this.pathObject_gb.SuspendLayout();
-      this.tableLayoutPanel16.SuspendLayout();
-      ((ISupportInitialize) this.path_dgv).BeginInit();
-      this.cam3_gb.SuspendLayout();
-      this.tableLayoutPanel10.SuspendLayout();
-      this.bounds_gb.SuspendLayout();
-      this.tableLayoutPanel8.SuspendLayout();
-      this.levelEntries_gb.SuspendLayout();
-      ((ISupportInitialize) this.levelEntries_dgv).BeginInit();
-      this.objects_gb.SuspendLayout();
-      ((ISupportInitialize) this.objects_dgv).BeginInit();
-      this.structs_gb.SuspendLayout();
-      ((ISupportInitialize) this.structs_dgv).BeginInit();
-      this.tableLayoutPanel6.SuspendLayout();
-      this.tableLayoutPanel7.SuspendLayout();
-      this.groupBox2.SuspendLayout();
-      this.tableLayoutPanel9.SuspendLayout();
-      this.tableLayoutPanel11.SuspendLayout();
-      this.cameraMenu.SuspendLayout();
-      this.tableLayoutPanel14.SuspendLayout();
-      this.tableLayoutPanel15.SuspendLayout();
-      this.toolStrip1.SuspendLayout();
-      this.tableLayoutPanel1.SuspendLayout();
-      this.flowLayoutPanel2.SuspendLayout();
-      this.SuspendLayout();
-      this.menuStrip1.BackColor = SystemColors.ActiveCaption;
-      this.menuStrip1.Items.AddRange(new ToolStripItem[5]
-      {
-        (ToolStripItem) this.fileToolStripMenuItem,
-        (ToolStripItem) this.editToolStripMenuItem,
-        (ToolStripItem) this.optionsToolStripMenuItem,
-        (ToolStripItem) this.toolsToolStripMenuItem,
-        (ToolStripItem) this.helpToolStripMenuItem
-      });
-      this.menuStrip1.Location = new Point(0, 0);
-      this.menuStrip1.Name = "menuStrip1";
-      this.menuStrip1.Size = new Size(1190, 24);
-      this.menuStrip1.TabIndex = 3;
-      this.menuStrip1.Text = "menuStrip1";
-      this.fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[7]
-      {
-        (ToolStripItem) this.openRomToolStripMenuItem,
-        (ToolStripItem) this.openSetupFileToolStripMenuItem,
-        (ToolStripItem) this.loadSetupFileToolStripMenuItem,
-        (ToolStripItem) this.saveSetupFileToolStripMenuItem,
-        (ToolStripItem) this.save_tsmi,
-        (ToolStripItem) this.saveAsRomToolStripMenuItem,
-        (ToolStripItem) this.saveAsRomskillToolStripMenuItem
-      });
-      this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-      this.fileToolStripMenuItem.Size = new Size(37, 20);
-      this.fileToolStripMenuItem.Text = "File";
-      this.openRomToolStripMenuItem.Name = "openRomToolStripMenuItem";
-      this.openRomToolStripMenuItem.Size = new Size(259, 22);
-      this.openRomToolStripMenuItem.Text = "Open Rom";
-      this.openRomToolStripMenuItem.Click += new EventHandler(this.openRomToolStripMenuItem_Click);
-      this.openSetupFileToolStripMenuItem.Enabled = false;
-      this.openSetupFileToolStripMenuItem.Name = "openSetupFileToolStripMenuItem";
-      this.openSetupFileToolStripMenuItem.ShortcutKeys = Keys.O | Keys.Control;
-      this.openSetupFileToolStripMenuItem.Size = new Size(259, 22);
-      this.openSetupFileToolStripMenuItem.Text = "Open Setup File From Rom";
-      this.openSetupFileToolStripMenuItem.Click += new EventHandler(this.openSetupFileToolStripMenuItem_Click);
-      this.loadSetupFileToolStripMenuItem.Enabled = false;
-      this.loadSetupFileToolStripMenuItem.Name = "loadSetupFileToolStripMenuItem";
-      this.loadSetupFileToolStripMenuItem.ShortcutKeys = Keys.L | Keys.Control;
-      this.loadSetupFileToolStripMenuItem.Size = new Size(259, 22);
-      this.loadSetupFileToolStripMenuItem.Text = "Load Setup File";
-      this.loadSetupFileToolStripMenuItem.Click += new EventHandler(this.loadSetupFileToolStripMenuItem_Click);
-      this.saveSetupFileToolStripMenuItem.Enabled = false;
-      this.saveSetupFileToolStripMenuItem.Name = "saveSetupFileToolStripMenuItem";
-      this.saveSetupFileToolStripMenuItem.Size = new Size(259, 22);
-      this.saveSetupFileToolStripMenuItem.Text = "Save Setup File";
-      this.saveSetupFileToolStripMenuItem.Click += new EventHandler(this.saveSetupFileToolStripMenuItem_Click);
-      this.save_tsmi.Enabled = false;
-      this.save_tsmi.Name = "save_tsmi";
-      this.save_tsmi.ShortcutKeys = Keys.S | Keys.Control;
-      this.save_tsmi.Size = new Size(259, 22);
-      this.save_tsmi.Text = "Save To Rom";
-      this.save_tsmi.Click += new EventHandler(this.save_tsmi_Click);
-      this.saveAsRomToolStripMenuItem.Enabled = false;
-      this.saveAsRomToolStripMenuItem.Name = "saveAsRomToolStripMenuItem";
-      this.saveAsRomToolStripMenuItem.ShortcutKeys = Keys.S | Keys.Shift | Keys.Control;
-      this.saveAsRomToolStripMenuItem.Size = new Size(259, 22);
-      this.saveAsRomToolStripMenuItem.Text = "Save As Rom";
-      this.saveAsRomToolStripMenuItem.Click += new EventHandler(this.saveAsRomToolStripMenuItem_Click);
-      this.saveAsRomskillToolStripMenuItem.Name = "saveAsRomskillToolStripMenuItem";
-      this.saveAsRomskillToolStripMenuItem.Size = new Size(259, 22);
-      this.saveAsRomskillToolStripMenuItem.Text = "Save As Rom (injected)";
-      this.saveAsRomskillToolStripMenuItem.Visible = false;
-      this.saveAsRomskillToolStripMenuItem.Click += new EventHandler(this.saveAsRomskillToolStripMenuItem_Click);
-      this.editToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[3]
-      {
-        (ToolStripItem) this.undoToolStripMenuItem,
-        (ToolStripItem) this.redoToolStripMenuItem,
-        (ToolStripItem) this.historyToolStripMenuItem
-      });
-      this.editToolStripMenuItem.Name = "editToolStripMenuItem";
-      this.editToolStripMenuItem.Size = new Size(39, 20);
-      this.editToolStripMenuItem.Text = "Edit";
-      this.editToolStripMenuItem.Click += new EventHandler(this.editToolStripMenuItem_Click);
-      this.undoToolStripMenuItem.Name = "undoToolStripMenuItem";
-      this.undoToolStripMenuItem.ShortcutKeyDisplayString = "CTRL+Z";
-      this.undoToolStripMenuItem.Size = new Size(153, 22);
-      this.undoToolStripMenuItem.Text = "Undo";
-      this.undoToolStripMenuItem.Click += new EventHandler(this.undoToolStripMenuItem_Click);
-      this.redoToolStripMenuItem.Name = "redoToolStripMenuItem";
-      this.redoToolStripMenuItem.ShortcutKeyDisplayString = "CTRL+Y";
-      this.redoToolStripMenuItem.Size = new Size(153, 22);
-      this.redoToolStripMenuItem.Text = "Redo";
-      this.redoToolStripMenuItem.Click += new EventHandler(this.redoToolStripMenuItem_Click);
-      this.historyToolStripMenuItem.Name = "historyToolStripMenuItem";
-      this.historyToolStripMenuItem.Size = new Size(153, 22);
-      this.historyToolStripMenuItem.Text = "History";
-      this.historyToolStripMenuItem.Click += new EventHandler(this.historyToolStripMenuItem_Click);
-      this.optionsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[5]
-      {
-        (ToolStripItem) this.knowAllMovesToolStripMenuItem,
-        (ToolStripItem) this.haveNoMovesToolStripMenuItem,
-        (ToolStripItem) this.includeCameraTriggersWhenSavingToolStripMenuItem,
-        (ToolStripItem) this.removeNumbersFromNotedoorToolStripMenuItem,
-        (ToolStripItem) this.hideUnknownBytesToolStripMenuItem
-      });
-      this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
-      this.optionsToolStripMenuItem.Size = new Size(61, 20);
-      this.optionsToolStripMenuItem.Text = "Options";
-      this.knowAllMovesToolStripMenuItem.Enabled = false;
-      this.knowAllMovesToolStripMenuItem.Name = "knowAllMovesToolStripMenuItem";
-      this.knowAllMovesToolStripMenuItem.Size = new Size(267, 22);
-      this.knowAllMovesToolStripMenuItem.Text = "Have all moves";
-      this.knowAllMovesToolStripMenuItem.Click += new EventHandler(this.knowAllMovesToolStripMenuItem_Click);
-      this.haveNoMovesToolStripMenuItem.Enabled = false;
-      this.haveNoMovesToolStripMenuItem.Name = "haveNoMovesToolStripMenuItem";
-      this.haveNoMovesToolStripMenuItem.Size = new Size(267, 22);
-      this.haveNoMovesToolStripMenuItem.Text = "Have no moves";
-      this.haveNoMovesToolStripMenuItem.Click += new EventHandler(this.haveNoMovesToolStripMenuItem_Click);
-      this.includeCameraTriggersWhenSavingToolStripMenuItem.Checked = true;
-      this.includeCameraTriggersWhenSavingToolStripMenuItem.CheckState = CheckState.Checked;
-      this.includeCameraTriggersWhenSavingToolStripMenuItem.Name = "includeCameraTriggersWhenSavingToolStripMenuItem";
-      this.includeCameraTriggersWhenSavingToolStripMenuItem.Size = new Size(267, 22);
-      this.includeCameraTriggersWhenSavingToolStripMenuItem.Text = "Include camera triggers when saving";
-      this.includeCameraTriggersWhenSavingToolStripMenuItem.Click += new EventHandler(this.includeCameraTriggersWhenSavingToolStripMenuItem_Click);
-      this.removeNumbersFromNotedoorToolStripMenuItem.Enabled = false;
-      this.removeNumbersFromNotedoorToolStripMenuItem.Name = "removeNumbersFromNotedoorToolStripMenuItem";
-      this.removeNumbersFromNotedoorToolStripMenuItem.Size = new Size(267, 22);
-      this.removeNumbersFromNotedoorToolStripMenuItem.Text = "Remove Numbers from Note Doors";
-      this.removeNumbersFromNotedoorToolStripMenuItem.Click += new EventHandler(this.removeNumbersFromNotedoorToolStripMenuItem_Click);
-      this.hideUnknownBytesToolStripMenuItem.Checked = true;
-      this.hideUnknownBytesToolStripMenuItem.CheckState = CheckState.Checked;
-      this.hideUnknownBytesToolStripMenuItem.Name = "hideUnknownBytesToolStripMenuItem";
-      this.hideUnknownBytesToolStripMenuItem.Size = new Size(267, 22);
-      this.hideUnknownBytesToolStripMenuItem.Text = "Hide Unknown Bytes";
-      this.hideUnknownBytesToolStripMenuItem.Click += new EventHandler(this.hideUnknownBytesToolStripMenuItem_Click);
-      this.toolsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[8]
-      {
-        (ToolStripItem) this.importObjToolStripMenuItem,
-        (ToolStripItem) this.modelEditorToolStripMenuItem,
-        (ToolStripItem) this.textEditorToolStripMenuItem,
-        (ToolStripItem) this.midiToolToolStripMenuItem,
-        (ToolStripItem) this.puzzleEditorToolStripMenuItem,
-        (ToolStripItem) this.injectorInToolStripMenuItem,
-        (ToolStripItem) this.sNSEditorToolStripMenuItem,
-        (ToolStripItem) this.spriteManagerToolStripMenuItem
-      });
-      this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-      this.toolsToolStripMenuItem.Size = new Size(47, 20);
-      this.toolsToolStripMenuItem.Text = "Tools";
-      this.toolsToolStripMenuItem.Click += new EventHandler(this.toolsToolStripMenuItem_Click);
-      this.importObjToolStripMenuItem.Name = "importObjToolStripMenuItem";
-      this.importObjToolStripMenuItem.Size = new Size(193, 22);
-      this.importObjToolStripMenuItem.Text = "Model Importer";
-      this.importObjToolStripMenuItem.Click += new EventHandler(this.importObjToolStripMenuItem_Click);
-      this.modelEditorToolStripMenuItem.Name = "modelEditorToolStripMenuItem";
-      this.modelEditorToolStripMenuItem.Size = new Size(193, 22);
-      this.modelEditorToolStripMenuItem.Text = "Model Viewer";
-      this.modelEditorToolStripMenuItem.Click += new EventHandler(this.modelEditorToolStripMenuItem_Click);
-      this.textEditorToolStripMenuItem.Enabled = false;
-      this.textEditorToolStripMenuItem.Name = "textEditorToolStripMenuItem";
-      this.textEditorToolStripMenuItem.Size = new Size(193, 22);
-      this.textEditorToolStripMenuItem.Text = "Text Editor";
-      this.textEditorToolStripMenuItem.Click += new EventHandler(this.textEditorToolStripMenuItem_Click);
-      this.midiToolToolStripMenuItem.Enabled = false;
-      this.midiToolToolStripMenuItem.Name = "midiToolToolStripMenuItem";
-      this.midiToolToolStripMenuItem.Size = new Size(193, 22);
-      this.midiToolToolStripMenuItem.Text = "Midi Tool";
-      this.midiToolToolStripMenuItem.Click += new EventHandler(this.midiToolToolStripMenuItem_Click);
-      this.puzzleEditorToolStripMenuItem.Enabled = false;
-      this.puzzleEditorToolStripMenuItem.Name = "puzzleEditorToolStripMenuItem";
-      this.puzzleEditorToolStripMenuItem.Size = new Size(193, 22);
-      this.puzzleEditorToolStripMenuItem.Text = "General Game Settings";
-      this.puzzleEditorToolStripMenuItem.Click += new EventHandler(this.puzzleEditorToolStripMenuItem_Click);
-      this.injectorInToolStripMenuItem.Name = "injectorInToolStripMenuItem";
-      this.injectorInToolStripMenuItem.Size = new Size(193, 22);
-      this.injectorInToolStripMenuItem.Text = "Injector";
-      this.injectorInToolStripMenuItem.Visible = false;
-      this.sNSEditorToolStripMenuItem.Enabled = false;
-      this.sNSEditorToolStripMenuItem.Name = "sNSEditorToolStripMenuItem";
-      this.sNSEditorToolStripMenuItem.Size = new Size(193, 22);
-      this.sNSEditorToolStripMenuItem.Text = "SNS Editor";
-      this.sNSEditorToolStripMenuItem.Visible = false;
-      this.sNSEditorToolStripMenuItem.Click += new EventHandler(this.sNSEditorToolStripMenuItem_Click);
-      this.spriteManagerToolStripMenuItem.Name = "spriteManagerToolStripMenuItem";
-      this.spriteManagerToolStripMenuItem.Size = new Size(193, 22);
-      this.spriteManagerToolStripMenuItem.Text = "Sprite Manager";
-      this.spriteManagerToolStripMenuItem.Click += new EventHandler(this.spriteManagerToolStripMenuItem_Click);
-      this.helpToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[1]
-      {
-        (ToolStripItem) this.aboutToolStripMenuItem
-      });
-      this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-      this.helpToolStripMenuItem.Size = new Size(44, 20);
-      this.helpToolStripMenuItem.Text = "Help";
-      this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-      this.aboutToolStripMenuItem.ShortcutKeys = Keys.H | Keys.Control;
-      this.aboutToolStripMenuItem.Size = new Size(150, 22);
-      this.aboutToolStripMenuItem.Text = "About";
-      this.aboutToolStripMenuItem.Click += new EventHandler(this.aboutToolStripMenuItem_Click);
-      this.objectImages_il.ImageStream = (ImageListStreamer) resources.GetObject("objectImages_il.ImageStream");
-      this.objectImages_il.TransparentColor = Color.Transparent;
-      this.objectImages_il.Images.SetKeyName(0, "AnicentOne_head.png");
-      this.objectImages_il.Images.SetKeyName(1, "Ant_Head.png");
-      this.objectImages_il.Images.SetKeyName(2, "Banjo_Head.png");
-      this.objectImages_il.Images.SetKeyName(3, "BeeHive_Head.png");
-      this.objectImages_il.Images.SetKeyName(4, "Blubber_Head.png");
-      this.objectImages_il.Images.SetKeyName(5, "BlueEgg_Head.png");
-      this.objectImages_il.Images.SetKeyName(6, "BluePresent_Head.png");
-      this.objectImages_il.Images.SetKeyName(7, "Boggy_Head.png");
-      this.objectImages_il.Images.SetKeyName(8, "Boggy_Kid1_Head.png");
-      this.objectImages_il.Images.SetKeyName(9, "Bottles_Head.png");
-      this.objectImages_il.Images.SetKeyName(10, "Box_Head.png");
-      this.objectImages_il.Images.SetKeyName(11, "Brentilda_Head.png");
-      this.objectImages_il.Images.SetKeyName(12, "Caterpiller_Head.png");
-      this.objectImages_il.Images.SetKeyName(13, "Charmer_Head.png");
-      this.objectImages_il.Images.SetKeyName(14, "Cheato_Head.png");
-      this.objectImages_il.Images.SetKeyName(15, "Chest_Head.png");
-      this.objectImages_il.Images.SetKeyName(16, "Chimpy_Head.png");
-      this.objectImages_il.Images.SetKeyName(17, "Chomp_Head.png");
-      this.objectImages_il.Images.SetKeyName(18, "Claim_Head.png");
-      this.objectImages_il.Images.SetKeyName(19, "Clanker_Head.png");
-      this.objectImages_il.Images.SetKeyName(20, "Clock_Head.png");
-      this.objectImages_il.Images.SetKeyName(21, "Coldron_Head.png");
-      this.objectImages_il.Images.SetKeyName(22, "Conga_Head.png");
-      this.objectImages_il.Images.SetKeyName(23, "Crab_Head.png");
-      this.objectImages_il.Images.SetKeyName(24, "CrocBanjo_Head.png");
-      this.objectImages_il.Images.SetKeyName(25, "Croccos_Head.png");
-      this.objectImages_il.Images.SetKeyName(26, "Dingpot_Head.png");
-      this.objectImages_il.Images.SetKeyName(27, "Earie1_Head.png");
-      this.objectImages_il.Images.SetKeyName(28, "Earie2_Head.png");
-      this.objectImages_il.Images.SetKeyName(29, "EmptyCup_Head.png");
-      this.objectImages_il.Images.SetKeyName(30, "EmptyHoneyComb_Head.png");
-      this.objectImages_il.Images.SetKeyName(31, "ExtraHoneyComb_Head.png");
-      this.objectImages_il.Images.SetKeyName(32, "ExtraLife_Head.png");
-      this.objectImages_il.Images.SetKeyName(33, "Flip_Head.png");
-      this.objectImages_il.Images.SetKeyName(34, "Ghoul_Head.png");
-      this.objectImages_il.Images.SetKeyName(35, "Gloop_Head.png");
-      this.objectImages_il.Images.SetKeyName(36, "Gnawty_Head.png");
-      this.objectImages_il.Images.SetKeyName(37, "Gobi_Head.png");
-      this.objectImages_il.Images.SetKeyName(38, "GoldBars_Head.png");
-      this.objectImages_il.Images.SetKeyName(39, "GoldFeather_Head.png");
-      this.objectImages_il.Images.SetKeyName(40, "GreenPresent_Head.png");
-      this.objectImages_il.Images.SetKeyName(41, "Grunty_Head.png");
-      this.objectImages_il.Images.SetKeyName(42, "HoneyComb_Head.png");
-      this.objectImages_il.Images.SetKeyName(43, "Ice_Head.png");
-      this.objectImages_il.Images.SetKeyName(44, "Jiggy_Head.png");
-      this.objectImages_il.Images.SetKeyName(45, "JinjoBlue_Head.png");
-      this.objectImages_il.Images.SetKeyName(46, "JinjoGreen_Head.png");
-      this.objectImages_il.Images.SetKeyName(47, "JinjoOrange_Head.png");
-      this.objectImages_il.Images.SetKeyName(48, "JinjoPurple_Head.png");
-      this.objectImages_il.Images.SetKeyName(49, "JinjoYellow_Head.png");
-      this.objectImages_il.Images.SetKeyName(50, "Kazooie_Head.png");
-      this.objectImages_il.Images.SetKeyName(51, "Klungo_Head.png");
-      this.objectImages_il.Images.SetKeyName(52, "Leaky_Head.png");
-      this.objectImages_il.Images.SetKeyName(53, "Loggo_Head.png");
-      this.objectImages_il.Images.SetKeyName(54, "Mozzartz_Head.png");
-      this.objectImages_il.Images.SetKeyName(55, "MrVile_Head.png");
-      this.objectImages_il.Images.SetKeyName(56, "Mumbo_Head.png");
-      this.objectImages_il.Images.SetKeyName(57, "MumboToken_Head.png");
-      this.objectImages_il.Images.SetKeyName(58, "Mummy_Head.png");
-      this.objectImages_il.Images.SetKeyName(59, "Note_Head.png");
-      this.objectImages_il.Images.SetKeyName(60, "Nubnut_Head.png");
-      this.objectImages_il.Images.SetKeyName(61, "Orange_Head.png");
-      this.objectImages_il.Images.SetKeyName(62, "Pirana_Head.png");
-      this.objectImages_il.Images.SetKeyName(63, "RedCrab_Head.png");
-      this.objectImages_il.Images.SetKeyName(64, "RedFeather_Head.png");
-      this.objectImages_il.Images.SetKeyName(65, "RedPresent_Head.png");
-      this.objectImages_il.Images.SetKeyName(66, "RunningShoes_Head.png");
-      this.objectImages_il.Images.SetKeyName(67, "SexyGrunty_Head.png");
-      this.objectImages_il.Images.SetKeyName(68, "Slapper.png");
-      this.objectImages_il.Images.SetKeyName(69, "Snacker_Head.png");
-      this.objectImages_il.Images.SetKeyName(70, "Snake_Head.png");
-      this.objectImages_il.Images.SetKeyName(71, "Snipper_Head.png");
-      this.objectImages_il.Images.SetKeyName(72, "Snorkles_Head.png");
-      this.objectImages_il.Images.SetKeyName(73, "Sphinix_Head.png");
-      this.objectImages_il.Images.SetKeyName(74, "TipTop_Head.png");
-      this.objectImages_il.Images.SetKeyName(75, "TipTopJr_Head.png");
-      this.objectImages_il.Images.SetKeyName(76, "Tooty_Head.png");
-      this.objectImages_il.Images.SetKeyName(77, "Totem_Head.png");
-      this.objectImages_il.Images.SetKeyName(78, "Tree_Head.png");
-      this.objectImages_il.Images.SetKeyName(79, "Turtle_Head.png");
-      this.objectImages_il.Images.SetKeyName(80, "Twinkle_Head.png");
-      this.objectImages_il.Images.SetKeyName(81, "UglyTooty_Head.png");
-      this.objectImages_il.Images.SetKeyName(82, "unknown.png");
-      this.objectImages_il.Images.SetKeyName(83, "WaddingBoots_Head.png");
-      this.objectImages_il.Images.SetKeyName(84, "Wazza_Head.png");
-      this.objectImages_il.Images.SetKeyName(85, "Zumba_Head.png");
-      this.textUpdate_gb.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-      this.textUpdate_gb.Controls.Add((Control) this.updateRad_tb);
-      this.textUpdate_gb.Controls.Add((Control) this.rad_lbl);
-      this.textUpdate_gb.Controls.Add((Control) this.flag_tb);
-      this.textUpdate_gb.Controls.Add((Control) this.flag_lbl);
-      this.textUpdate_gb.Controls.Add((Control) this.address_lbl);
-      this.textUpdate_gb.Controls.Add((Control) this.tableLayoutPanel4);
-      this.textUpdate_gb.Controls.Add((Control) this.tableLayoutPanel3);
-      this.textUpdate_gb.Controls.Add((Control) this.objID_lbl);
-      this.textUpdate_gb.Controls.Add((Control) this.id_tb);
-      this.textUpdate_gb.Controls.Add((Control) this.label1);
-      this.textUpdate_gb.Controls.Add((Control) this.warp_btn);
-      this.textUpdate_gb.Controls.Add((Control) this.warpTo_tb);
-      this.textUpdate_gb.Controls.Add((Control) this.warpTo_lbl);
-      this.textUpdate_gb.Controls.Add((Control) this.id_lbl);
-      this.textUpdate_gb.Controls.Add((Control) this.updateScript_tb);
-      this.textUpdate_gb.Controls.Add((Control) this.updateName_tb);
-      this.textUpdate_gb.Controls.Add((Control) this.script_lbl);
-      this.textUpdate_gb.Controls.Add((Control) this.label22);
-      this.textUpdate_gb.Location = new Point(3, 781);
-      this.textUpdate_gb.Name = "textUpdate_gb";
-      this.textUpdate_gb.Padding = new Padding(0);
-      this.textUpdate_gb.Size = new Size(200, 317);
-      this.textUpdate_gb.TabIndex = 4;
-      this.textUpdate_gb.TabStop = false;
-      this.updateRad_tb.Location = new Point(149, 62);
-      this.updateRad_tb.Name = "updateRad_tb";
-      this.updateRad_tb.Size = new Size(45, 20);
-      this.updateRad_tb.TabIndex = 17;
-      this.updateRad_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.updateRad_tb.KeyUp += new KeyEventHandler(this.updateRad_tb_KeyUp);
-      this.updateRad_tb.Leave += new EventHandler(this.updateRad_tb_Leave);
-      this.rad_lbl.AutoSize = true;
-      this.rad_lbl.Location = new Point(106, 65);
-      this.rad_lbl.Name = "rad_lbl";
-      this.rad_lbl.Size = new Size(40, 13);
-      this.rad_lbl.TabIndex = 65;
-      this.rad_lbl.Text = "Radius";
-      this.flag_tb.Location = new Point(58, 61);
-      this.flag_tb.Name = "flag_tb";
-      this.flag_tb.Size = new Size(45, 20);
-      this.flag_tb.TabIndex = 16;
-      this.flag_lbl.AutoSize = true;
-      this.flag_lbl.Location = new Point(4, 62);
-      this.flag_lbl.Name = "flag_lbl";
-      this.flag_lbl.Size = new Size(27, 13);
-      this.flag_lbl.TabIndex = 62;
-      this.flag_lbl.Text = "Flag";
-      this.address_lbl.AutoSize = true;
-      this.address_lbl.Font = new Font("Microsoft Sans Serif", 7f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      this.address_lbl.Location = new Point(136, 288);
-      this.address_lbl.Name = "address_lbl";
-      this.address_lbl.Size = new Size(24, 13);
-      this.address_lbl.TabIndex = 42;
-      this.address_lbl.Text = "0x0";
-      this.tableLayoutPanel4.ColumnCount = 4;
-      this.tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25f));
-      this.tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25f));
-      this.tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25f));
-      this.tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25f));
-      this.tableLayoutPanel4.Controls.Add((Control) this.updateB17_tb, 3, 2);
-      this.tableLayoutPanel4.Controls.Add((Control) this.updateB16_tb, 1, 2);
-      this.tableLayoutPanel4.Controls.Add((Control) this.b10_lbl, 0, 0);
-      this.tableLayoutPanel4.Controls.Add((Control) this.updateB10_tb, 1, 0);
-      this.tableLayoutPanel4.Controls.Add((Control) this.updateB18_tb, 3, 1);
-      this.tableLayoutPanel4.Controls.Add((Control) this.updateB13_tb, 3, 0);
-      this.tableLayoutPanel4.Controls.Add((Control) this.b18_lbl, 2, 1);
-      this.tableLayoutPanel4.Controls.Add((Control) this.b11_lbl, 0, 1);
-      this.tableLayoutPanel4.Controls.Add((Control) this.updateB11_tb, 1, 1);
-      this.tableLayoutPanel4.Controls.Add((Control) this.b13_lbl, 2, 0);
-      this.tableLayoutPanel4.Controls.Add((Control) this.b16_lbl, 0, 2);
-      this.tableLayoutPanel4.Controls.Add((Control) this.b17_lbl, 2, 2);
-      this.tableLayoutPanel4.Location = new Point(-1, 185);
-      this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-      this.tableLayoutPanel4.RowCount = 3;
-      this.tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 33.33333f));
-      this.tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 33.33333f));
-      this.tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Absolute, 20f));
-      this.tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 33.33333f));
-      this.tableLayoutPanel4.Size = new Size(190, 71);
-      this.tableLayoutPanel4.TabIndex = 61;
-      this.updateB17_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.updateB17_tb.Location = new Point(144, 53);
-      this.updateB17_tb.Name = "updateB17_tb";
-      this.updateB17_tb.Size = new Size(43, 20);
-      this.updateB17_tb.TabIndex = 63;
-      this.updateB17_tb.Leave += new EventHandler(this.updateB11_tb_Leave);
-      this.updateB16_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.updateB16_tb.Location = new Point(50, 53);
-      this.updateB16_tb.Name = "updateB16_tb";
-      this.updateB16_tb.Size = new Size(41, 20);
-      this.updateB16_tb.TabIndex = 62;
-      this.updateB16_tb.Leave += new EventHandler(this.updateB11_tb_Leave);
-      this.b10_lbl.AutoSize = true;
-      this.b10_lbl.Location = new Point(3, 0);
-      this.b10_lbl.Name = "b10_lbl";
-      this.b10_lbl.Size = new Size(26, 13);
-      this.b10_lbl.TabIndex = 50;
-      this.b10_lbl.Text = "B10";
-      this.updateB10_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.updateB10_tb.Enabled = false;
-      this.updateB10_tb.Location = new Point(50, 3);
-      this.updateB10_tb.Name = "updateB10_tb";
-      this.updateB10_tb.Size = new Size(41, 20);
-      this.updateB10_tb.TabIndex = 23;
-      this.updateB10_tb.KeyDown += new KeyEventHandler(this.updateB10_tb_KeyDown);
-      this.updateB10_tb.Leave += new EventHandler(this.updateB10_tb_Leave);
-      this.updateB18_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.updateB18_tb.Enabled = false;
-      this.updateB18_tb.Location = new Point(144, 28);
-      this.updateB18_tb.Name = "updateB18_tb";
-      this.updateB18_tb.Size = new Size(43, 20);
-      this.updateB18_tb.TabIndex = 26;
-      this.updateB18_tb.KeyDown += new KeyEventHandler(this.updateB18_tb_KeyDown);
-      this.updateB18_tb.Leave += new EventHandler(this.updateB18_tb_Leave);
-      this.updateB13_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.updateB13_tb.Enabled = false;
-      this.updateB13_tb.Location = new Point(144, 3);
-      this.updateB13_tb.Name = "updateB13_tb";
-      this.updateB13_tb.Size = new Size(43, 20);
-      this.updateB13_tb.TabIndex = 24;
-      this.updateB13_tb.KeyDown += new KeyEventHandler(this.updateB13_tb_KeyDown);
-      this.updateB13_tb.Leave += new EventHandler(this.updateB13_tb_Leave);
-      this.b18_lbl.AutoSize = true;
-      this.b18_lbl.Location = new Point(97, 25);
-      this.b18_lbl.Name = "b18_lbl";
-      this.b18_lbl.Size = new Size(26, 13);
-      this.b18_lbl.TabIndex = 59;
-      this.b18_lbl.Text = "B18";
-      this.b11_lbl.AutoSize = true;
-      this.b11_lbl.Location = new Point(3, 25);
-      this.b11_lbl.Name = "b11_lbl";
-      this.b11_lbl.Size = new Size(26, 13);
-      this.b11_lbl.TabIndex = 51;
-      this.b11_lbl.Text = "B11";
-      this.updateB11_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.updateB11_tb.Enabled = false;
-      this.updateB11_tb.Location = new Point(50, 28);
-      this.updateB11_tb.Name = "updateB11_tb";
-      this.updateB11_tb.Size = new Size(41, 20);
-      this.updateB11_tb.TabIndex = 25;
-      this.updateB11_tb.KeyDown += new KeyEventHandler(this.updateB11_tb_KeyDown);
-      this.updateB11_tb.Leave += new EventHandler(this.updateB11_tb_Leave);
-      this.b13_lbl.AutoSize = true;
-      this.b13_lbl.Location = new Point(97, 0);
-      this.b13_lbl.Name = "b13_lbl";
-      this.b13_lbl.Size = new Size(26, 13);
-      this.b13_lbl.TabIndex = 52;
-      this.b13_lbl.Text = "B13";
-      this.b16_lbl.AutoSize = true;
-      this.b16_lbl.Location = new Point(3, 50);
-      this.b16_lbl.Name = "b16_lbl";
-      this.b16_lbl.Size = new Size(26, 13);
-      this.b16_lbl.TabIndex = 60;
-      this.b16_lbl.Text = "B16";
-      this.b17_lbl.AutoSize = true;
-      this.b17_lbl.Location = new Point(97, 50);
-      this.b17_lbl.Name = "b17_lbl";
-      this.b17_lbl.Size = new Size(26, 13);
-      this.b17_lbl.TabIndex = 61;
-      this.b17_lbl.Text = "B17";
-      this.tableLayoutPanel3.ColumnCount = 4;
-      this.tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10f));
-      this.tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30.5f));
-      this.tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30f));
-      this.tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 29.5f));
-      this.tableLayoutPanel3.Controls.Add((Control) this.label19, 0, 0);
-      this.tableLayoutPanel3.Controls.Add((Control) this.updateX_tb, 1, 0);
-      this.tableLayoutPanel3.Controls.Add((Control) this.label17, 0, 2);
-      this.tableLayoutPanel3.Controls.Add((Control) this.label18, 0, 1);
-      this.tableLayoutPanel3.Controls.Add((Control) this.updateY_tb, 1, 1);
-      this.tableLayoutPanel3.Controls.Add((Control) this.updateZ_tb, 1, 2);
-      this.tableLayoutPanel3.Controls.Add((Control) this.size_lbl, 2, 0);
-      this.tableLayoutPanel3.Controls.Add((Control) this.rotByte_lbl, 2, 1);
-      this.tableLayoutPanel3.Controls.Add((Control) this.updateSize_tb, 3, 0);
-      this.tableLayoutPanel3.Controls.Add((Control) this.updateRot_tb, 3, 1);
-      this.tableLayoutPanel3.Controls.Add((Control) this.cc_failsafe_cb, 3, 2);
-      this.tableLayoutPanel3.Controls.Add((Control) this.failsafe_lbl, 2, 2);
-      this.tableLayoutPanel3.Location = new Point(-1, 100);
-      this.tableLayoutPanel3.Margin = new Padding(0);
-      this.tableLayoutPanel3.Name = "tableLayoutPanel3";
-      this.tableLayoutPanel3.RowCount = 3;
-      this.tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 33.33333f));
-      this.tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 33.33333f));
-      this.tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 33.33333f));
-      this.tableLayoutPanel3.Size = new Size(190, 83);
-      this.tableLayoutPanel3.TabIndex = 60;
-      this.label19.AutoSize = true;
-      this.label19.Location = new Point(3, 0);
-      this.label19.Name = "label19";
-      this.label19.Size = new Size(13, 13);
-      this.label19.TabIndex = 28;
-      this.label19.Text = "X";
-      this.updateX_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.updateX_tb.Enabled = false;
-      this.updateX_tb.Location = new Point(22, 3);
-      this.updateX_tb.Name = "updateX_tb";
-      this.updateX_tb.Size = new Size(51, 20);
-      this.updateX_tb.TabIndex = 18;
-      this.updateX_tb.KeyDown += new KeyEventHandler(this.updateX_tb_KeyDown);
-      this.updateX_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.updateX_tb.Leave += new EventHandler(this.objectPropertyLeave);
-      this.label17.AutoSize = true;
-      this.label17.Location = new Point(3, 54);
-      this.label17.Name = "label17";
-      this.label17.Size = new Size(13, 13);
-      this.label17.TabIndex = 30;
-      this.label17.Text = "Z";
-      this.label18.AutoSize = true;
-      this.label18.Location = new Point(3, 27);
-      this.label18.Name = "label18";
-      this.label18.Size = new Size(13, 13);
-      this.label18.TabIndex = 29;
-      this.label18.Text = "Y";
-      this.updateY_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.updateY_tb.Enabled = false;
-      this.updateY_tb.Location = new Point(22, 30);
-      this.updateY_tb.Name = "updateY_tb";
-      this.updateY_tb.Size = new Size(51, 20);
-      this.updateY_tb.TabIndex = 19;
-      this.updateY_tb.KeyDown += new KeyEventHandler(this.updateY_tb_KeyDown);
-      this.updateY_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.updateY_tb.Leave += new EventHandler(this.objectPropertyLeave);
-      this.updateZ_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.updateZ_tb.Enabled = false;
-      this.updateZ_tb.Location = new Point(22, 57);
-      this.updateZ_tb.Name = "updateZ_tb";
-      this.updateZ_tb.Size = new Size(51, 20);
-      this.updateZ_tb.TabIndex = 20;
-      this.updateZ_tb.KeyDown += new KeyEventHandler(this.updateZ_tb_KeyDown);
-      this.updateZ_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.updateZ_tb.Leave += new EventHandler(this.objectPropertyLeave);
-      this.size_lbl.AutoSize = true;
-      this.size_lbl.Location = new Point(79, 0);
-      this.size_lbl.Name = "size_lbl";
-      this.size_lbl.Size = new Size(27, 13);
-      this.size_lbl.TabIndex = 25;
-      this.size_lbl.Text = "Size";
-      this.rotByte_lbl.AutoSize = true;
-      this.rotByte_lbl.Location = new Point(79, 27);
-      this.rotByte_lbl.Name = "rotByte_lbl";
-      this.rotByte_lbl.Size = new Size(47, 13);
-      this.rotByte_lbl.TabIndex = 31;
-      this.rotByte_lbl.Text = "Rotation";
-      this.updateSize_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.updateSize_tb.Enabled = false;
-      this.updateSize_tb.Location = new Point(136, 3);
-      this.updateSize_tb.Name = "updateSize_tb";
-      this.updateSize_tb.Size = new Size(51, 20);
-      this.updateSize_tb.TabIndex = 21;
-      this.updateSize_tb.KeyDown += new KeyEventHandler(this.updateSize_tb_KeyDown);
-      this.updateSize_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.updateSize_tb.Leave += new EventHandler(this.objectPropertyLeave);
-      this.updateRot_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.updateRot_tb.Enabled = false;
-      this.updateRot_tb.Location = new Point(136, 30);
-      this.updateRot_tb.Name = "updateRot_tb";
-      this.updateRot_tb.Size = new Size(51, 20);
-      this.updateRot_tb.TabIndex = 22;
-      this.updateRot_tb.KeyDown += new KeyEventHandler(this.updateRot_tb_KeyDown);
-      this.updateRot_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.updateRot_tb.Leave += new EventHandler(this.objectPropertyLeave);
-      this.cc_failsafe_cb.CheckAlign = ContentAlignment.MiddleCenter;
-      this.cc_failsafe_cb.Location = new Point(136, 57);
-      this.cc_failsafe_cb.Name = "cc_failsafe_cb";
-      this.cc_failsafe_cb.Size = new Size(31, 20);
-      this.cc_failsafe_cb.TabIndex = 66;
-      this.cc_failsafe_cb.UseVisualStyleBackColor = true;
-      this.cc_failsafe_cb.CheckedChanged += new EventHandler(this.cc_failsafe_cb_CheckedChanged);
-      this.failsafe_lbl.Location = new Point(79, 54);
-      this.failsafe_lbl.Name = "failsafe_lbl";
-      this.failsafe_lbl.Size = new Size(51, 20);
-      this.failsafe_lbl.TabIndex = 67;
-      this.failsafe_lbl.Text = "Failsafe";
-      this.objID_lbl.AutoSize = true;
-      this.objID_lbl.Font = new Font("Microsoft Sans Serif", 7f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      this.objID_lbl.Location = new Point(13, 288);
-      this.objID_lbl.Name = "objID_lbl";
-      this.objID_lbl.Size = new Size(31, 13);
-      this.objID_lbl.TabIndex = 48;
-      this.objID_lbl.Text = "none";
-      this.objID_lbl.Visible = false;
-      this.id_tb.Location = new Point(58, 39);
-      this.id_tb.Name = "id_tb";
-      this.id_tb.Size = new Size(45, 20);
-      this.id_tb.TabIndex = 14;
-      this.id_tb.KeyUp += new KeyEventHandler(this.id_tb_KeyUp);
-      this.label1.AutoSize = true;
-      this.label1.Font = new Font("Microsoft Sans Serif", 7f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      this.label1.Location = new Point(91, 287);
-      this.label1.Name = "label1";
-      this.label1.Size = new Size(43, 13);
-      this.label1.TabIndex = 46;
-      this.label1.Text = "File Loc";
-      this.warp_btn.Location = new Point(163, 262);
-      this.warp_btn.Name = "warp_btn";
-      this.warp_btn.Size = new Size(26, 20);
-      this.warp_btn.TabIndex = 28;
-      this.warp_btn.Text = "...";
-      this.warp_btn.UseVisualStyleBackColor = true;
-      this.warp_btn.Click += new EventHandler(this.warp_btn_Click);
-      this.warpTo_tb.Location = new Point(58, 264);
-      this.warpTo_tb.Name = "warpTo_tb";
-      this.warpTo_tb.Size = new Size(94, 20);
-      this.warpTo_tb.TabIndex = 27;
-      this.warpTo_lbl.AutoSize = true;
-      this.warpTo_lbl.Location = new Point(9, 266);
-      this.warpTo_lbl.Name = "warpTo_lbl";
-      this.warpTo_lbl.Size = new Size(54, 13);
-      this.warpTo_lbl.TabIndex = 43;
-      this.warpTo_lbl.Text = "Warps To";
-      this.id_lbl.AutoSize = true;
-      this.id_lbl.Location = new Point(3, 39);
-      this.id_lbl.Name = "id_lbl";
-      this.id_lbl.Size = new Size(52, 13);
-      this.id_lbl.TabIndex = 41;
-      this.id_lbl.Text = "Object ID";
-      this.updateScript_tb.Location = new Point(149, 39);
-      this.updateScript_tb.Name = "updateScript_tb";
-      this.updateScript_tb.Size = new Size(45, 20);
-      this.updateScript_tb.TabIndex = 15;
-      this.updateScript_tb.KeyDown += new KeyEventHandler(this.updateScript_tb_KeyDown);
-      this.updateScript_tb.Leave += new EventHandler(this.updateScript_tb_Leave);
-      this.updateName_tb.Enabled = false;
-      this.updateName_tb.Location = new Point(47, 13);
-      this.updateName_tb.Name = "updateName_tb";
-      this.updateName_tb.Size = new Size(147, 20);
-      this.updateName_tb.TabIndex = 13;
-      this.script_lbl.AutoSize = true;
-      this.script_lbl.Location = new Point(106, 39);
-      this.script_lbl.Name = "script_lbl";
-      this.script_lbl.Size = new Size(34, 13);
-      this.script_lbl.TabIndex = 25;
-      this.script_lbl.Text = "Script";
-      this.label22.AutoSize = true;
-      this.label22.Location = new Point(3, 13);
-      this.label22.Name = "label22";
-      this.label22.Size = new Size(35, 13);
-      this.label22.TabIndex = 25;
-      this.label22.Text = "Name";
-      this.changeLM_btn.Location = new Point(94, 77);
-      this.changeLM_btn.Name = "changeLM_btn";
-      this.changeLM_btn.Size = new Size(75, 23);
-      this.changeLM_btn.TabIndex = 63;
-      this.changeLM_btn.Text = "Update";
-      this.changeLM_btn.UseVisualStyleBackColor = true;
-      this.changeLM_btn.Click += new EventHandler(this.ChangeLM_Click);
-      this.changeLM_ofd.FileName = "replaceModel";
-      this.objectMenu.Name = "contextMenuStrip1";
-      this.objectMenu.Size = new Size(61, 4);
-      this.objectMenu.MouseClick += new MouseEventHandler(this.contextMenuStrip1_MouseClick);
-      this.CamSpeed_tb.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-      this.CamSpeed_tb.AutoSize = false;
-      this.CamSpeed_tb.BackColor = SystemColors.ActiveCaption;
-      this.CamSpeed_tb.Cursor = Cursors.Hand;
-      this.CamSpeed_tb.Location = new Point(1039, 2);
-      this.CamSpeed_tb.Maximum = 100;
-      this.CamSpeed_tb.Minimum = 5;
-      this.CamSpeed_tb.Name = "CamSpeed_tb";
-      this.CamSpeed_tb.Size = new Size(150, 19);
-      this.CamSpeed_tb.TabIndex = 0;
-      this.CamSpeed_tb.TickFrequency = 5;
-      this.CamSpeed_tb.Value = 30;
-      this.CamSpeed_tb.Scroll += new EventHandler(this.CamSpeed_tb_Scroll);
-      this.timer1.Interval = 30;
-      this.timer1.Tick += new EventHandler(this.timer1_Tick_1);
-      this.label2.AutoSize = true;
-      this.label2.Location = new Point(10, 23);
-      this.label2.Name = "label2";
-      this.label2.Size = new Size(52, 13);
-      this.label2.TabIndex = 53;
-      this.label2.Text = "Model (A)";
-      this.baseLevel_tb.Enabled = false;
-      this.baseLevel_tb.Location = new Point(68, 20);
-      this.baseLevel_tb.Name = "baseLevel_tb";
-      this.baseLevel_tb.Size = new Size(78, 20);
-      this.baseLevel_tb.TabIndex = 64;
-      this.extraModel_tb.Enabled = false;
-      this.extraModel_tb.Location = new Point(68, 48);
-      this.extraModel_tb.Name = "extraModel_tb";
-      this.extraModel_tb.Size = new Size(78, 20);
-      this.extraModel_tb.TabIndex = 65;
-      this.label3.AutoSize = true;
-      this.label3.Location = new Point(10, 51);
-      this.label3.Name = "label3";
-      this.label3.Size = new Size(52, 13);
-      this.label3.TabIndex = 55;
-      this.label3.Text = "Model (B)";
-      this.replaceModelEx_btn.Location = new Point(152, 49);
-      this.replaceModelEx_btn.Name = "replaceModelEx_btn";
-      this.replaceModelEx_btn.Size = new Size(31, 23);
-      this.replaceModelEx_btn.TabIndex = 61;
-      this.replaceModelEx_btn.Text = "...";
-      this.replaceModelEx_btn.UseVisualStyleBackColor = true;
-      this.replaceModelEx_btn.Click += new EventHandler(this.replaceModelEx_btn_Click);
-      this.replaceModel_btn.Location = new Point(152, 18);
-      this.replaceModel_btn.Name = "replaceModel_btn";
-      this.replaceModel_btn.Size = new Size(31, 23);
-      this.replaceModel_btn.TabIndex = 60;
-      this.replaceModel_btn.Text = "...";
-      this.replaceModel_btn.UseVisualStyleBackColor = true;
-      this.replaceModel_btn.Click += new EventHandler(this.replaceModel_btn_Click);
-      this.label4.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-      this.label4.AutoSize = true;
-      this.label4.BackColor = SystemColors.ActiveCaption;
-      this.label4.Location = new Point(954, 6);
-      this.label4.Name = "label4";
-      this.label4.Size = new Size(77, 13);
-      this.label4.TabIndex = 59;
-      this.label4.Text = "Camera Speed";
-      this.replacemodel_gb.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-      this.replacemodel_gb.Controls.Add((Control) this.clear_btn);
-      this.replacemodel_gb.Controls.Add((Control) this.baseLevel_tb);
-      this.replacemodel_gb.Controls.Add((Control) this.label2);
-      this.replacemodel_gb.Controls.Add((Control) this.replaceModel_btn);
-      this.replacemodel_gb.Controls.Add((Control) this.label3);
-      this.replacemodel_gb.Controls.Add((Control) this.replaceModelEx_btn);
-      this.replacemodel_gb.Controls.Add((Control) this.extraModel_tb);
-      this.replacemodel_gb.Controls.Add((Control) this.changeLM_btn);
-      this.replacemodel_gb.Location = new Point(3, 1534);
-      this.replacemodel_gb.Name = "replacemodel_gb";
-      this.replacemodel_gb.Size = new Size(200, 106);
-      this.replacemodel_gb.TabIndex = 5;
-      this.replacemodel_gb.TabStop = false;
-      this.clear_btn.Location = new Point(13, 78);
-      this.clear_btn.Name = "clear_btn";
-      this.clear_btn.Size = new Size(75, 23);
-      this.clear_btn.TabIndex = 62;
-      this.clear_btn.Text = "Clear";
-      this.clear_btn.UseVisualStyleBackColor = true;
-      this.clear_btn.Click += new EventHandler(this.clear_btn_Click);
-      this.openFileDialog1.Filter = "Rom Files|*.z64;*.v64;*rom";
-      this.openFileDialog2.Filter = "Rom Files|*.z64;*.v64;*rom";
-      this.saveFileDialog.DefaultExt = "z64";
-      this.replaceSetup_ofd.FileName = "SetupFile.bin";
-      this.replaceSetup_ofd.Filter = "bin files|*.bin";
-      this.saveSetupFileDialog.DefaultExt = "bin";
-      this.saveSetupFileDialog.FileName = "my_setup.bin";
-      this.saveSetupFileDialog.Filter = "Bin Files|*.bin";
-      this.openSetupFileDialog.DefaultExt = "bin";
-      this.openSetupFileDialog.Filter = "Bin Files|*.bin";
-      this.saveAsRomFileDialog.DefaultExt = "z64";
-      this.flowLayoutPanel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Right;
-      this.flowLayoutPanel1.AutoScroll = true;
-      this.flowLayoutPanel1.BorderStyle = BorderStyle.FixedSingle;
-      this.flowLayoutPanel1.Controls.Add((Control) this.path_gb);
-      this.flowLayoutPanel1.Controls.Add((Control) this.col_obj_details_btn);
-      this.flowLayoutPanel1.Controls.Add((Control) this.textUpdate_gb);
-      this.flowLayoutPanel1.Controls.Add((Control) this.col_cam_btn);
-      this.flowLayoutPanel1.Controls.Add((Control) this.cam3_gb);
-      this.flowLayoutPanel1.Controls.Add((Control) this.col_replacemodel_btn);
-      this.flowLayoutPanel1.Controls.Add((Control) this.replacemodel_gb);
-      this.flowLayoutPanel1.Controls.Add((Control) this.col_levelbounds_btn);
-      this.flowLayoutPanel1.Controls.Add((Control) this.bounds_gb);
-      this.flowLayoutPanel1.Controls.Add((Control) this.col_levelentries_btn);
-      this.flowLayoutPanel1.Controls.Add((Control) this.levelEntries_gb);
-      this.flowLayoutPanel1.Controls.Add((Control) this.col_objects_btn);
-      this.flowLayoutPanel1.Controls.Add((Control) this.objects_gb);
-      this.flowLayoutPanel1.Controls.Add((Control) this.col_structs_btn);
-      this.flowLayoutPanel1.Controls.Add((Control) this.structs_gb);
-      this.flowLayoutPanel1.Location = new Point(960, 158);
-      this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-      this.flowLayoutPanel1.Size = new Size(233, 343);
-      this.flowLayoutPanel1.TabIndex = 66;
-      this.flowLayoutPanel1.Paint += new PaintEventHandler(this.flowLayoutPanel1_Paint);
-      this.path_gb.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-      this.path_gb.Controls.Add((Control) this.label11);
-      this.path_gb.Controls.Add((Control) this.label10);
-      this.path_gb.Controls.Add((Control) this.pathControllers_dgv);
-      this.path_gb.Controls.Add((Control) this.nodeID_gb);
-      this.path_gb.Controls.Add((Control) this.sNode_gb);
-      this.path_gb.Controls.Add((Control) this.nodeProperties_gb);
-      this.path_gb.Controls.Add((Control) this.col_selPath_btn);
-      this.path_gb.Controls.Add((Control) this.pathObject_gb);
-      this.path_gb.Controls.Add((Control) this.path_dgv);
-      this.path_gb.Location = new Point(3, 3);
-      this.path_gb.Name = "path_gb";
-      this.path_gb.Size = new Size(211, 749);
-      this.path_gb.TabIndex = 80;
-      this.path_gb.TabStop = false;
-      this.label11.AutoSize = true;
-      this.label11.Location = new Point(6, 184);
-      this.label11.Name = "label11";
-      this.label11.Size = new Size(56, 13);
-      this.label11.TabIndex = 87;
-      this.label11.Text = "Controllers";
-      this.label10.AutoSize = true;
-      this.label10.Location = new Point(6, 74);
-      this.label10.Name = "label10";
-      this.label10.Size = new Size(84, 13);
-      this.label10.TabIndex = 86;
-      this.label10.Text = "Standard Nodes";
-      this.pathControllers_dgv.AllowUserToAddRows = false;
-      this.pathControllers_dgv.AllowUserToDeleteRows = false;
-      this.pathControllers_dgv.AllowUserToOrderColumns = true;
-      this.pathControllers_dgv.AllowUserToResizeRows = false;
-      this.pathControllers_dgv.BackgroundColor = Color.White;
-      gridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-      gridViewCellStyle1.BackColor = SystemColors.Control;
-      gridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      gridViewCellStyle1.ForeColor = SystemColors.WindowText;
-      gridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-      gridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-      gridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-      this.pathControllers_dgv.ColumnHeadersDefaultCellStyle = gridViewCellStyle1;
-      this.pathControllers_dgv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-      gridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-      gridViewCellStyle2.BackColor = SystemColors.Window;
-      gridViewCellStyle2.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      gridViewCellStyle2.ForeColor = SystemColors.ControlText;
-      gridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-      gridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
-      gridViewCellStyle2.WrapMode = DataGridViewTriState.False;
-      this.pathControllers_dgv.DefaultCellStyle = gridViewCellStyle2;
-      this.pathControllers_dgv.EditMode = DataGridViewEditMode.EditProgrammatically;
-      this.pathControllers_dgv.Location = new Point(6, 200);
-      this.pathControllers_dgv.Margin = new Padding(3, 3, 3, 30);
-      this.pathControllers_dgv.Name = "pathControllers_dgv";
-      this.pathControllers_dgv.ReadOnly = true;
-      gridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-      gridViewCellStyle3.BackColor = SystemColors.Control;
-      gridViewCellStyle3.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      gridViewCellStyle3.ForeColor = SystemColors.WindowText;
-      gridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
-      gridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
-      gridViewCellStyle3.WrapMode = DataGridViewTriState.True;
-      this.pathControllers_dgv.RowHeadersDefaultCellStyle = gridViewCellStyle3;
-      this.pathControllers_dgv.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-      this.pathControllers_dgv.Size = new Size(197, 80);
-      this.pathControllers_dgv.TabIndex = 85;
-      this.pathControllers_dgv.DoubleClick += new EventHandler(this.pathControllers_dgv_DoubleClick);
-      this.nodeID_gb.Controls.Add((Control) this.tableLayoutPanel13);
-      this.nodeID_gb.Controls.Add((Control) this.button6);
-      this.nodeID_gb.Location = new Point(3, 285);
-      this.nodeID_gb.Name = "nodeID_gb";
-      this.nodeID_gb.Size = new Size(200, 85);
-      this.nodeID_gb.TabIndex = 83;
-      this.tableLayoutPanel13.BackColor = Color.White;
-      this.tableLayoutPanel13.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
-      this.tableLayoutPanel13.ColumnCount = 2;
-      this.tableLayoutPanel13.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 18.75f));
-      this.tableLayoutPanel13.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 31.25f));
-      this.tableLayoutPanel13.Controls.Add((Control) this.label69, 0, 0);
-      this.tableLayoutPanel13.Controls.Add((Control) this.nodeID_tb, 1, 0);
-      this.tableLayoutPanel13.Controls.Add((Control) this.label70, 0, 1);
-      this.tableLayoutPanel13.Controls.Add((Control) this.node18_tb, 1, 1);
-      this.tableLayoutPanel13.Location = new Point(0, 25);
-      this.tableLayoutPanel13.Margin = new Padding(0);
-      this.tableLayoutPanel13.Name = "tableLayoutPanel13";
-      this.tableLayoutPanel13.RowCount = 2;
-      this.tableLayoutPanel13.RowStyles.Add(new RowStyle(SizeType.Percent, 50f));
-      this.tableLayoutPanel13.RowStyles.Add(new RowStyle(SizeType.Percent, 50f));
-      this.tableLayoutPanel13.Size = new Size(200, 55);
-      this.tableLayoutPanel13.TabIndex = 61;
-      this.label69.AutoSize = true;
-      this.label69.Location = new Point(4, 1);
-      this.label69.Name = "label69";
-      this.label69.Size = new Size(18, 13);
-      this.label69.TabIndex = 28;
-      this.label69.Text = "ID";
-      this.nodeID_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.nodeID_tb.Enabled = false;
-      this.nodeID_tb.Location = new Point(78, 4);
-      this.nodeID_tb.Name = "nodeID_tb";
-      this.nodeID_tb.Size = new Size(118, 20);
-      this.nodeID_tb.TabIndex = 18;
-      this.label70.AutoSize = true;
-      this.label70.Location = new Point(4, 28);
-      this.label70.Name = "label70";
-      this.label70.Size = new Size(22, 13);
-      this.label70.TabIndex = 29;
-      this.label70.Text = "TO";
-      this.node18_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.node18_tb.Location = new Point(78, 31);
-      this.node18_tb.Name = "node18_tb";
-      this.node18_tb.Size = new Size(118, 20);
-      this.node18_tb.TabIndex = 20;
-      this.node18_tb.KeyDown += new KeyEventHandler(this.node_tb_KeyDown);
-      this.node18_tb.KeyPress += new KeyPressEventHandler(this.hexOnly_KeyPress);
-      this.node18_tb.Leave += new EventHandler(this.node_tb_Leave);
-      this.button6.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-      this.button6.BackColor = Color.FromArgb(233, 236, 250);
-      this.button6.FlatStyle = FlatStyle.Flat;
-      this.button6.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.button6.ForeColor = SystemColors.ControlDarkDark;
-      this.button6.Location = new Point(0, 0);
-      this.button6.Margin = new Padding(0);
-      this.button6.Name = "button6";
-      this.button6.Size = new Size(199, 25);
-      this.button6.TabIndex = 83;
-      this.button6.Text = "ID/TO";
-      this.button6.TextAlign = ContentAlignment.MiddleLeft;
-      this.button6.UseVisualStyleBackColor = false;
-      this.sNode_gb.Controls.Add((Control) this.tableLayoutPanel2);
-      this.sNode_gb.Controls.Add((Control) this.button5);
-      this.sNode_gb.Location = new Point(4, 480);
-      this.sNode_gb.Name = "sNode_gb";
-      this.sNode_gb.Size = new Size(200, 244);
-      this.sNode_gb.TabIndex = 84;
-      this.tableLayoutPanel2.BackColor = Color.White;
-      this.tableLayoutPanel2.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
-      this.tableLayoutPanel2.ColumnCount = 2;
-      this.tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 34.34343f));
-      this.tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 65.65656f));
-      this.tableLayoutPanel2.Controls.Add((Control) this.label61, 0, 1);
-      this.tableLayoutPanel2.Controls.Add((Control) this.sNodeF_tb, 1, 1);
-      this.tableLayoutPanel2.Controls.Add((Control) this.label9, 0, 0);
-      this.tableLayoutPanel2.Controls.Add((Control) this.pathID_tb, 1, 0);
-      this.tableLayoutPanel2.Controls.Add((Control) this.sNodeUNK3_tb, 1, 5);
-      this.tableLayoutPanel2.Controls.Add((Control) this.label67, 0, 5);
-      this.tableLayoutPanel2.Controls.Add((Control) this.panel1, 1, 2);
-      this.tableLayoutPanel2.Controls.Add((Control) this.panel2, 1, 3);
-      this.tableLayoutPanel2.Controls.Add((Control) this.panel3, 1, 4);
-      this.tableLayoutPanel2.Controls.Add((Control) this.label57, 0, 3);
-      this.tableLayoutPanel2.Controls.Add((Control) this.animation_lbl, 0, 2);
-      this.tableLayoutPanel2.Controls.Add((Control) this.label62, 0, 4);
-      this.tableLayoutPanel2.Controls.Add((Control) this.label63, 0, 6);
-      this.tableLayoutPanel2.Controls.Add((Control) this.sNodeW1_tb, 1, 6);
-      this.tableLayoutPanel2.Location = new Point(1, 25);
-      this.tableLayoutPanel2.Margin = new Padding(0);
-      this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-      this.tableLayoutPanel2.RowCount = 7;
-      this.tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 26f));
-      this.tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 26f));
-      this.tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 33f));
-      this.tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 33f));
-      this.tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 31f));
-      this.tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 28f));
-      this.tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 8f));
-      this.tableLayoutPanel2.Size = new Size(199, 212);
-      this.tableLayoutPanel2.TabIndex = 84;
-      this.label61.AutoSize = true;
-      this.label61.Location = new Point(4, 28);
-      this.label61.Name = "label61";
-      this.label61.Size = new Size(60, 13);
-      this.label61.TabIndex = 28;
-      this.label61.Text = "Act Time %";
-      this.sNodeF_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.sNodeF_tb.Location = new Point(72, 31);
-      this.sNodeF_tb.Name = "sNodeF_tb";
-      this.sNodeF_tb.Size = new Size(123, 20);
-      this.sNodeF_tb.TabIndex = 18;
-      this.sNodeF_tb.KeyDown += new KeyEventHandler(this.node_tb_KeyDown);
-      this.sNodeF_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.sNodeF_tb.Leave += new EventHandler(this.sNode_tb_Leave);
-      this.label9.AutoSize = true;
-      this.label9.Location = new Point(4, 1);
-      this.label9.Name = "label9";
-      this.label9.Size = new Size(43, 13);
-      this.label9.TabIndex = 71;
-      this.label9.Text = "Path ID";
-      this.pathID_tb.Location = new Point(72, 4);
-      this.pathID_tb.Name = "pathID_tb";
-      this.pathID_tb.Size = new Size(123, 20);
-      this.pathID_tb.TabIndex = 72;
-      this.pathID_tb.KeyDown += new KeyEventHandler(this.node_tb_KeyDown);
-      this.pathID_tb.KeyPress += new KeyPressEventHandler(this.hexOnly_KeyPress);
-      this.pathID_tb.Leave += new EventHandler(this.sNode_tb_Leave);
-      this.sNodeUNK3_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.sNodeUNK3_tb.Location = new Point(72, 158);
-      this.sNodeUNK3_tb.Name = "sNodeUNK3_tb";
-      this.sNodeUNK3_tb.Size = new Size(123, 20);
-      this.sNodeUNK3_tb.TabIndex = 51;
-      this.sNodeUNK3_tb.KeyDown += new KeyEventHandler(this.node_tb_KeyDown);
-      this.sNodeUNK3_tb.KeyPress += new KeyPressEventHandler(this.hexOnly_KeyPress);
-      this.sNodeUNK3_tb.Leave += new EventHandler(this.sNode_tb_Leave);
-      this.label67.AutoSize = true;
-      this.label67.Location = new Point(4, 155);
-      this.label67.Name = "label67";
-      this.label67.Size = new Size(36, 13);
-      this.label67.TabIndex = 48;
-      this.label67.Text = "UNK3";
-      this.panel1.Controls.Add((Control) this.useAnimation_cb);
-      this.panel1.Controls.Add((Control) this.animation_cb);
-      this.panel1.Location = new Point(72, 58);
-      this.panel1.Name = "panel1";
-      this.panel1.Size = new Size(123, 27);
-      this.panel1.TabIndex = 79;
-      this.useAnimation_cb.AutoSize = true;
-      this.useAnimation_cb.Location = new Point(2, 4);
-      this.useAnimation_cb.Name = "useAnimation_cb";
-      this.useAnimation_cb.Size = new Size(15, 14);
-      this.useAnimation_cb.TabIndex = 76;
-      this.useAnimation_cb.UseVisualStyleBackColor = true;
-      this.useAnimation_cb.Leave += new EventHandler(this.controller_cb_Leave);
-      this.animation_cb.Font = new Font("Microsoft Sans Serif", 6.75f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      this.animation_cb.FormattingEnabled = true;
-      this.animation_cb.Location = new Point(21, 1);
-      this.animation_cb.Name = "animation_cb";
-      this.animation_cb.Size = new Size(100, 20);
-      this.animation_cb.TabIndex = 67;
-      this.animation_cb.SelectedIndexChanged += new EventHandler(this.animation_cb_SelectedIndexChanged);
-      this.panel2.Controls.Add((Control) this.usePause_cb);
-      this.panel2.Controls.Add((Control) this.pauseTime_tb);
-      this.panel2.Location = new Point(72, 92);
-      this.panel2.Name = "panel2";
-      this.panel2.Size = new Size(123, 27);
-      this.panel2.TabIndex = 80;
-      this.usePause_cb.AutoSize = true;
-      this.usePause_cb.Location = new Point(2, 3);
-      this.usePause_cb.Name = "usePause_cb";
-      this.usePause_cb.Size = new Size(15, 14);
-      this.usePause_cb.TabIndex = 77;
-      this.usePause_cb.UseVisualStyleBackColor = true;
-      this.usePause_cb.Leave += new EventHandler(this.controller_cb_Leave);
-      this.pauseTime_tb.Location = new Point(21, 2);
-      this.pauseTime_tb.Name = "pauseTime_tb";
-      this.pauseTime_tb.Size = new Size(99, 20);
-      this.pauseTime_tb.TabIndex = 70;
-      this.pauseTime_tb.KeyDown += new KeyEventHandler(this.pauseTime_tb_KeyDown);
-      this.pauseTime_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.pauseTime_tb.Leave += new EventHandler(this.pauseTime_tb_Leave);
-      this.panel3.Controls.Add((Control) this.useSpeed_cb);
-      this.panel3.Controls.Add((Control) this.sNodeSpeed_tb);
-      this.panel3.Location = new Point(72, 126);
-      this.panel3.Name = "panel3";
-      this.panel3.Size = new Size(122, 24);
-      this.panel3.TabIndex = 81;
-      this.useSpeed_cb.AutoSize = true;
-      this.useSpeed_cb.Location = new Point(2, 6);
-      this.useSpeed_cb.Name = "useSpeed_cb";
-      this.useSpeed_cb.Size = new Size(15, 14);
-      this.useSpeed_cb.TabIndex = 78;
-      this.useSpeed_cb.UseVisualStyleBackColor = true;
-      this.useSpeed_cb.Leave += new EventHandler(this.controller_cb_Leave);
-      this.sNodeSpeed_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.sNodeSpeed_tb.Location = new Point(21, 2);
-      this.sNodeSpeed_tb.Name = "sNodeSpeed_tb";
-      this.sNodeSpeed_tb.Size = new Size(97, 20);
-      this.sNodeSpeed_tb.TabIndex = 47;
-      this.sNodeSpeed_tb.KeyDown += new KeyEventHandler(this.node_tb_KeyDown);
-      this.sNodeSpeed_tb.KeyPress += new KeyPressEventHandler(this.hexOnly_KeyPress);
-      this.sNodeSpeed_tb.Leave += new EventHandler(this.sNode_tb_Leave);
-      this.label57.AutoSize = true;
-      this.label57.Location = new Point(4, 89);
-      this.label57.Name = "label57";
-      this.label57.Size = new Size(40, 26);
-      this.label57.TabIndex = 69;
-      this.label57.Text = "Pause Time";
-      this.animation_lbl.AutoSize = true;
-      this.animation_lbl.Location = new Point(4, 55);
-      this.animation_lbl.Name = "animation_lbl";
-      this.animation_lbl.Size = new Size(53, 13);
-      this.animation_lbl.TabIndex = 66;
-      this.animation_lbl.Text = "Animation";
-      this.label62.AutoSize = true;
-      this.label62.Location = new Point(4, 123);
-      this.label62.Name = "label62";
-      this.label62.Size = new Size(38, 13);
-      this.label62.TabIndex = 30;
-      this.label62.Text = "Speed";
-      this.label63.AutoSize = true;
-      this.label63.Location = new Point(4, 184);
-      this.label63.Name = "label63";
-      this.label63.Size = new Size(30, 13);
-      this.label63.TabIndex = 29;
-      this.label63.Text = "UNK";
-      this.sNodeW1_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.sNodeW1_tb.Location = new Point(72, 187);
-      this.sNodeW1_tb.Name = "sNodeW1_tb";
-      this.sNodeW1_tb.Size = new Size(123, 20);
-      this.sNodeW1_tb.TabIndex = 19;
-      this.sNodeW1_tb.KeyDown += new KeyEventHandler(this.node_tb_KeyDown);
-      this.sNodeW1_tb.KeyPress += new KeyPressEventHandler(this.hexOnly_KeyPress);
-      this.sNodeW1_tb.Leave += new EventHandler(this.sNode_tb_Leave);
-      this.button5.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-      this.button5.BackColor = Color.FromArgb(233, 236, 250);
-      this.button5.FlatStyle = FlatStyle.Flat;
-      this.button5.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.button5.ForeColor = SystemColors.ControlDarkDark;
-      this.button5.Location = new Point(2, 0);
-      this.button5.Margin = new Padding(0);
-      this.button5.Name = "button5";
-      this.button5.Size = new Size(196, 25);
-      this.button5.TabIndex = 83;
-      this.button5.Text = "Node Properties";
-      this.button5.TextAlign = ContentAlignment.MiddleLeft;
-      this.button5.UseVisualStyleBackColor = false;
-      this.nodeProperties_gb.Controls.Add((Control) this.button4);
-      this.nodeProperties_gb.Controls.Add((Control) this.nodeProperties_lp);
-      this.nodeProperties_gb.Location = new Point(4, 376);
-      this.nodeProperties_gb.Name = "nodeProperties_gb";
-      this.nodeProperties_gb.Size = new Size(200, 97);
-      this.nodeProperties_gb.TabIndex = 83;
-      this.button4.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-      this.button4.BackColor = Color.FromArgb(233, 236, 250);
-      this.button4.FlatStyle = FlatStyle.Flat;
-      this.button4.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.button4.ForeColor = SystemColors.ControlDarkDark;
-      this.button4.Location = new Point(0, 0);
-      this.button4.Margin = new Padding(0);
-      this.button4.Name = "button4";
-      this.button4.Size = new Size(200, 25);
-      this.button4.TabIndex = 82;
-      this.button4.Text = "Location";
-      this.button4.TextAlign = ContentAlignment.MiddleLeft;
-      this.button4.UseVisualStyleBackColor = false;
-      this.nodeProperties_lp.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-      this.nodeProperties_lp.BackColor = Color.White;
-      this.nodeProperties_lp.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
-      this.nodeProperties_lp.ColumnCount = 2;
-      this.nodeProperties_lp.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 37.5f));
-      this.nodeProperties_lp.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 62.49999f));
-      this.nodeProperties_lp.Controls.Add((Control) this.label53, 0, 0);
-      this.nodeProperties_lp.Controls.Add((Control) this.nodeX_tb, 1, 0);
-      this.nodeProperties_lp.Controls.Add((Control) this.label55, 0, 1);
-      this.nodeProperties_lp.Controls.Add((Control) this.label54, 0, 2);
-      this.nodeProperties_lp.Controls.Add((Control) this.nodeY_tb, 1, 1);
-      this.nodeProperties_lp.Controls.Add((Control) this.nodeZ_tb, 1, 2);
-      this.nodeProperties_lp.Location = new Point(0, 25);
-      this.nodeProperties_lp.Margin = new Padding(0);
-      this.nodeProperties_lp.Name = "nodeProperties_lp";
-      this.nodeProperties_lp.RowCount = 3;
-      this.nodeProperties_lp.RowStyles.Add(new RowStyle(SizeType.Percent, 33.33333f));
-      this.nodeProperties_lp.RowStyles.Add(new RowStyle(SizeType.Percent, 33.33333f));
-      this.nodeProperties_lp.RowStyles.Add(new RowStyle(SizeType.Percent, 33.33333f));
-      this.nodeProperties_lp.Size = new Size(200, 68);
-      this.nodeProperties_lp.TabIndex = 61;
-      this.label53.AutoSize = true;
-      this.label53.Location = new Point(4, 1);
-      this.label53.Name = "label53";
-      this.label53.Size = new Size(14, 13);
-      this.label53.TabIndex = 28;
-      this.label53.Text = "X";
-      this.nodeX_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.nodeX_tb.Location = new Point(75, 1);
-      this.nodeX_tb.Margin = new Padding(0);
-      this.nodeX_tb.Name = "nodeX_tb";
-      this.nodeX_tb.Size = new Size(124, 20);
-      this.nodeX_tb.TabIndex = 18;
-      this.nodeX_tb.KeyDown += new KeyEventHandler(this.nodeX_tb_KeyDown);
-      this.nodeX_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.nodeX_tb.Leave += new EventHandler(this.node_tb_Leave);
-      this.label55.AutoSize = true;
-      this.label55.Location = new Point(4, 23);
-      this.label55.Name = "label55";
-      this.label55.Size = new Size(14, 13);
-      this.label55.TabIndex = 29;
-      this.label55.Text = "Y";
-      this.label54.AutoSize = true;
-      this.label54.Location = new Point(4, 45);
-      this.label54.Name = "label54";
-      this.label54.Size = new Size(14, 13);
-      this.label54.TabIndex = 30;
-      this.label54.Text = "Z";
-      this.nodeY_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.nodeY_tb.Location = new Point(75, 23);
-      this.nodeY_tb.Margin = new Padding(0);
-      this.nodeY_tb.Name = "nodeY_tb";
-      this.nodeY_tb.Size = new Size(124, 20);
-      this.nodeY_tb.TabIndex = 19;
-      this.nodeY_tb.KeyDown += new KeyEventHandler(this.nodeY_tb_KeyDown);
-      this.nodeY_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.nodeY_tb.Leave += new EventHandler(this.node_tb_Leave);
-      this.nodeZ_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.nodeZ_tb.Location = new Point(75, 45);
-      this.nodeZ_tb.Margin = new Padding(0);
-      this.nodeZ_tb.Name = "nodeZ_tb";
-      this.nodeZ_tb.Size = new Size(124, 20);
-      this.nodeZ_tb.TabIndex = 47;
-      this.nodeZ_tb.KeyDown += new KeyEventHandler(this.nodeZ_tb_KeyDown);
-      this.nodeZ_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.nodeZ_tb.Leave += new EventHandler(this.node_tb_Leave);
-      this.col_selPath_btn.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-      this.col_selPath_btn.BackColor = Color.FromArgb(233, 236, 250);
-      this.col_selPath_btn.FlatStyle = FlatStyle.Flat;
-      this.col_selPath_btn.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.col_selPath_btn.ForeColor = SystemColors.ControlDarkDark;
-      this.col_selPath_btn.Location = new Point(-1, -6);
-      this.col_selPath_btn.Margin = new Padding(0);
-      this.col_selPath_btn.Name = "col_selPath_btn";
-      this.col_selPath_btn.Size = new Size(214, 23);
-      this.col_selPath_btn.TabIndex = 79;
-      this.col_selPath_btn.Text = "- Selected Path";
-      this.col_selPath_btn.TextAlign = ContentAlignment.MiddleLeft;
-      this.col_selPath_btn.UseVisualStyleBackColor = false;
-      this.pathObject_gb.Controls.Add((Control) this.tableLayoutPanel16);
-      this.pathObject_gb.Location = new Point(5, 20);
-      this.pathObject_gb.Name = "pathObject_gb";
-      this.pathObject_gb.Size = new Size(200, 50);
-      this.pathObject_gb.TabIndex = 63;
-      this.pathObject_gb.TabStop = false;
-      this.tableLayoutPanel16.ColumnCount = 2;
-      this.tableLayoutPanel16.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 45.78947f));
-      this.tableLayoutPanel16.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 54.21053f));
-      this.tableLayoutPanel16.Controls.Add((Control) this.label60, 0, 0);
-      this.tableLayoutPanel16.Controls.Add((Control) this.objectNode_tb, 1, 0);
-      this.tableLayoutPanel16.Location = new Point(6, 14);
-      this.tableLayoutPanel16.Margin = new Padding(0);
-      this.tableLayoutPanel16.Name = "tableLayoutPanel16";
-      this.tableLayoutPanel16.RowCount = 1;
-      this.tableLayoutPanel16.RowStyles.Add(new RowStyle(SizeType.Percent, 33.33333f));
-      this.tableLayoutPanel16.Size = new Size(190, 27);
-      this.tableLayoutPanel16.TabIndex = 61;
-      this.label60.AutoSize = true;
-      this.label60.Location = new Point(3, 0);
-      this.label60.Name = "label60";
-      this.label60.Size = new Size(49, 13);
-      this.label60.TabIndex = 28;
-      this.label60.Text = "To Node";
-      this.objectNode_tb.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.objectNode_tb.Enabled = false;
-      this.objectNode_tb.Location = new Point(89, 3);
-      this.objectNode_tb.Name = "objectNode_tb";
-      this.objectNode_tb.Size = new Size(98, 20);
-      this.objectNode_tb.TabIndex = 21;
-      this.objectNode_tb.KeyDown += new KeyEventHandler(this.objectNode_tb_KeyDown);
-      this.objectNode_tb.KeyPress += new KeyPressEventHandler(this.hexOnly_KeyPress);
-      this.path_dgv.AllowUserToAddRows = false;
-      this.path_dgv.AllowUserToDeleteRows = false;
-      this.path_dgv.AllowUserToOrderColumns = true;
-      this.path_dgv.AllowUserToResizeRows = false;
-      this.path_dgv.BackgroundColor = Color.White;
-      gridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
-      gridViewCellStyle4.BackColor = SystemColors.Control;
-      gridViewCellStyle4.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      gridViewCellStyle4.ForeColor = SystemColors.WindowText;
-      gridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
-      gridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
-      gridViewCellStyle4.WrapMode = DataGridViewTriState.True;
-      this.path_dgv.ColumnHeadersDefaultCellStyle = gridViewCellStyle4;
-      this.path_dgv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-      gridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
-      gridViewCellStyle5.BackColor = SystemColors.Window;
-      gridViewCellStyle5.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      gridViewCellStyle5.ForeColor = SystemColors.ControlText;
-      gridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
-      gridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
-      gridViewCellStyle5.WrapMode = DataGridViewTriState.False;
-      this.path_dgv.DefaultCellStyle = gridViewCellStyle5;
-      this.path_dgv.EditMode = DataGridViewEditMode.EditProgrammatically;
-      this.path_dgv.Location = new Point(5, 93);
-      this.path_dgv.Margin = new Padding(3, 3, 3, 30);
-      this.path_dgv.Name = "path_dgv";
-      this.path_dgv.ReadOnly = true;
-      gridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
-      gridViewCellStyle6.BackColor = SystemColors.Control;
-      gridViewCellStyle6.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      gridViewCellStyle6.ForeColor = SystemColors.WindowText;
-      gridViewCellStyle6.SelectionBackColor = SystemColors.Highlight;
-      gridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText;
-      gridViewCellStyle6.WrapMode = DataGridViewTriState.True;
-      this.path_dgv.RowHeadersDefaultCellStyle = gridViewCellStyle6;
-      this.path_dgv.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-      this.path_dgv.Size = new Size(197, 86);
-      this.path_dgv.TabIndex = 0;
-      this.path_dgv.DoubleClick += new EventHandler(this.path_dgv_DoubleClick);
-      this.col_obj_details_btn.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-      this.col_obj_details_btn.BackColor = Color.FromArgb(233, 236, 250);
-      this.col_obj_details_btn.FlatStyle = FlatStyle.Flat;
-      this.col_obj_details_btn.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.col_obj_details_btn.ForeColor = SystemColors.ControlDarkDark;
-      this.col_obj_details_btn.Location = new Point(0, 755);
-      this.col_obj_details_btn.Margin = new Padding(0);
-      this.col_obj_details_btn.Name = "col_obj_details_btn";
-      this.col_obj_details_btn.Size = new Size(210, 23);
-      this.col_obj_details_btn.TabIndex = 3;
-      this.col_obj_details_btn.Text = "- Object Details";
-      this.col_obj_details_btn.TextAlign = ContentAlignment.MiddleLeft;
-      this.col_obj_details_btn.UseVisualStyleBackColor = false;
-      this.col_obj_details_btn.Click += new EventHandler(this.col_obj_details_btn_Click);
-      this.col_cam_btn.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-      this.col_cam_btn.BackColor = Color.FromArgb(233, 236, 250);
-      this.col_cam_btn.FlatStyle = FlatStyle.Flat;
-      this.col_cam_btn.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.col_cam_btn.ForeColor = SystemColors.ControlDarkDark;
-      this.col_cam_btn.Location = new Point(0, 1101);
-      this.col_cam_btn.Margin = new Padding(0);
-      this.col_cam_btn.Name = "col_cam_btn";
-      this.col_cam_btn.Size = new Size(210, 23);
-      this.col_cam_btn.TabIndex = 81;
-      this.col_cam_btn.Text = "- Camera";
-      this.col_cam_btn.TextAlign = ContentAlignment.MiddleLeft;
-      this.col_cam_btn.UseVisualStyleBackColor = false;
-      this.cam3_gb.Controls.Add((Control) this.tableLayoutPanel10);
-      this.cam3_gb.Controls.Add((Control) this.label39);
-      this.cam3_gb.Controls.Add((Control) this.camID_tb);
-      this.cam3_gb.Controls.Add((Control) this.label40);
-      this.cam3_gb.Location = new Point(3, 1127);
-      this.cam3_gb.Name = "cam3_gb";
-      this.cam3_gb.Size = new Size(205, 378);
-      this.cam3_gb.TabIndex = 70;
-      this.cam3_gb.TabStop = false;
-      this.tableLayoutPanel10.BackColor = Color.White;
-      this.tableLayoutPanel10.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
-      this.tableLayoutPanel10.ColumnCount = 2;
-      this.tableLayoutPanel10.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 44.67005f));
-      this.tableLayoutPanel10.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 55.32995f));
-      this.tableLayoutPanel10.Controls.Add((Control) this.label33, 0, 0);
-      this.tableLayoutPanel10.Controls.Add((Control) this.label34, 0, 2);
-      this.tableLayoutPanel10.Controls.Add((Control) this.label35, 0, 1);
-      this.tableLayoutPanel10.Controls.Add((Control) this.camFDist_tb, 1, 12);
-      this.tableLayoutPanel10.Controls.Add((Control) this.camCDist_tb, 1, 11);
-      this.tableLayoutPanel10.Controls.Add((Control) this.label49, 0, 12);
-      this.tableLayoutPanel10.Controls.Add((Control) this.label48, 0, 11);
-      this.tableLayoutPanel10.Controls.Add((Control) this.camZ_tb, 1, 2);
-      this.tableLayoutPanel10.Controls.Add((Control) this.camY_tb, 1, 1);
-      this.tableLayoutPanel10.Controls.Add((Control) this.camX_tb, 1, 0);
-      this.tableLayoutPanel10.Controls.Add((Control) this.label43, 0, 3);
-      this.tableLayoutPanel10.Controls.Add((Control) this.camHSpeed_tb, 1, 3);
-      this.tableLayoutPanel10.Controls.Add((Control) this.label44, 0, 4);
-      this.tableLayoutPanel10.Controls.Add((Control) this.camVSpeed_tb, 1, 4);
-      this.tableLayoutPanel10.Controls.Add((Control) this.label45, 0, 5);
-      this.tableLayoutPanel10.Controls.Add((Control) this.camRotation_tb, 1, 5);
-      this.tableLayoutPanel10.Controls.Add((Control) this.label46, 0, 6);
-      this.tableLayoutPanel10.Controls.Add((Control) this.camAccel_tb, 1, 6);
-      this.tableLayoutPanel10.Controls.Add((Control) this.label36, 0, 7);
-      this.tableLayoutPanel10.Controls.Add((Control) this.camPitch_tb, 1, 7);
-      this.tableLayoutPanel10.Controls.Add((Control) this.camYaw_tb, 1, 8);
-      this.tableLayoutPanel10.Controls.Add((Control) this.camRoll_tb, 1, 9);
-      this.tableLayoutPanel10.Controls.Add((Control) this.cam3A5_tb, 1, 10);
-      this.tableLayoutPanel10.Controls.Add((Control) this.label37, 0, 8);
-      this.tableLayoutPanel10.Controls.Add((Control) this.label38, 0, 9);
-      this.tableLayoutPanel10.Controls.Add((Control) this.label47, 0, 10);
-      this.tableLayoutPanel10.Location = new Point(3, 40);
-      this.tableLayoutPanel10.Margin = new Padding(0);
-      this.tableLayoutPanel10.Name = "tableLayoutPanel10";
-      this.tableLayoutPanel10.RowCount = 13;
-      this.tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 7.692307f));
-      this.tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 7.692307f));
-      this.tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 7.692307f));
-      this.tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 7.692307f));
-      this.tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 7.692307f));
-      this.tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 7.692307f));
-      this.tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 7.692307f));
-      this.tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 7.692307f));
-      this.tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 7.692307f));
-      this.tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 7.692307f));
-      this.tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 7.692307f));
-      this.tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 7.692307f));
-      this.tableLayoutPanel10.RowStyles.Add(new RowStyle(SizeType.Percent, 7.692307f));
-      this.tableLayoutPanel10.Size = new Size(194, 331);
-      this.tableLayoutPanel10.TabIndex = 61;
-      this.label33.AutoSize = true;
-      this.label33.Location = new Point(4, 1);
-      this.label33.Name = "label33";
-      this.label33.Size = new Size(14, 13);
-      this.label33.TabIndex = 28;
-      this.label33.Text = "X";
-      this.label34.AutoSize = true;
-      this.label34.Location = new Point(4, 51);
-      this.label34.Name = "label34";
-      this.label34.Size = new Size(14, 13);
-      this.label34.TabIndex = 30;
-      this.label34.Text = "Z";
-      this.label35.AutoSize = true;
-      this.label35.Location = new Point(4, 26);
-      this.label35.Name = "label35";
-      this.label35.Size = new Size(14, 13);
-      this.label35.TabIndex = 29;
-      this.label35.Text = "Y";
-      this.camFDist_tb.Location = new Point(90, 304);
-      this.camFDist_tb.Name = "camFDist_tb";
-      this.camFDist_tb.Size = new Size(100, 20);
-      this.camFDist_tb.TabIndex = 53;
-      this.camFDist_tb.KeyDown += new KeyEventHandler(this.camera_properties_update);
-      this.camFDist_tb.Leave += new EventHandler(this.camera_properties_update);
-      this.camCDist_tb.Location = new Point(90, 279);
-      this.camCDist_tb.Name = "camCDist_tb";
-      this.camCDist_tb.Size = new Size(100, 20);
-      this.camCDist_tb.TabIndex = 52;
-      this.camCDist_tb.KeyDown += new KeyEventHandler(this.camera_properties_update);
-      this.camCDist_tb.Leave += new EventHandler(this.camera_properties_update);
-      this.label49.AutoSize = true;
-      this.label49.Location = new Point(4, 301);
-      this.label49.Name = "label49";
-      this.label49.Size = new Size(67, 13);
-      this.label49.TabIndex = 53;
-      this.label49.Text = "Far Distance";
-      this.label48.AutoSize = true;
-      this.label48.Location = new Point(4, 276);
-      this.label48.Name = "label48";
-      this.label48.Size = new Size(78, 13);
-      this.label48.TabIndex = 52;
-      this.label48.Text = "Close Distance";
-      this.camZ_tb.Location = new Point(90, 54);
-      this.camZ_tb.Name = "camZ_tb";
-      this.camZ_tb.Size = new Size(100, 20);
-      this.camZ_tb.TabIndex = 43;
-      this.camZ_tb.KeyDown += new KeyEventHandler(this.camera_properties_update);
-      this.camZ_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.camZ_tb.KeyUp += new KeyEventHandler(this.cam_tb_KeyUp);
-      this.camZ_tb.Leave += new EventHandler(this.camera_properties_update);
-      this.camY_tb.Location = new Point(90, 29);
-      this.camY_tb.Name = "camY_tb";
-      this.camY_tb.Size = new Size(100, 20);
-      this.camY_tb.TabIndex = 42;
-      this.camY_tb.KeyDown += new KeyEventHandler(this.camera_properties_update);
-      this.camY_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.camY_tb.KeyUp += new KeyEventHandler(this.cam_tb_KeyUp);
-      this.camY_tb.Leave += new EventHandler(this.camera_properties_update);
-      this.camX_tb.Location = new Point(90, 4);
-      this.camX_tb.Name = "camX_tb";
-      this.camX_tb.Size = new Size(100, 20);
-      this.camX_tb.TabIndex = 41;
-      this.camX_tb.KeyDown += new KeyEventHandler(this.camera_properties_update);
-      this.camX_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.camX_tb.KeyUp += new KeyEventHandler(this.cam_tb_KeyUp);
-      this.camX_tb.Leave += new EventHandler(this.camera_properties_update);
-      this.label43.AutoSize = true;
-      this.label43.Location = new Point(4, 76);
-      this.label43.Name = "label43";
-      this.label43.Size = new Size(49, 13);
-      this.label43.TabIndex = 43;
-      this.label43.Text = "H Speed";
-      this.camHSpeed_tb.Location = new Point(90, 79);
-      this.camHSpeed_tb.Name = "camHSpeed_tb";
-      this.camHSpeed_tb.Size = new Size(100, 20);
-      this.camHSpeed_tb.TabIndex = 44;
-      this.camHSpeed_tb.KeyDown += new KeyEventHandler(this.camera_properties_update);
-      this.camHSpeed_tb.Leave += new EventHandler(this.camera_properties_update);
-      this.label44.AutoSize = true;
-      this.label44.Location = new Point(4, 101);
-      this.label44.Name = "label44";
-      this.label44.Size = new Size(48, 13);
-      this.label44.TabIndex = 44;
-      this.label44.Text = "V Speed";
-      this.camVSpeed_tb.Location = new Point(90, 104);
-      this.camVSpeed_tb.Name = "camVSpeed_tb";
-      this.camVSpeed_tb.Size = new Size(100, 20);
-      this.camVSpeed_tb.TabIndex = 45;
-      this.camVSpeed_tb.KeyDown += new KeyEventHandler(this.camera_properties_update);
-      this.camVSpeed_tb.Leave += new EventHandler(this.camera_properties_update);
-      this.label45.AutoSize = true;
-      this.label45.Location = new Point(4, 126);
-      this.label45.Name = "label45";
-      this.label45.Size = new Size(50, 24);
-      this.label45.TabIndex = 47;
-      this.label45.Text = "Rotation Speed";
-      this.camRotation_tb.Location = new Point(90, 129);
-      this.camRotation_tb.Name = "camRotation_tb";
-      this.camRotation_tb.Size = new Size(100, 20);
-      this.camRotation_tb.TabIndex = 50;
-      this.camRotation_tb.KeyDown += new KeyEventHandler(this.camera_properties_update);
-      this.camRotation_tb.Leave += new EventHandler(this.camera_properties_update);
-      this.label46.AutoSize = true;
-      this.label46.Location = new Point(4, 151);
-      this.label46.Name = "label46";
-      this.label46.Size = new Size(66, 13);
-      this.label46.TabIndex = 48;
-      this.label46.Text = "Acceleration";
-      this.camAccel_tb.Location = new Point(90, 154);
-      this.camAccel_tb.Name = "camAccel_tb";
-      this.camAccel_tb.Size = new Size(100, 20);
-      this.camAccel_tb.TabIndex = 51;
-      this.camAccel_tb.KeyDown += new KeyEventHandler(this.camera_properties_update);
-      this.camAccel_tb.Leave += new EventHandler(this.camera_properties_update);
-      this.label36.AutoSize = true;
-      this.label36.Location = new Point(4, 176);
-      this.label36.Name = "label36";
-      this.label36.Size = new Size(31, 13);
-      this.label36.TabIndex = 40;
-      this.label36.Text = "Pitch";
-      this.camPitch_tb.Location = new Point(90, 179);
-      this.camPitch_tb.Name = "camPitch_tb";
-      this.camPitch_tb.Size = new Size(100, 20);
-      this.camPitch_tb.TabIndex = 47;
-      this.camPitch_tb.KeyDown += new KeyEventHandler(this.camera_properties_update);
-      this.camPitch_tb.Leave += new EventHandler(this.camera_properties_update);
-      this.camYaw_tb.Location = new Point(90, 204);
-      this.camYaw_tb.Name = "camYaw_tb";
-      this.camYaw_tb.Size = new Size(100, 20);
-      this.camYaw_tb.TabIndex = 48;
-      this.camYaw_tb.KeyDown += new KeyEventHandler(this.camera_properties_update);
-      this.camYaw_tb.Leave += new EventHandler(this.camera_properties_update);
-      this.camRoll_tb.Location = new Point(90, 229);
-      this.camRoll_tb.Name = "camRoll_tb";
-      this.camRoll_tb.Size = new Size(100, 20);
-      this.camRoll_tb.TabIndex = 49;
-      this.camRoll_tb.KeyDown += new KeyEventHandler(this.camera_properties_update);
-      this.camRoll_tb.Leave += new EventHandler(this.camera_properties_update);
-      this.cam3A5_tb.Location = new Point(90, 254);
-      this.cam3A5_tb.Name = "cam3A5_tb";
-      this.cam3A5_tb.Size = new Size(100, 20);
-      this.cam3A5_tb.TabIndex = 46;
-      this.cam3A5_tb.KeyDown += new KeyEventHandler(this.camera_properties_update);
-      this.cam3A5_tb.Leave += new EventHandler(this.camera_properties_update);
-      this.label37.AutoSize = true;
-      this.label37.Location = new Point(4, 201);
-      this.label37.Name = "label37";
-      this.label37.Size = new Size(28, 13);
-      this.label37.TabIndex = 41;
-      this.label37.Text = "Yaw";
-      this.label38.AutoSize = true;
-      this.label38.Location = new Point(4, 226);
-      this.label38.Name = "label38";
-      this.label38.Size = new Size(25, 13);
-      this.label38.TabIndex = 42;
-      this.label38.Text = "Roll";
-      this.label47.AutoSize = true;
-      this.label47.Location = new Point(4, 251);
-      this.label47.Name = "label47";
-      this.label47.Size = new Size(20, 13);
-      this.label47.TabIndex = 51;
-      this.label47.Text = "A5";
-      this.label39.AutoSize = true;
-      this.label39.Location = new Point(122, 16);
-      this.label39.Name = "label39";
-      this.label39.Size = new Size(0, 13);
-      this.label39.TabIndex = 43;
-      this.camID_tb.Location = new Point(71, 13);
-      this.camID_tb.Name = "camID_tb";
-      this.camID_tb.Size = new Size(45, 20);
-      this.camID_tb.TabIndex = 40;
-      this.camID_tb.KeyDown += new KeyEventHandler(this.camera_properties_update);
-      this.camID_tb.KeyUp += new KeyEventHandler(this.cam_tb_KeyUp);
-      this.camID_tb.Leave += new EventHandler(this.camera_properties_update);
-      this.label40.AutoSize = true;
-      this.label40.Location = new Point(6, 16);
-      this.label40.Name = "label40";
-      this.label40.Size = new Size(60, 13);
-      this.label40.TabIndex = 0;
-      this.label40.Text = "Camera ID:";
-      this.col_replacemodel_btn.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-      this.col_replacemodel_btn.BackColor = Color.FromArgb(233, 236, 250);
-      this.col_replacemodel_btn.FlatStyle = FlatStyle.Flat;
-      this.col_replacemodel_btn.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.col_replacemodel_btn.ForeColor = SystemColors.ControlDarkDark;
-      this.col_replacemodel_btn.Location = new Point(0, 1508);
-      this.col_replacemodel_btn.Margin = new Padding(0);
-      this.col_replacemodel_btn.Name = "col_replacemodel_btn";
-      this.col_replacemodel_btn.Size = new Size(210, 23);
-      this.col_replacemodel_btn.TabIndex = 66;
-      this.col_replacemodel_btn.Text = "- Replace Level Model";
-      this.col_replacemodel_btn.TextAlign = ContentAlignment.MiddleLeft;
-      this.col_replacemodel_btn.UseVisualStyleBackColor = false;
-      this.col_replacemodel_btn.Click += new EventHandler(this.col_replacemodel_btn_Click);
-      this.col_levelbounds_btn.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-      this.col_levelbounds_btn.BackColor = Color.FromArgb(233, 236, 250);
-      this.col_levelbounds_btn.FlatStyle = FlatStyle.Flat;
-      this.col_levelbounds_btn.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.col_levelbounds_btn.ForeColor = SystemColors.ControlDarkDark;
-      this.col_levelbounds_btn.Location = new Point(0, 1643);
-      this.col_levelbounds_btn.Margin = new Padding(0);
-      this.col_levelbounds_btn.Name = "col_levelbounds_btn";
-      this.col_levelbounds_btn.Size = new Size(210, 23);
-      this.col_levelbounds_btn.TabIndex = 67;
-      this.col_levelbounds_btn.Text = "- Level Boundaries";
-      this.col_levelbounds_btn.TextAlign = ContentAlignment.MiddleLeft;
-      this.col_levelbounds_btn.UseVisualStyleBackColor = false;
-      this.col_levelbounds_btn.Click += new EventHandler(this.col_levelbounds_btn_Click);
-      this.bounds_gb.Controls.Add((Control) this.label29);
-      this.bounds_gb.Controls.Add((Control) this.updateBounds_btn);
-      this.bounds_gb.Controls.Add((Control) this.tableLayoutPanel8);
-      this.bounds_gb.Controls.Add((Control) this.label28);
-      this.bounds_gb.Location = new Point(3, 1669);
-      this.bounds_gb.Name = "bounds_gb";
-      this.bounds_gb.Size = new Size(200, 152);
-      this.bounds_gb.TabIndex = 67;
-      this.bounds_gb.TabStop = false;
-      this.label29.AutoSize = true;
-      this.label29.Location = new Point(4, 107);
-      this.label29.Name = "label29";
-      this.label29.Size = new Size(160, 13);
-      this.label29.TabIndex = 63;
-      this.label29.Text = "WARNING will update model file";
-      this.updateBounds_btn.Location = new Point(119, 123);
-      this.updateBounds_btn.Name = "updateBounds_btn";
-      this.updateBounds_btn.Size = new Size(75, 23);
-      this.updateBounds_btn.TabIndex = 62;
-      this.updateBounds_btn.Text = "Update";
-      this.updateBounds_btn.UseVisualStyleBackColor = true;
-      this.updateBounds_btn.Click += new EventHandler(this.updateBounds_btn_Click);
-      this.tableLayoutPanel8.ColumnCount = 4;
-      this.tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 21.57895f));
-      this.tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 27.89474f));
-      this.tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25f));
-      this.tableLayoutPanel8.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25f));
-      this.tableLayoutPanel8.Controls.Add((Control) this.label21, 0, 0);
-      this.tableLayoutPanel8.Controls.Add((Control) this.label23, 0, 2);
-      this.tableLayoutPanel8.Controls.Add((Control) this.label24, 0, 1);
-      this.tableLayoutPanel8.Controls.Add((Control) this.minZ_Bounds_tb, 1, 2);
-      this.tableLayoutPanel8.Controls.Add((Control) this.minY_Bounds_tb, 1, 1);
-      this.tableLayoutPanel8.Controls.Add((Control) this.minX_Bounds_tb, 1, 0);
-      this.tableLayoutPanel8.Controls.Add((Control) this.label25, 2, 0);
-      this.tableLayoutPanel8.Controls.Add((Control) this.label26, 2, 1);
-      this.tableLayoutPanel8.Controls.Add((Control) this.label27, 2, 2);
-      this.tableLayoutPanel8.Controls.Add((Control) this.maxX_Bounds_tb, 3, 0);
-      this.tableLayoutPanel8.Controls.Add((Control) this.maxY_Bounds_tb, 3, 1);
-      this.tableLayoutPanel8.Controls.Add((Control) this.maxZ_Bounds_tb, 3, 2);
-      this.tableLayoutPanel8.Location = new Point(7, 16);
-      this.tableLayoutPanel8.Margin = new Padding(0);
-      this.tableLayoutPanel8.Name = "tableLayoutPanel8";
-      this.tableLayoutPanel8.RowCount = 3;
-      this.tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 33.33333f));
-      this.tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 33.33333f));
-      this.tableLayoutPanel8.RowStyles.Add(new RowStyle(SizeType.Percent, 33.33333f));
-      this.tableLayoutPanel8.Size = new Size(190, 83);
-      this.tableLayoutPanel8.TabIndex = 61;
-      this.label21.AutoSize = true;
-      this.label21.Location = new Point(3, 0);
-      this.label21.Name = "label21";
-      this.label21.Size = new Size(34, 13);
-      this.label21.TabIndex = 28;
-      this.label21.Text = "Min-X";
-      this.label23.AutoSize = true;
-      this.label23.Location = new Point(3, 54);
-      this.label23.Name = "label23";
-      this.label23.Size = new Size(34, 13);
-      this.label23.TabIndex = 30;
-      this.label23.Text = "Min-Z";
-      this.label24.AutoSize = true;
-      this.label24.Location = new Point(3, 27);
-      this.label24.Name = "label24";
-      this.label24.Size = new Size(34, 13);
-      this.label24.TabIndex = 29;
-      this.label24.Text = "Min-Y";
-      this.minZ_Bounds_tb.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-      this.minZ_Bounds_tb.Location = new Point(44, 57);
-      this.minZ_Bounds_tb.Name = "minZ_Bounds_tb";
-      this.minZ_Bounds_tb.Size = new Size(47, 20);
-      this.minZ_Bounds_tb.TabIndex = 74;
-      this.minZ_Bounds_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.minY_Bounds_tb.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-      this.minY_Bounds_tb.Location = new Point(44, 30);
-      this.minY_Bounds_tb.Name = "minY_Bounds_tb";
-      this.minY_Bounds_tb.Size = new Size(47, 20);
-      this.minY_Bounds_tb.TabIndex = 72;
-      this.minY_Bounds_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.minX_Bounds_tb.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-      this.minX_Bounds_tb.Location = new Point(44, 3);
-      this.minX_Bounds_tb.Name = "minX_Bounds_tb";
-      this.minX_Bounds_tb.Size = new Size(47, 20);
-      this.minX_Bounds_tb.TabIndex = 70;
-      this.minX_Bounds_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.label25.AutoSize = true;
-      this.label25.Location = new Point(97, 0);
-      this.label25.Name = "label25";
-      this.label25.Size = new Size(37, 13);
-      this.label25.TabIndex = 34;
-      this.label25.Text = "Max-X";
-      this.label26.AutoSize = true;
-      this.label26.Location = new Point(97, 27);
-      this.label26.Name = "label26";
-      this.label26.Size = new Size(37, 13);
-      this.label26.TabIndex = 35;
-      this.label26.Text = "Max-Y";
-      this.label27.AutoSize = true;
-      this.label27.Location = new Point(97, 54);
-      this.label27.Name = "label27";
-      this.label27.Size = new Size(37, 13);
-      this.label27.TabIndex = 36;
-      this.label27.Text = "Max-Z";
-      this.maxX_Bounds_tb.Location = new Point(144, 3);
-      this.maxX_Bounds_tb.Name = "maxX_Bounds_tb";
-      this.maxX_Bounds_tb.Size = new Size(43, 20);
-      this.maxX_Bounds_tb.TabIndex = 71;
-      this.maxX_Bounds_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.maxY_Bounds_tb.Location = new Point(144, 30);
-      this.maxY_Bounds_tb.Name = "maxY_Bounds_tb";
-      this.maxY_Bounds_tb.Size = new Size(43, 20);
-      this.maxY_Bounds_tb.TabIndex = 73;
-      this.maxY_Bounds_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.maxZ_Bounds_tb.Location = new Point(144, 57);
-      this.maxZ_Bounds_tb.Name = "maxZ_Bounds_tb";
-      this.maxZ_Bounds_tb.Size = new Size(43, 20);
-      this.maxZ_Bounds_tb.TabIndex = 75;
-      this.maxZ_Bounds_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.label28.AutoSize = true;
-      this.label28.Location = new Point(122, 16);
-      this.label28.Name = "label28";
-      this.label28.Size = new Size(0, 13);
-      this.label28.TabIndex = 43;
-      this.col_levelentries_btn.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-      this.col_levelentries_btn.BackColor = Color.FromArgb(233, 236, 250);
-      this.col_levelentries_btn.FlatStyle = FlatStyle.Flat;
-      this.col_levelentries_btn.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.col_levelentries_btn.ForeColor = SystemColors.ControlDarkDark;
-      this.col_levelentries_btn.Location = new Point(0, 1824);
-      this.col_levelentries_btn.Margin = new Padding(0);
-      this.col_levelentries_btn.Name = "col_levelentries_btn";
-      this.col_levelentries_btn.Size = new Size(210, 23);
-      this.col_levelentries_btn.TabIndex = 69;
-      this.col_levelentries_btn.Text = "- Level Entries";
-      this.col_levelentries_btn.TextAlign = ContentAlignment.MiddleLeft;
-      this.col_levelentries_btn.UseVisualStyleBackColor = false;
-      this.col_levelentries_btn.Click += new EventHandler(this.col_levelentries_btn_Click);
-      this.levelEntries_gb.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-      this.levelEntries_gb.Controls.Add((Control) this.levelEntries_dgv);
-      this.levelEntries_gb.Location = new Point(3, 1850);
-      this.levelEntries_gb.Name = "levelEntries_gb";
-      this.levelEntries_gb.Size = new Size(207, 150);
-      this.levelEntries_gb.TabIndex = 68;
-      this.levelEntries_gb.TabStop = false;
-      this.levelEntries_dgv.AllowUserToAddRows = false;
-      this.levelEntries_dgv.AllowUserToDeleteRows = false;
-      this.levelEntries_dgv.AllowUserToOrderColumns = true;
-      this.levelEntries_dgv.AllowUserToResizeRows = false;
-      this.levelEntries_dgv.BackgroundColor = Color.White;
-      gridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleLeft;
-      gridViewCellStyle7.BackColor = SystemColors.Control;
-      gridViewCellStyle7.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      gridViewCellStyle7.ForeColor = SystemColors.WindowText;
-      gridViewCellStyle7.SelectionBackColor = SystemColors.Highlight;
-      gridViewCellStyle7.SelectionForeColor = SystemColors.HighlightText;
-      gridViewCellStyle7.WrapMode = DataGridViewTriState.True;
-      this.levelEntries_dgv.ColumnHeadersDefaultCellStyle = gridViewCellStyle7;
-      this.levelEntries_dgv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-      gridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleLeft;
-      gridViewCellStyle8.BackColor = SystemColors.Window;
-      gridViewCellStyle8.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      gridViewCellStyle8.ForeColor = SystemColors.ControlText;
-      gridViewCellStyle8.SelectionBackColor = SystemColors.Highlight;
-      gridViewCellStyle8.SelectionForeColor = SystemColors.HighlightText;
-      gridViewCellStyle8.WrapMode = DataGridViewTriState.False;
-      this.levelEntries_dgv.DefaultCellStyle = gridViewCellStyle8;
-      this.levelEntries_dgv.EditMode = DataGridViewEditMode.EditProgrammatically;
-      this.levelEntries_dgv.Location = new Point(7, 11);
-      this.levelEntries_dgv.Margin = new Padding(3, 3, 3, 30);
-      this.levelEntries_dgv.Name = "levelEntries_dgv";
-      this.levelEntries_dgv.ReadOnly = true;
-      gridViewCellStyle9.Alignment = DataGridViewContentAlignment.MiddleLeft;
-      gridViewCellStyle9.BackColor = SystemColors.Control;
-      gridViewCellStyle9.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      gridViewCellStyle9.ForeColor = SystemColors.WindowText;
-      gridViewCellStyle9.SelectionBackColor = SystemColors.Highlight;
-      gridViewCellStyle9.SelectionForeColor = SystemColors.HighlightText;
-      gridViewCellStyle9.WrapMode = DataGridViewTriState.True;
-      this.levelEntries_dgv.RowHeadersDefaultCellStyle = gridViewCellStyle9;
-      this.levelEntries_dgv.Size = new Size(194, 133);
-      this.levelEntries_dgv.TabIndex = 0;
-      this.col_objects_btn.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-      this.col_objects_btn.BackColor = Color.FromArgb(233, 236, 250);
-      this.col_objects_btn.FlatStyle = FlatStyle.Flat;
-      this.col_objects_btn.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.col_objects_btn.ForeColor = SystemColors.ControlDarkDark;
-      this.col_objects_btn.Location = new Point(0, 2003);
-      this.col_objects_btn.Margin = new Padding(0);
-      this.col_objects_btn.Name = "col_objects_btn";
-      this.col_objects_btn.Size = new Size(210, 23);
-      this.col_objects_btn.TabIndex = 71;
-      this.col_objects_btn.Text = "- Objects";
-      this.col_objects_btn.TextAlign = ContentAlignment.MiddleLeft;
-      this.col_objects_btn.UseVisualStyleBackColor = false;
-      this.col_objects_btn.Click += new EventHandler(this.col_objects_btn_Click);
-      this.objects_gb.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-      this.objects_gb.Controls.Add((Control) this.objects_dgv);
-      this.objects_gb.Location = new Point(3, 2029);
-      this.objects_gb.Name = "objects_gb";
-      this.objects_gb.Size = new Size(207, 242);
-      this.objects_gb.TabIndex = 72;
-      this.objects_gb.TabStop = false;
-      this.objects_dgv.AllowUserToAddRows = false;
-      this.objects_dgv.AllowUserToDeleteRows = false;
-      this.objects_dgv.AllowUserToOrderColumns = true;
-      this.objects_dgv.AllowUserToResizeRows = false;
-      this.objects_dgv.BackgroundColor = Color.White;
-      gridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleLeft;
-      gridViewCellStyle10.BackColor = SystemColors.Control;
-      gridViewCellStyle10.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      gridViewCellStyle10.ForeColor = SystemColors.WindowText;
-      gridViewCellStyle10.SelectionBackColor = SystemColors.Highlight;
-      gridViewCellStyle10.SelectionForeColor = SystemColors.HighlightText;
-      gridViewCellStyle10.WrapMode = DataGridViewTriState.True;
-      this.objects_dgv.ColumnHeadersDefaultCellStyle = gridViewCellStyle10;
-      this.objects_dgv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-      gridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleLeft;
-      gridViewCellStyle11.BackColor = SystemColors.Window;
-      gridViewCellStyle11.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      gridViewCellStyle11.ForeColor = SystemColors.ControlText;
-      gridViewCellStyle11.SelectionBackColor = SystemColors.Highlight;
-      gridViewCellStyle11.SelectionForeColor = SystemColors.HighlightText;
-      gridViewCellStyle11.WrapMode = DataGridViewTriState.False;
-      this.objects_dgv.DefaultCellStyle = gridViewCellStyle11;
-      this.objects_dgv.EditMode = DataGridViewEditMode.EditProgrammatically;
-      this.objects_dgv.Location = new Point(7, 11);
-      this.objects_dgv.Margin = new Padding(3, 3, 3, 30);
-      this.objects_dgv.Name = "objects_dgv";
-      this.objects_dgv.ReadOnly = true;
-      gridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleLeft;
-      gridViewCellStyle12.BackColor = SystemColors.Control;
-      gridViewCellStyle12.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      gridViewCellStyle12.ForeColor = SystemColors.WindowText;
-      gridViewCellStyle12.SelectionBackColor = SystemColors.Highlight;
-      gridViewCellStyle12.SelectionForeColor = SystemColors.HighlightText;
-      gridViewCellStyle12.WrapMode = DataGridViewTriState.True;
-      this.objects_dgv.RowHeadersDefaultCellStyle = gridViewCellStyle12;
-      this.objects_dgv.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-      this.objects_dgv.Size = new Size(194, 219);
-      this.objects_dgv.TabIndex = 0;
-      this.objects_dgv.CellDoubleClick += new DataGridViewCellEventHandler(this.objects_dgv_CellDoubleClick);
-      this.col_structs_btn.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-      this.col_structs_btn.BackColor = Color.FromArgb(233, 236, 250);
-      this.col_structs_btn.FlatStyle = FlatStyle.Flat;
-      this.col_structs_btn.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.col_structs_btn.ForeColor = SystemColors.ControlDarkDark;
-      this.col_structs_btn.Location = new Point(0, 2274);
-      this.col_structs_btn.Margin = new Padding(0);
-      this.col_structs_btn.Name = "col_structs_btn";
-      this.col_structs_btn.Size = new Size(210, 23);
-      this.col_structs_btn.TabIndex = 73;
-      this.col_structs_btn.Text = "- Structs";
-      this.col_structs_btn.TextAlign = ContentAlignment.MiddleLeft;
-      this.col_structs_btn.UseVisualStyleBackColor = false;
-      this.col_structs_btn.Click += new EventHandler(this.col_structs_btn_Click);
-      this.structs_gb.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
-      this.structs_gb.Controls.Add((Control) this.structs_dgv);
-      this.structs_gb.Location = new Point(3, 2300);
-      this.structs_gb.Name = "structs_gb";
-      this.structs_gb.Size = new Size(207, 242);
-      this.structs_gb.TabIndex = 74;
-      this.structs_gb.TabStop = false;
-      this.structs_dgv.AllowUserToAddRows = false;
-      this.structs_dgv.AllowUserToDeleteRows = false;
-      this.structs_dgv.AllowUserToOrderColumns = true;
-      this.structs_dgv.AllowUserToResizeRows = false;
-      this.structs_dgv.BackgroundColor = Color.White;
-      gridViewCellStyle13.Alignment = DataGridViewContentAlignment.MiddleLeft;
-      gridViewCellStyle13.BackColor = SystemColors.Control;
-      gridViewCellStyle13.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      gridViewCellStyle13.ForeColor = SystemColors.WindowText;
-      gridViewCellStyle13.SelectionBackColor = SystemColors.Highlight;
-      gridViewCellStyle13.SelectionForeColor = SystemColors.HighlightText;
-      gridViewCellStyle13.WrapMode = DataGridViewTriState.True;
-      this.structs_dgv.ColumnHeadersDefaultCellStyle = gridViewCellStyle13;
-      this.structs_dgv.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-      gridViewCellStyle14.Alignment = DataGridViewContentAlignment.MiddleLeft;
-      gridViewCellStyle14.BackColor = SystemColors.Window;
-      gridViewCellStyle14.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      gridViewCellStyle14.ForeColor = SystemColors.ControlText;
-      gridViewCellStyle14.SelectionBackColor = SystemColors.Highlight;
-      gridViewCellStyle14.SelectionForeColor = SystemColors.HighlightText;
-      gridViewCellStyle14.WrapMode = DataGridViewTriState.False;
-      this.structs_dgv.DefaultCellStyle = gridViewCellStyle14;
-      this.structs_dgv.EditMode = DataGridViewEditMode.EditProgrammatically;
-      this.structs_dgv.Location = new Point(7, 11);
-      this.structs_dgv.Margin = new Padding(3, 3, 3, 30);
-      this.structs_dgv.Name = "structs_dgv";
-      this.structs_dgv.ReadOnly = true;
-      gridViewCellStyle15.Alignment = DataGridViewContentAlignment.MiddleLeft;
-      gridViewCellStyle15.BackColor = SystemColors.Control;
-      gridViewCellStyle15.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
-      gridViewCellStyle15.ForeColor = SystemColors.WindowText;
-      gridViewCellStyle15.SelectionBackColor = SystemColors.Highlight;
-      gridViewCellStyle15.SelectionForeColor = SystemColors.HighlightText;
-      gridViewCellStyle15.WrapMode = DataGridViewTriState.True;
-      this.structs_dgv.RowHeadersDefaultCellStyle = gridViewCellStyle15;
-      this.structs_dgv.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-      this.structs_dgv.Size = new Size(194, 219);
-      this.structs_dgv.TabIndex = 0;
-      this.structs_dgv.CellDoubleClick += new DataGridViewCellEventHandler(this.structs_dgv_CellDoubleClick);
-      this.tableLayoutPanel6.ColumnCount = 4;
-      this.tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10f));
-      this.tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30.5f));
-      this.tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30f));
-      this.tableLayoutPanel6.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 29.5f));
-      this.tableLayoutPanel6.Controls.Add((Control) this.label6, 0, 0);
-      this.tableLayoutPanel6.Location = new Point(0, 0);
-      this.tableLayoutPanel6.Name = "tableLayoutPanel6";
-      this.tableLayoutPanel6.RowCount = 1;
-      this.tableLayoutPanel6.RowStyles.Add(new RowStyle(SizeType.Absolute, 20f));
-      this.tableLayoutPanel6.Size = new Size(200, 100);
-      this.tableLayoutPanel6.TabIndex = 0;
-      this.label6.AutoSize = true;
-      this.label6.Location = new Point(3, 0);
-      this.label6.Name = "label6";
-      this.label6.Size = new Size(14, 13);
-      this.label6.TabIndex = 28;
-      this.label6.Text = "X";
-      this.label7.AutoSize = true;
-      this.label7.Location = new Point(3, 12);
-      this.label7.Name = "label7";
-      this.label7.Size = new Size(1, 8);
-      this.label7.TabIndex = 30;
-      this.label7.Text = "Z";
-      this.groupBox1.Location = new Point(0, 0);
-      this.groupBox1.Name = "groupBox1";
-      this.groupBox1.Size = new Size(200, 100);
-      this.groupBox1.TabIndex = 0;
-      this.groupBox1.TabStop = false;
-      this.tableLayoutPanel7.ColumnCount = 4;
-      this.tableLayoutPanel7.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10f));
-      this.tableLayoutPanel7.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30.5f));
-      this.tableLayoutPanel7.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30f));
-      this.tableLayoutPanel7.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 29.5f));
-      this.tableLayoutPanel7.Controls.Add((Control) this.label8, 0, 0);
-      this.tableLayoutPanel7.Location = new Point(0, 0);
-      this.tableLayoutPanel7.Name = "tableLayoutPanel7";
-      this.tableLayoutPanel7.RowCount = 1;
-      this.tableLayoutPanel7.RowStyles.Add(new RowStyle(SizeType.Absolute, 20f));
-      this.tableLayoutPanel7.Size = new Size(200, 100);
-      this.tableLayoutPanel7.TabIndex = 0;
-      this.label8.AutoSize = true;
-      this.label8.Location = new Point(3, 0);
-      this.label8.Name = "label8";
-      this.label8.Size = new Size(14, 13);
-      this.label8.TabIndex = 28;
-      this.label8.Text = "X";
-      this.label20.AutoSize = true;
-      this.label20.Location = new Point(3, 54);
-      this.label20.Name = "label20";
-      this.label20.Size = new Size(13, 13);
-      this.label20.TabIndex = 30;
-      this.label20.Text = "Z";
-      this.button1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-      this.button1.BackColor = Color.FromArgb(233, 236, 250);
-      this.button1.FlatStyle = FlatStyle.Flat;
-      this.button1.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.button1.ForeColor = SystemColors.ControlDarkDark;
-      this.button1.Location = new Point(0, 405);
-      this.button1.Margin = new Padding(0);
-      this.button1.Name = "button1";
-      this.button1.Size = new Size(210, 23);
-      this.button1.TabIndex = 69;
-      this.button1.Text = "- Level Boundaries";
-      this.button1.TextAlign = ContentAlignment.MiddleLeft;
-      this.button1.UseVisualStyleBackColor = false;
-      this.groupBox2.Controls.Add((Control) this.label30);
-      this.groupBox2.Controls.Add((Control) this.button2);
-      this.groupBox2.Location = new Point(0, 0);
-      this.groupBox2.Name = "groupBox2";
-      this.groupBox2.Size = new Size(200, 100);
-      this.groupBox2.TabIndex = 0;
-      this.groupBox2.TabStop = false;
-      this.label30.AutoSize = true;
-      this.label30.Location = new Point(4, 107);
-      this.label30.Name = "label30";
-      this.label30.Size = new Size(160, 13);
-      this.label30.TabIndex = 63;
-      this.label30.Text = "WARNING will update model file";
-      this.button2.Location = new Point(119, 123);
-      this.button2.Name = "button2";
-      this.button2.Size = new Size(75, 23);
-      this.button2.TabIndex = 62;
-      this.button2.Text = "Update";
-      this.button2.UseVisualStyleBackColor = true;
-      this.tableLayoutPanel9.ColumnCount = 4;
-      this.tableLayoutPanel9.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 21.57895f));
-      this.tableLayoutPanel9.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 27.89474f));
-      this.tableLayoutPanel9.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25f));
-      this.tableLayoutPanel9.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 25f));
-      this.tableLayoutPanel9.Controls.Add((Control) this.label31, 0, 0);
-      this.tableLayoutPanel9.Location = new Point(0, 0);
-      this.tableLayoutPanel9.Name = "tableLayoutPanel9";
-      this.tableLayoutPanel9.RowCount = 1;
-      this.tableLayoutPanel9.RowStyles.Add(new RowStyle(SizeType.Absolute, 20f));
-      this.tableLayoutPanel9.Size = new Size(200, 100);
-      this.tableLayoutPanel9.TabIndex = 0;
-      this.label31.AutoSize = true;
-      this.label31.Location = new Point(3, 0);
-      this.label31.Name = "label31";
-      this.label31.Size = new Size(34, 13);
-      this.label31.TabIndex = 28;
-      this.label31.Text = "Min-X";
-      this.label32.AutoSize = true;
-      this.label32.Location = new Point(3, 54);
-      this.label32.Name = "label32";
-      this.label32.Size = new Size(34, 13);
-      this.label32.TabIndex = 30;
-      this.label32.Text = "Min-Z";
-      this.tableLayoutPanel11.ColumnCount = 4;
-      this.tableLayoutPanel11.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10f));
-      this.tableLayoutPanel11.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30.5f));
-      this.tableLayoutPanel11.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30f));
-      this.tableLayoutPanel11.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 29.5f));
-      this.tableLayoutPanel11.Controls.Add((Control) this.label41, 0, 0);
-      this.tableLayoutPanel11.Location = new Point(0, 0);
-      this.tableLayoutPanel11.Name = "tableLayoutPanel11";
-      this.tableLayoutPanel11.RowCount = 1;
-      this.tableLayoutPanel11.RowStyles.Add(new RowStyle(SizeType.Absolute, 20f));
-      this.tableLayoutPanel11.Size = new Size(200, 100);
-      this.tableLayoutPanel11.TabIndex = 0;
-      this.label41.AutoSize = true;
-      this.label41.Location = new Point(3, 0);
-      this.label41.Name = "label41";
-      this.label41.Size = new Size(14, 13);
-      this.label41.TabIndex = 28;
-      this.label41.Text = "X";
-      this.label42.AutoSize = true;
-      this.label42.Location = new Point(3, 12);
-      this.label42.Name = "label42";
-      this.label42.Size = new Size(1, 8);
-      this.label42.TabIndex = 30;
-      this.label42.Text = "Z";
-      this.cameraMenu.Items.AddRange(new ToolStripItem[3]
-      {
-        (ToolStripItem) this.createCameraToolStripMenuItem,
-        (ToolStripItem) this.createGameplayCameraToolStripMenuItem,
-        (ToolStripItem) this.createGameplayTiggerToolStripMenuItem
-      });
-      this.cameraMenu.Name = "contextMenuStrip2";
-      this.cameraMenu.Size = new Size(209, 70);
-      this.cameraMenu.Opening += new CancelEventHandler(this.cameraMenu_Opening);
-      this.createCameraToolStripMenuItem.Name = "createCameraToolStripMenuItem";
-      this.createCameraToolStripMenuItem.Size = new Size(208, 22);
-      this.createCameraToolStripMenuItem.Text = "Create Cutscene Camera";
-      this.createCameraToolStripMenuItem.Click += new EventHandler(this.createCameraToolStripMenuItem_Click);
-      this.createGameplayCameraToolStripMenuItem.Name = "createGameplayCameraToolStripMenuItem";
-      this.createGameplayCameraToolStripMenuItem.Size = new Size(208, 22);
-      this.createGameplayCameraToolStripMenuItem.Text = "Create Gameplay Camera";
-      this.createGameplayCameraToolStripMenuItem.Click += new EventHandler(this.createGameplayCameraToolStripMenuItem_Click);
-      this.createGameplayTiggerToolStripMenuItem.Name = "createGameplayTiggerToolStripMenuItem";
-      this.createGameplayTiggerToolStripMenuItem.Size = new Size(208, 22);
-      this.createGameplayTiggerToolStripMenuItem.Tag = (object) "Cam Trigger";
-      this.createGameplayTiggerToolStripMenuItem.Text = "Create Camera Trigger";
-      this.createGameplayTiggerToolStripMenuItem.Click += new EventHandler(this.createItem_MouseClick);
-      this.tableLayoutPanel14.ColumnCount = 4;
-      this.tableLayoutPanel14.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10f));
-      this.tableLayoutPanel14.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30.5f));
-      this.tableLayoutPanel14.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30f));
-      this.tableLayoutPanel14.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 29.5f));
-      this.tableLayoutPanel14.Controls.Add((Control) this.label52, 0, 0);
-      this.tableLayoutPanel14.Location = new Point(0, 0);
-      this.tableLayoutPanel14.Name = "tableLayoutPanel14";
-      this.tableLayoutPanel14.RowCount = 1;
-      this.tableLayoutPanel14.RowStyles.Add(new RowStyle(SizeType.Absolute, 20f));
-      this.tableLayoutPanel14.Size = new Size(200, 100);
-      this.tableLayoutPanel14.TabIndex = 0;
-      this.label52.AutoSize = true;
-      this.label52.Location = new Point(3, 0);
-      this.label52.Name = "label52";
-      this.label52.Size = new Size(14, 13);
-      this.label52.TabIndex = 28;
-      this.label52.Text = "X";
-      this.textBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.textBox1.Enabled = false;
-      this.textBox1.Location = new Point(22, 3);
-      this.textBox1.Name = "textBox1";
-      this.textBox1.Size = new Size(51, 20);
-      this.textBox1.TabIndex = 18;
-      this.tableLayoutPanel15.ColumnCount = 4;
-      this.tableLayoutPanel15.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10f));
-      this.tableLayoutPanel15.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30.5f));
-      this.tableLayoutPanel15.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 30f));
-      this.tableLayoutPanel15.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 29.5f));
-      this.tableLayoutPanel15.Controls.Add((Control) this.textBox2, 0, 2);
-      this.tableLayoutPanel15.Controls.Add((Control) this.label56, 0, 0);
-      this.tableLayoutPanel15.Location = new Point(0, 0);
-      this.tableLayoutPanel15.Name = "tableLayoutPanel15";
-      this.tableLayoutPanel15.RowCount = 3;
-      this.tableLayoutPanel15.RowStyles.Add(new RowStyle(SizeType.Absolute, 20f));
-      this.tableLayoutPanel15.RowStyles.Add(new RowStyle(SizeType.Absolute, 20f));
-      this.tableLayoutPanel15.RowStyles.Add(new RowStyle(SizeType.Absolute, 20f));
-      this.tableLayoutPanel15.Size = new Size(200, 100);
-      this.tableLayoutPanel15.TabIndex = 0;
-      this.textBox2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.textBox2.Location = new Point(3, 43);
-      this.textBox2.Name = "textBox2";
-      this.textBox2.Size = new Size(14, 20);
-      this.textBox2.TabIndex = 47;
-      this.label56.AutoSize = true;
-      this.label56.Location = new Point(3, 0);
-      this.label56.Name = "label56";
-      this.label56.Size = new Size(14, 13);
-      this.label56.TabIndex = 28;
-      this.label56.Text = "X";
-      this.textBox3.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.textBox3.Location = new Point(22, 3);
-      this.textBox3.Name = "textBox3";
-      this.textBox3.Size = new Size(51, 20);
-      this.textBox3.TabIndex = 18;
-      this.groupBox3.Location = new Point(0, 0);
-      this.groupBox3.Name = "groupBox3";
-      this.groupBox3.Size = new Size(200, 100);
-      this.groupBox3.TabIndex = 0;
-      this.groupBox3.TabStop = false;
-      this.toolStrip1.BackColor = SystemColors.ActiveBorder;
-      this.toolStrip1.Dock = DockStyle.Bottom;
-      this.toolStrip1.Items.AddRange(new ToolStripItem[32]
-      {
-        (ToolStripItem) this.mode_lbl,
-        (ToolStripItem) this.mode_cb,
-        (ToolStripItem) this.rectSelect_btn,
-        (ToolStripItem) this.toolStripSeparator1,
-        (ToolStripItem) this.cam_moveToCurrent_btn,
-        (ToolStripItem) this.obj_move_btn,
-        (ToolStripItem) this.obj_rot_btn,
-        (ToolStripItem) this.obj_scale_btn,
-        (ToolStripItem) this.obj_duplicate_btn,
-        (ToolStripItem) this.cam_yaw_btn,
-        (ToolStripItem) this.cam_pitch_btn,
-        (ToolStripItem) this.cam_roll_btn,
-        (ToolStripItem) this.deselect_btn,
-        (ToolStripItem) this.delete_btn,
-        (ToolStripItem) this.toolStripSeparator3,
-        (ToolStripItem) this.yOffset_tb,
-        (ToolStripItem) this.toolStripLabel2,
-        (ToolStripItem) this.lockZ_btn,
-        (ToolStripItem) this.lockY_btn,
-        (ToolStripItem) this.lockX_btn,
-        (ToolStripItem) this.assignObject_btn,
-        (ToolStripItem) this.moveNode_btn,
-        (ToolStripItem) this.linkMode_btn,
-        (ToolStripItem) this.removeNode_btn,
-        (ToolStripItem) this.endNode_btn,
-        (ToolStripItem) this.startNewPath_btn,
-        (ToolStripItem) this.addNode_btn,
-        (ToolStripItem) this.addControllerNode_btn,
-        (ToolStripItem) this.deselectPath_btn,
-        (ToolStripItem) this.deletePath_btn,
-        (ToolStripItem) this.toolStripSeparator4,
-        (ToolStripItem) this.eraseAll_btn
-      });
-      this.toolStrip1.Location = new Point(0, 504);
-      this.toolStrip1.Name = "toolStrip1";
-      this.toolStrip1.Size = new Size(1190, 26);
-      this.toolStrip1.TabIndex = 74;
-      this.mode_lbl.Name = "mode_lbl";
-      this.mode_lbl.Size = new Size(38, 23);
-      this.mode_lbl.Text = "Mode";
-      this.mode_cb.BackColor = SystemColors.ControlDarkDark;
-      this.mode_cb.DropDownStyle = ComboBoxStyle.DropDownList;
-      this.mode_cb.Enabled = false;
-      this.mode_cb.ForeColor = Color.White;
-      this.mode_cb.Items.AddRange(new object[4]
-      {
-        (object) "Select Mode",
-        (object) "Create Mode",
-        (object) "Camera Mode",
-        (object) "Path Mode"
-      });
-      this.mode_cb.Name = "mode_cb";
-      this.mode_cb.Size = new Size(100, 26);
-      this.mode_cb.SelectedIndexChanged += new EventHandler(this.mode_cb_SelectedIndexChanged);
-      this.rectSelect_btn.AutoToolTip = false;
-      this.rectSelect_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.rectSelect_btn.Image = (Image) resources.GetObject("rectSelect_btn.Image");
-      this.rectSelect_btn.ImageTransparentColor = Color.Magenta;
-      this.rectSelect_btn.Name = "rectSelect_btn";
-      this.rectSelect_btn.Size = new Size(97, 23);
-      this.rectSelect_btn.Text = "Rectangle Select";
-      this.rectSelect_btn.Click += new EventHandler(this.rectSelect_btn_Click);
-      this.toolStripSeparator1.Name = "toolStripSeparator1";
-      this.toolStripSeparator1.Size = new Size(6, 26);
-      this.cam_moveToCurrent_btn.AutoToolTip = false;
-      this.cam_moveToCurrent_btn.BackColor = SystemColors.ActiveBorder;
-      this.cam_moveToCurrent_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.cam_moveToCurrent_btn.Image = (Image) resources.GetObject("cam_moveToCurrent_btn.Image");
-      this.cam_moveToCurrent_btn.ImageTransparentColor = Color.Magenta;
-      this.cam_moveToCurrent_btn.Name = "cam_moveToCurrent_btn";
-      this.cam_moveToCurrent_btn.Size = new Size(102, 23);
-      this.cam_moveToCurrent_btn.Text = "Set to BB Camera";
-      this.cam_moveToCurrent_btn.Click += new EventHandler(this.cam_moveToCurrent_btn_Click);
-      this.obj_move_btn.AutoToolTip = false;
-      this.obj_move_btn.BackColor = SystemColors.ActiveBorder;
-      this.obj_move_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.obj_move_btn.Image = (Image) resources.GetObject("obj_move_btn.Image");
-      this.obj_move_btn.ImageTransparentColor = Color.Magenta;
-      this.obj_move_btn.Name = "obj_move_btn";
-      this.obj_move_btn.Size = new Size(41, 23);
-      this.obj_move_btn.Text = "Move";
-      this.obj_move_btn.Click += new EventHandler(this.obj_move_btn_Click);
-      this.obj_rot_btn.AutoToolTip = false;
-      this.obj_rot_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.obj_rot_btn.Image = (Image) resources.GetObject("obj_rot_btn.Image");
-      this.obj_rot_btn.ImageTransparentColor = Color.Magenta;
-      this.obj_rot_btn.Name = "obj_rot_btn";
-      this.obj_rot_btn.Size = new Size(45, 23);
-      this.obj_rot_btn.Text = "Rotate";
-      this.obj_rot_btn.Click += new EventHandler(this.obj_rot_btn_Click);
-      this.obj_scale_btn.AutoToolTip = false;
-      this.obj_scale_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.obj_scale_btn.Image = (Image) resources.GetObject("obj_scale_btn.Image");
-      this.obj_scale_btn.ImageTransparentColor = Color.Magenta;
-      this.obj_scale_btn.Name = "obj_scale_btn";
-      this.obj_scale_btn.Size = new Size(38, 23);
-      this.obj_scale_btn.Text = "Scale";
-      this.obj_scale_btn.Click += new EventHandler(this.obj_scale_btn_Click);
-      this.obj_duplicate_btn.AutoToolTip = false;
-      this.obj_duplicate_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.obj_duplicate_btn.Image = (Image) resources.GetObject("obj_duplicate_btn.Image");
-      this.obj_duplicate_btn.ImageTransparentColor = Color.Magenta;
-      this.obj_duplicate_btn.Name = "obj_duplicate_btn";
-      this.obj_duplicate_btn.Size = new Size(61, 23);
-      this.obj_duplicate_btn.Text = "Duplicate";
-      this.obj_duplicate_btn.Click += new EventHandler(this.obj_duplicate_btn_Click);
-      this.cam_yaw_btn.AutoToolTip = false;
-      this.cam_yaw_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.cam_yaw_btn.Image = (Image) resources.GetObject("cam_yaw_btn.Image");
-      this.cam_yaw_btn.ImageTransparentColor = Color.Magenta;
-      this.cam_yaw_btn.Name = "cam_yaw_btn";
-      this.cam_yaw_btn.Size = new Size(32, 23);
-      this.cam_yaw_btn.Text = "Yaw";
-      this.cam_yaw_btn.Click += new EventHandler(this.cam_yaw_btn_Click);
-      this.cam_pitch_btn.AutoToolTip = false;
-      this.cam_pitch_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.cam_pitch_btn.Image = (Image) resources.GetObject("cam_pitch_btn.Image");
-      this.cam_pitch_btn.ImageTransparentColor = Color.Magenta;
-      this.cam_pitch_btn.Name = "cam_pitch_btn";
-      this.cam_pitch_btn.Size = new Size(38, 23);
-      this.cam_pitch_btn.Text = "Pitch";
-      this.cam_pitch_btn.Click += new EventHandler(this.cam_pitch_btn_Click);
-      this.cam_roll_btn.AutoToolTip = false;
-      this.cam_roll_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.cam_roll_btn.Image = (Image) resources.GetObject("cam_roll_btn.Image");
-      this.cam_roll_btn.ImageTransparentColor = Color.Magenta;
-      this.cam_roll_btn.Name = "cam_roll_btn";
-      this.cam_roll_btn.Size = new Size(31, 23);
-      this.cam_roll_btn.Text = "Roll";
-      this.cam_roll_btn.Click += new EventHandler(this.cam_roll_btn_Click);
-      this.deselect_btn.AutoToolTip = false;
-      this.deselect_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.deselect_btn.Image = (Image) resources.GetObject("deselect_btn.Image");
-      this.deselect_btn.ImageTransparentColor = Color.Magenta;
-      this.deselect_btn.Name = "deselect_btn";
-      this.deselect_btn.Size = new Size(55, 23);
-      this.deselect_btn.Text = "Deselect";
-      this.deselect_btn.Click += new EventHandler(this.deselect_btn_Click);
-      this.delete_btn.AutoToolTip = false;
-      this.delete_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.delete_btn.Image = (Image) resources.GetObject("delete_btn.Image");
-      this.delete_btn.ImageTransparentColor = Color.Magenta;
-      this.delete_btn.Name = "delete_btn";
-      this.delete_btn.Size = new Size(44, 23);
-      this.delete_btn.Text = "Delete";
-      this.delete_btn.Click += new EventHandler(this.delete_btn_Click);
-      this.toolStripSeparator3.Name = "toolStripSeparator3";
-      this.toolStripSeparator3.Size = new Size(6, 26);
-      this.yOffset_tb.Alignment = ToolStripItemAlignment.Right;
-      this.yOffset_tb.Margin = new Padding(3, 0, 0, 3);
-      this.yOffset_tb.Name = "yOffset_tb";
-      this.yOffset_tb.Size = new Size(40, 23);
-      this.yOffset_tb.Text = "0";
-      this.yOffset_tb.Leave += new EventHandler(this.yOffset_tb_Leave);
-      this.yOffset_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.toolStripLabel2.Alignment = ToolStripItemAlignment.Right;
-      this.toolStripLabel2.Name = "toolStripLabel2";
-      this.toolStripLabel2.Size = new Size(51, 23);
-      this.toolStripLabel2.Text = "Y-Offset";
-      this.lockZ_btn.Alignment = ToolStripItemAlignment.Right;
-      this.lockZ_btn.AutoToolTip = false;
-      this.lockZ_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.lockZ_btn.Font = new Font("Segoe UI", 6f, FontStyle.Bold);
-      this.lockZ_btn.Image = (Image) resources.GetObject("lockZ_btn.Image");
-      this.lockZ_btn.ImageTransparentColor = Color.Magenta;
-      this.lockZ_btn.Name = "lockZ_btn";
-      this.lockZ_btn.Size = new Size(36, 23);
-      this.lockZ_btn.Text = "LOCK Z";
-      this.lockZ_btn.Click += new EventHandler(this.lockZ_btn_Click);
-      this.lockY_btn.Alignment = ToolStripItemAlignment.Right;
-      this.lockY_btn.AutoToolTip = false;
-      this.lockY_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.lockY_btn.Font = new Font("Segoe UI", 6f, FontStyle.Bold);
-      this.lockY_btn.Image = (Image) resources.GetObject("lockY_btn.Image");
-      this.lockY_btn.ImageTransparentColor = Color.Magenta;
-      this.lockY_btn.Name = "lockY_btn";
-      this.lockY_btn.Size = new Size(36, 23);
-      this.lockY_btn.Text = "LOCK Y";
-      this.lockY_btn.Click += new EventHandler(this.lockY_btn_Click);
-      this.lockX_btn.Alignment = ToolStripItemAlignment.Right;
-      this.lockX_btn.AutoToolTip = false;
-      this.lockX_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.lockX_btn.Font = new Font("Segoe UI", 6f, FontStyle.Bold);
-      this.lockX_btn.Image = (Image) resources.GetObject("lockX_btn.Image");
-      this.lockX_btn.ImageTransparentColor = Color.Magenta;
-      this.lockX_btn.Name = "lockX_btn";
-      this.lockX_btn.Size = new Size(36, 23);
-      this.lockX_btn.Text = "LOCK X";
-      this.lockX_btn.Click += new EventHandler(this.lockX_btn_Click);
-      this.assignObject_btn.AutoToolTip = false;
-      this.assignObject_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.assignObject_btn.Image = (Image) resources.GetObject("assignObject_btn.Image");
-      this.assignObject_btn.ImageTransparentColor = Color.Magenta;
-      this.assignObject_btn.Name = "assignObject_btn";
-      this.assignObject_btn.Size = new Size(69, 23);
-      this.assignObject_btn.Text = "Assign OBJ";
-      this.assignObject_btn.Click += new EventHandler(this.assignObject_btn_Click);
-      this.moveNode_btn.AutoToolTip = false;
-      this.moveNode_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.moveNode_btn.Image = (Image) resources.GetObject("moveNode_btn.Image");
-      this.moveNode_btn.ImageTransparentColor = Color.Magenta;
-      this.moveNode_btn.Name = "moveNode_btn";
-      this.moveNode_btn.Size = new Size(73, 23);
-      this.moveNode_btn.Text = "Move Node";
-      this.moveNode_btn.Click += new EventHandler(this.moveNode_btn_Click);
-      this.linkMode_btn.AutoToolTip = false;
-      this.linkMode_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.linkMode_btn.Image = (Image) resources.GetObject("linkMode_btn.Image");
-      this.linkMode_btn.ImageTransparentColor = Color.Magenta;
-      this.linkMode_btn.Name = "linkMode_btn";
-      this.linkMode_btn.Size = new Size(33, 23);
-      this.linkMode_btn.Text = "Link";
-      this.linkMode_btn.Click += new EventHandler(this.linkMode_btn_Click);
-      this.removeNode_btn.AutoToolTip = false;
-      this.removeNode_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.removeNode_btn.Image = (Image) resources.GetObject("removeNode_btn.Image");
-      this.removeNode_btn.ImageTransparentColor = Color.Magenta;
-      this.removeNode_btn.Name = "removeNode_btn";
-      this.removeNode_btn.Size = new Size(63, 19);
-      this.removeNode_btn.Text = "Del. Node";
-      this.removeNode_btn.Click += new EventHandler(this.removeNode_btn_Click);
-      this.endNode_btn.AutoToolTip = false;
-      this.endNode_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.endNode_btn.Image = (Image) resources.GetObject("endNode_btn.Image");
-      this.endNode_btn.ImageTransparentColor = Color.Magenta;
-      this.endNode_btn.Name = "endNode_btn";
-      this.endNode_btn.Size = new Size(63, 19);
-      this.endNode_btn.Text = "End Node";
-      this.endNode_btn.Click += new EventHandler(this.endNode_btn_Click);
-      this.startNewPath_btn.AutoToolTip = false;
-      this.startNewPath_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.startNewPath_btn.Image = (Image) resources.GetObject("startNewPath_btn.Image");
-      this.startNewPath_btn.ImageTransparentColor = Color.Magenta;
-      this.startNewPath_btn.Name = "startNewPath_btn";
-      this.startNewPath_btn.Size = new Size(62, 19);
-      this.startNewPath_btn.Text = "New Path";
-      this.startNewPath_btn.Click += new EventHandler(this.startNewPath_btn_Click);
-      this.addNode_btn.AutoToolTip = false;
-      this.addNode_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.addNode_btn.Image = (Image) resources.GetObject("addNode_btn.Image");
-      this.addNode_btn.ImageTransparentColor = Color.Magenta;
-      this.addNode_btn.Name = "addNode_btn";
-      this.addNode_btn.Size = new Size(65, 19);
-      this.addNode_btn.Text = "Add Node";
-      this.addNode_btn.Click += new EventHandler(this.addNode_btn_Click_1);
-      this.addControllerNode_btn.AutoToolTip = false;
-      this.addControllerNode_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.addControllerNode_btn.Image = (Image) resources.GetObject("addControllerNode_btn.Image");
-      this.addControllerNode_btn.ImageTransparentColor = Color.Magenta;
-      this.addControllerNode_btn.Name = "addControllerNode_btn";
-      this.addControllerNode_btn.Size = new Size(116, 19);
-      this.addControllerNode_btn.Text = "Add Path Controller";
-      this.addControllerNode_btn.Click += new EventHandler(this.addAnimationNode_btn_Click);
-      this.deselectPath_btn.AutoToolTip = false;
-      this.deselectPath_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.deselectPath_btn.Image = (Image) resources.GetObject("deselectPath_btn.Image");
-      this.deselectPath_btn.ImageTransparentColor = Color.Magenta;
-      this.deselectPath_btn.Name = "deselectPath_btn";
-      this.deselectPath_btn.Size = new Size(82, 19);
-      this.deselectPath_btn.Text = "Deselect Path";
-      this.deselectPath_btn.Click += new EventHandler(this.deselectPath_btn_Click);
-      this.deletePath_btn.AutoToolTip = false;
-      this.deletePath_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.deletePath_btn.Image = (Image) resources.GetObject("deletePath_btn.Image");
-      this.deletePath_btn.ImageTransparentColor = Color.Magenta;
-      this.deletePath_btn.Name = "deletePath_btn";
-      this.deletePath_btn.Size = new Size(71, 19);
-      this.deletePath_btn.Text = "Delete Path";
-      this.deletePath_btn.Click += new EventHandler(this.deletePath_btn_Click);
-      this.toolStripSeparator4.Name = "toolStripSeparator4";
-      this.toolStripSeparator4.Size = new Size(6, 26);
-      this.eraseAll_btn.AutoToolTip = false;
-      this.eraseAll_btn.DisplayStyle = ToolStripItemDisplayStyle.Text;
-      this.eraseAll_btn.Image = (Image) resources.GetObject("eraseAll_btn.Image");
-      this.eraseAll_btn.ImageTransparentColor = Color.Magenta;
-      this.eraseAll_btn.Name = "eraseAll_btn";
-      this.eraseAll_btn.Size = new Size(55, 19);
-      this.eraseAll_btn.Text = "Erase All";
-      this.eraseAll_btn.Visible = false;
-      this.eraseAll_btn.Click += new EventHandler(this.eraseAll_btn_Click);
-      this.button3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-      this.button3.BackColor = Color.FromArgb(233, 236, 250);
-      this.button3.FlatStyle = FlatStyle.Flat;
-      this.button3.Font = new Font("Microsoft Sans Serif", 8.25f, FontStyle.Bold, GraphicsUnit.Point, (byte) 0);
-      this.button3.ForeColor = SystemColors.ControlDarkDark;
-      this.button3.Location = new Point(960, 27);
-      this.button3.Margin = new Padding(0);
-      this.button3.Name = "button3";
-      this.button3.Size = new Size(230, 23);
-      this.button3.TabIndex = 80;
-      this.button3.Text = "Layers";
-      this.button3.TextAlign = ContentAlignment.MiddleLeft;
-      this.button3.UseVisualStyleBackColor = false;
-      this.bgA_cb.AutoSize = true;
-      this.bgA_cb.Checked = true;
-      this.bgA_cb.CheckState = CheckState.Checked;
-      this.bgA_cb.Location = new Point(4, 4);
-      this.bgA_cb.Name = "bgA_cb";
-      this.bgA_cb.Size = new Size(14, 14);
-      this.bgA_cb.TabIndex = 0;
-      this.bgA_cb.UseVisualStyleBackColor = true;
-      this.bgA_cb.CheckedChanged += new EventHandler(this.bgA_cb_CheckedChanged);
-      this.bgB_btn.AutoSize = true;
-      this.bgB_btn.Checked = true;
-      this.bgB_btn.CheckState = CheckState.Checked;
-      this.bgB_btn.Location = new Point(4, 29);
-      this.bgB_btn.Name = "bgB_btn";
-      this.bgB_btn.Size = new Size(14, 14);
-      this.bgB_btn.TabIndex = 1;
-      this.bgB_btn.UseVisualStyleBackColor = true;
-      this.bgB_btn.CheckedChanged += new EventHandler(this.bgB_btn_CheckedChanged);
-      this.objs_cb.AutoSize = true;
-      this.objs_cb.Checked = true;
-      this.objs_cb.CheckState = CheckState.Checked;
-      this.objs_cb.Location = new Point(4, 54);
-      this.objs_cb.Name = "objs_cb";
-      this.objs_cb.Size = new Size(14, 14);
-      this.objs_cb.TabIndex = 2;
-      this.objs_cb.UseVisualStyleBackColor = true;
-      this.objs_cb.CheckedChanged += new EventHandler(this.objs_cb_CheckedChanged);
-      this.label59.AutoSize = true;
-      this.label59.Location = new Point(25, 26);
-      this.label59.Name = "label59";
-      this.label59.Size = new Size(75, 13);
-      this.label59.TabIndex = 6;
-      this.label59.Text = "Background B";
-      this.label51.AutoSize = true;
-      this.label51.Location = new Point(25, 1);
-      this.label51.Name = "label51";
-      this.label51.Size = new Size(75, 13);
-      this.label51.TabIndex = 5;
-      this.label51.Text = "Background A";
-      this.label64.AutoSize = true;
-      this.label64.Location = new Point(25, 51);
-      this.label64.Name = "label64";
-      this.label64.Size = new Size(43, 13);
-      this.label64.TabIndex = 7;
-      this.label64.Text = "Objects";
-      this.label65.AutoSize = true;
-      this.label65.Location = new Point(25, 76);
-      this.label65.Name = "label65";
-      this.label65.Size = new Size(48, 13);
-      this.label65.TabIndex = 8;
-      this.label65.Text = "Cameras";
-      this.cameras_cb.AutoSize = true;
-      this.cameras_cb.Checked = true;
-      this.cameras_cb.CheckState = CheckState.Checked;
-      this.cameras_cb.Location = new Point(4, 79);
-      this.cameras_cb.Name = "cameras_cb";
-      this.cameras_cb.Size = new Size(14, 14);
-      this.cameras_cb.TabIndex = 9;
-      this.cameras_cb.UseVisualStyleBackColor = true;
-      this.cameras_cb.CheckedChanged += new EventHandler(this.cameras_cb_CheckedChanged);
-      this.tableLayoutPanel1.BackColor = Color.White;
-      this.tableLayoutPanel1.CellBorderStyle = TableLayoutPanelCellBorderStyle.Single;
-      this.tableLayoutPanel1.ColumnCount = 2;
-      this.tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10.5f));
-      this.tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 89.5f));
-      this.tableLayoutPanel1.Controls.Add((Control) this.levelBoundAlpha_cb, 0, 6);
-      this.tableLayoutPanel1.Controls.Add((Control) this.label5, 1, 6);
-      this.tableLayoutPanel1.Controls.Add((Control) this.levelStats_cb, 0, 4);
-      this.tableLayoutPanel1.Controls.Add((Control) this.bgA_cb, 0, 0);
-      this.tableLayoutPanel1.Controls.Add((Control) this.bgB_btn, 0, 1);
-      this.tableLayoutPanel1.Controls.Add((Control) this.objs_cb, 0, 2);
-      this.tableLayoutPanel1.Controls.Add((Control) this.cameras_cb, 0, 3);
-      this.tableLayoutPanel1.Controls.Add((Control) this.label51, 1, 0);
-      this.tableLayoutPanel1.Controls.Add((Control) this.label59, 1, 1);
-      this.tableLayoutPanel1.Controls.Add((Control) this.label64, 1, 2);
-      this.tableLayoutPanel1.Controls.Add((Control) this.label65, 1, 3);
-      this.tableLayoutPanel1.Controls.Add((Control) this.label14, 1, 4);
-      this.tableLayoutPanel1.Controls.Add((Control) this.label58, 1, 5);
-      this.tableLayoutPanel1.Controls.Add((Control) this.levelBound_cb, 0, 5);
-      this.tableLayoutPanel1.Controls.Add((Control) this.label75, 1, 11);
-      this.tableLayoutPanel1.Controls.Add((Control) this.unknownRadius_cb, 0, 11);
-      this.tableLayoutPanel1.Controls.Add((Control) this.flagRadius_cb, 1, 10);
-      this.tableLayoutPanel1.Controls.Add((Control) this.showFlagRadius_cb, 0, 10);
-      this.tableLayoutPanel1.Controls.Add((Control) this.label72, 1, 9);
-      this.tableLayoutPanel1.Controls.Add((Control) this.enemyRadius_cb, 0, 9);
-      this.tableLayoutPanel1.Controls.Add((Control) this.label71, 1, 8);
-      this.tableLayoutPanel1.Controls.Add((Control) this.warpRadius_cb, 0, 8);
-      this.tableLayoutPanel1.Controls.Add((Control) this.label66, 1, 7);
-      this.tableLayoutPanel1.Controls.Add((Control) this.camTrigger_cb, 0, 7);
-      this.tableLayoutPanel1.Location = new Point(3, 3);
-      this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-      this.tableLayoutPanel1.RowCount = 12;
-      this.tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 9.090909f));
-      this.tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 9.090909f));
-      this.tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 9.090909f));
-      this.tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 9.090909f));
-      this.tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 9.090909f));
-      this.tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 9.090909f));
-      this.tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 9.090909f));
-      this.tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 9.090909f));
-      this.tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 9.090909f));
-      this.tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 9.090909f));
-      this.tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 9.090909f));
-      this.tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20f));
-      this.tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20f));
-      this.tableLayoutPanel1.Size = new Size(201, 300);
-      this.tableLayoutPanel1.TabIndex = 81;
-      this.levelBoundAlpha_cb.AutoSize = true;
-      this.levelBoundAlpha_cb.Location = new Point(4, 154);
-      this.levelBoundAlpha_cb.Name = "levelBoundAlpha_cb";
-      this.levelBoundAlpha_cb.Size = new Size(14, 14);
-      this.levelBoundAlpha_cb.TabIndex = 84;
-      this.levelBoundAlpha_cb.UseVisualStyleBackColor = true;
-      this.levelBoundAlpha_cb.CheckedChanged += new EventHandler(this.levelBoundAlpha_cb_CheckedChanged);
-      this.label5.AutoSize = true;
-      this.label5.Location = new Point(25, 151);
-      this.label5.Name = "label5";
-      this.label5.Size = new Size(116, 13);
-      this.label5.TabIndex = 84;
-      this.label5.Text = "Level Boundary (alpha)";
-      this.levelStats_cb.AutoSize = true;
-      this.levelStats_cb.Checked = true;
-      this.levelStats_cb.CheckState = CheckState.Checked;
-      this.levelStats_cb.Location = new Point(4, 104);
-      this.levelStats_cb.Name = "levelStats_cb";
-      this.levelStats_cb.Size = new Size(14, 14);
-      this.levelStats_cb.TabIndex = 11;
-      this.levelStats_cb.UseVisualStyleBackColor = true;
-      this.levelStats_cb.CheckedChanged += new EventHandler(this.levelStats_cb_CheckedChanged);
-      this.label14.AutoSize = true;
-      this.label14.Location = new Point(25, 101);
-      this.label14.Name = "label14";
-      this.label14.Size = new Size(60, 13);
-      this.label14.TabIndex = 10;
-      this.label14.Text = "Level Stats";
-      this.label58.AutoSize = true;
-      this.label58.Location = new Point(25, 126);
-      this.label58.Name = "label58";
-      this.label58.Size = new Size(81, 13);
-      this.label58.TabIndex = 12;
-      this.label58.Text = "Level Boundary";
-      this.levelBound_cb.AutoSize = true;
-      this.levelBound_cb.Location = new Point(4, 129);
-      this.levelBound_cb.Name = "levelBound_cb";
-      this.levelBound_cb.Size = new Size(14, 14);
-      this.levelBound_cb.TabIndex = 15;
-      this.levelBound_cb.UseVisualStyleBackColor = true;
-      this.levelBound_cb.CheckedChanged += new EventHandler(this.levelBound_cb_CheckedChanged);
-      this.label75.AutoSize = true;
-      this.label75.Location = new Point(25, 276);
-      this.label75.Name = "label75";
-      this.label75.Size = new Size(123, 13);
-      this.label75.TabIndex = 23;
-      this.label75.Text = "Unknown Object Radius";
-      this.unknownRadius_cb.AutoSize = true;
-      this.unknownRadius_cb.Location = new Point(4, 279);
-      this.unknownRadius_cb.Name = "unknownRadius_cb";
-      this.unknownRadius_cb.Size = new Size(14, 14);
-      this.unknownRadius_cb.TabIndex = 24;
-      this.unknownRadius_cb.UseVisualStyleBackColor = true;
-      this.unknownRadius_cb.CheckedChanged += new EventHandler(this.unknownRadius_cb_CheckedChanged);
-      this.flagRadius_cb.AutoSize = true;
-      this.flagRadius_cb.Location = new Point(25, 251);
-      this.flagRadius_cb.Name = "flagRadius_cb";
-      this.flagRadius_cb.Size = new Size(63, 13);
-      this.flagRadius_cb.TabIndex = 20;
-      this.flagRadius_cb.Text = "Flag Radius";
-      this.showFlagRadius_cb.AutoSize = true;
-      this.showFlagRadius_cb.Location = new Point(4, 254);
-      this.showFlagRadius_cb.Name = "showFlagRadius_cb";
-      this.showFlagRadius_cb.Size = new Size(14, 14);
-      this.showFlagRadius_cb.TabIndex = 22;
-      this.showFlagRadius_cb.UseVisualStyleBackColor = true;
-      this.showFlagRadius_cb.CheckedChanged += new EventHandler(this.showFlagRadius_cb_CheckedChanged);
-      this.label72.AutoSize = true;
-      this.label72.Location = new Point(25, 226);
-      this.label72.Name = "label72";
-      this.label72.Size = new Size(75, 13);
-      this.label72.TabIndex = 19;
-      this.label72.Text = "Enemy Radius";
-      this.enemyRadius_cb.AutoSize = true;
-      this.enemyRadius_cb.Location = new Point(4, 229);
-      this.enemyRadius_cb.Name = "enemyRadius_cb";
-      this.enemyRadius_cb.Size = new Size(14, 14);
-      this.enemyRadius_cb.TabIndex = 21;
-      this.enemyRadius_cb.UseVisualStyleBackColor = true;
-      this.enemyRadius_cb.CheckedChanged += new EventHandler(this.enemyRadius_cb_CheckedChanged);
-      this.label71.AutoSize = true;
-      this.label71.Location = new Point(25, 201);
-      this.label71.Name = "label71";
-      this.label71.Size = new Size(69, 13);
-      this.label71.TabIndex = 17;
-      this.label71.Text = "Warp Radius";
-      this.warpRadius_cb.AutoSize = true;
-      this.warpRadius_cb.Location = new Point(4, 204);
-      this.warpRadius_cb.Name = "warpRadius_cb";
-      this.warpRadius_cb.Size = new Size(14, 14);
-      this.warpRadius_cb.TabIndex = 18;
-      this.warpRadius_cb.UseVisualStyleBackColor = true;
-      this.warpRadius_cb.CheckedChanged += new EventHandler(this.warpRadius_cb_CheckedChanged);
-      this.label66.AutoSize = true;
-      this.label66.Location = new Point(25, 176);
-      this.label66.Name = "label66";
-      this.label66.Size = new Size(115, 13);
-      this.label66.TabIndex = 13;
-      this.label66.Text = "Camera Trigger Radius";
-      this.camTrigger_cb.AutoSize = true;
-      this.camTrigger_cb.Location = new Point(4, 179);
-      this.camTrigger_cb.Name = "camTrigger_cb";
-      this.camTrigger_cb.Size = new Size(14, 14);
-      this.camTrigger_cb.TabIndex = 16;
-      this.camTrigger_cb.UseVisualStyleBackColor = true;
-      this.camTrigger_cb.CheckedChanged += new EventHandler(this.camTrigger_cb_CheckedChanged);
-      this.flowLayoutPanel2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-      this.flowLayoutPanel2.AutoScroll = true;
-      this.flowLayoutPanel2.BorderStyle = BorderStyle.FixedSingle;
-      this.flowLayoutPanel2.Controls.Add((Control) this.tableLayoutPanel1);
-      this.flowLayoutPanel2.Location = new Point(960, 51);
-      this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-      this.flowLayoutPanel2.Size = new Size(229, 102);
-      this.flowLayoutPanel2.TabIndex = 83;
-      this.drawDist_tb.Location = new Point(897, 3);
-      this.drawDist_tb.Name = "drawDist_tb";
-      this.drawDist_tb.Size = new Size(53, 20);
-      this.drawDist_tb.TabIndex = 84;
-      this.drawDist_tb.Text = "5000";
-      this.drawDist_tb.KeyPress += new KeyPressEventHandler(this.numOnly_KeyPress);
-      this.drawDist_tb.Leave += new EventHandler(this.drawDist_tb_Leave);
-      this.label12.AutoSize = true;
-      this.label12.BackColor = SystemColors.ActiveCaption;
-      this.label12.Location = new Point(780, 6);
-      this.label12.Name = "label12";
-      this.label12.Size = new Size(111, 13);
-      this.label12.TabIndex = 85;
-      this.label12.Text = "Object Draw Distance";
-      this.LevelViewer.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-      this.LevelViewer.BackColor = Color.Black;
-      this.LevelViewer.Location = new Point(0, 27);
-      this.LevelViewer.Name = "LevelViewer";
-      this.LevelViewer.Size = new Size(957, 474);
-      this.LevelViewer.TabIndex = 86;
-      this.LevelViewer.VSync = false;
-      this.LevelViewer.Load += new EventHandler(this.LevelViewer_Load);
-      this.LevelViewer.SizeChanged += new EventHandler(this.LevelViewer_SizeChanged);
-      this.LevelViewer.KeyDown += new KeyEventHandler(this.LevelViewer_KeyDown);
-      this.LevelViewer.KeyUp += new KeyEventHandler(this.LevelViewer_KeyUp);
-      this.LevelViewer.MouseDown += new MouseEventHandler(this.LevelViewer_MouseDown);
-      this.LevelViewer.MouseMove += new MouseEventHandler(this.LevelViewer_MouseMove);
-      this.LevelViewer.MouseUp += new MouseEventHandler(this.LevelViewer_MouseUp);
-      this.AutoScaleDimensions = new SizeF(6f, 13f);
-      this.AutoScaleMode = AutoScaleMode.Font;
-      this.BackColor = Color.FromArgb(229, 229, 229);
-      this.ClientSize = new Size(1190, 530);
-      this.Controls.Add((Control) this.LevelViewer);
-      this.Controls.Add((Control) this.drawDist_tb);
-      this.Controls.Add((Control) this.flowLayoutPanel2);
-      this.Controls.Add((Control) this.toolStrip1);
-      this.Controls.Add((Control) this.label4);
-      this.Controls.Add((Control) this.label12);
-      this.Controls.Add((Control) this.CamSpeed_tb);
-      this.Controls.Add((Control) this.menuStrip1);
-      this.Controls.Add((Control) this.button3);
-      this.Controls.Add((Control) this.flowLayoutPanel1);
-      this.FormBorderStyle = FormBorderStyle.FixedSingle;
-      this.Icon = (Icon) resources.GetObject("$this.Icon");
-      this.KeyPreview = true;
-      this.MainMenuStrip = this.menuStrip1;
-      this.Name = "Form1";
-      this.Text = "Banjo's Backpack";
-      this.FormClosed += new FormClosedEventHandler(this.Form1_FormClosed);
-      this.Load += new EventHandler(this.Form1_Load);
-      this.ResizeEnd += new EventHandler(this.Form1_ResizeEnd);
-      this.SizeChanged += new EventHandler(this.Form1_SizeChanged);
-      this.KeyDown += new KeyEventHandler(this.Form1_KeyDown);
-      this.KeyUp += new KeyEventHandler(this.Form1_KeyUp);
-      this.MouseUp += new MouseEventHandler(this.Form1_MouseUp);
-      this.menuStrip1.ResumeLayout(false);
-      this.menuStrip1.PerformLayout();
-      this.textUpdate_gb.ResumeLayout(false);
-      this.textUpdate_gb.PerformLayout();
-      this.tableLayoutPanel4.ResumeLayout(false);
-      this.tableLayoutPanel4.PerformLayout();
-      this.tableLayoutPanel3.ResumeLayout(false);
-      this.tableLayoutPanel3.PerformLayout();
-      this.CamSpeed_tb.EndInit();
-      this.replacemodel_gb.ResumeLayout(false);
-      this.replacemodel_gb.PerformLayout();
-      this.flowLayoutPanel1.ResumeLayout(false);
-      this.path_gb.ResumeLayout(false);
-      this.path_gb.PerformLayout();
-      ((ISupportInitialize) this.pathControllers_dgv).EndInit();
-      this.nodeID_gb.ResumeLayout(false);
-      this.tableLayoutPanel13.ResumeLayout(false);
-      this.tableLayoutPanel13.PerformLayout();
-      this.sNode_gb.ResumeLayout(false);
-      this.tableLayoutPanel2.ResumeLayout(false);
-      this.tableLayoutPanel2.PerformLayout();
-      this.panel1.ResumeLayout(false);
-      this.panel1.PerformLayout();
-      this.panel2.ResumeLayout(false);
-      this.panel2.PerformLayout();
-      this.panel3.ResumeLayout(false);
-      this.panel3.PerformLayout();
-      this.nodeProperties_gb.ResumeLayout(false);
-      this.nodeProperties_lp.ResumeLayout(false);
-      this.nodeProperties_lp.PerformLayout();
-      this.pathObject_gb.ResumeLayout(false);
-      this.tableLayoutPanel16.ResumeLayout(false);
-      this.tableLayoutPanel16.PerformLayout();
-      ((ISupportInitialize) this.path_dgv).EndInit();
-      this.cam3_gb.ResumeLayout(false);
-      this.cam3_gb.PerformLayout();
-      this.tableLayoutPanel10.ResumeLayout(false);
-      this.tableLayoutPanel10.PerformLayout();
-      this.bounds_gb.ResumeLayout(false);
-      this.bounds_gb.PerformLayout();
-      this.tableLayoutPanel8.ResumeLayout(false);
-      this.tableLayoutPanel8.PerformLayout();
-      this.levelEntries_gb.ResumeLayout(false);
-      ((ISupportInitialize) this.levelEntries_dgv).EndInit();
-      this.objects_gb.ResumeLayout(false);
-      ((ISupportInitialize) this.objects_dgv).EndInit();
-      this.structs_gb.ResumeLayout(false);
-      ((ISupportInitialize) this.structs_dgv).EndInit();
-      this.tableLayoutPanel6.ResumeLayout(false);
-      this.tableLayoutPanel6.PerformLayout();
-      this.tableLayoutPanel7.ResumeLayout(false);
-      this.tableLayoutPanel7.PerformLayout();
-      this.groupBox2.ResumeLayout(false);
-      this.groupBox2.PerformLayout();
-      this.tableLayoutPanel9.ResumeLayout(false);
-      this.tableLayoutPanel9.PerformLayout();
-      this.tableLayoutPanel11.ResumeLayout(false);
-      this.tableLayoutPanel11.PerformLayout();
-      this.cameraMenu.ResumeLayout(false);
-      this.tableLayoutPanel14.ResumeLayout(false);
-      this.tableLayoutPanel14.PerformLayout();
-      this.tableLayoutPanel15.ResumeLayout(false);
-      this.tableLayoutPanel15.PerformLayout();
-      this.toolStrip1.ResumeLayout(false);
-      this.toolStrip1.PerformLayout();
-      this.tableLayoutPanel1.ResumeLayout(false);
-      this.tableLayoutPanel1.PerformLayout();
-      this.flowLayoutPanel2.ResumeLayout(false);
-      this.ResumeLayout(false);
-      this.PerformLayout();
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.SetupFileOpenDialog = new System.Windows.Forms.OpenFileDialog();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openRomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.openSetupFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loadSetupFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveSetupFileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.save_tsmi = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveAsRomToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveAsRomskillToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.editToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.undoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.redoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.historyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.knowAllMovesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.haveNoMovesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.includeCameraTriggersWhenSavingToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.removeNumbersFromNotedoorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.hideUnknownBytesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.importObjToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modelEditorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.textEditorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.midiToolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.puzzleEditorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.injectorInToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sNSEditorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.spriteManagerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.folderBrowserDialog1 = new System.Windows.Forms.FolderBrowserDialog();
+            this.objectImages_il = new System.Windows.Forms.ImageList(this.components);
+            this.textUpdate_gb = new System.Windows.Forms.GroupBox();
+            this.updateRad_tb = new System.Windows.Forms.TextBox();
+            this.rad_lbl = new System.Windows.Forms.Label();
+            this.flag_tb = new System.Windows.Forms.TextBox();
+            this.flag_lbl = new System.Windows.Forms.Label();
+            this.address_lbl = new System.Windows.Forms.Label();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.updateB17_tb = new System.Windows.Forms.TextBox();
+            this.updateB16_tb = new System.Windows.Forms.TextBox();
+            this.b10_lbl = new System.Windows.Forms.Label();
+            this.updateB10_tb = new System.Windows.Forms.TextBox();
+            this.updateB18_tb = new System.Windows.Forms.TextBox();
+            this.updateB13_tb = new System.Windows.Forms.TextBox();
+            this.b18_lbl = new System.Windows.Forms.Label();
+            this.b11_lbl = new System.Windows.Forms.Label();
+            this.updateB11_tb = new System.Windows.Forms.TextBox();
+            this.b13_lbl = new System.Windows.Forms.Label();
+            this.b16_lbl = new System.Windows.Forms.Label();
+            this.b17_lbl = new System.Windows.Forms.Label();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.updateX_tb = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.updateY_tb = new System.Windows.Forms.TextBox();
+            this.updateZ_tb = new System.Windows.Forms.TextBox();
+            this.size_lbl = new System.Windows.Forms.Label();
+            this.rotByte_lbl = new System.Windows.Forms.Label();
+            this.updateSize_tb = new System.Windows.Forms.TextBox();
+            this.updateRot_tb = new System.Windows.Forms.TextBox();
+            this.cc_failsafe_cb = new System.Windows.Forms.CheckBox();
+            this.failsafe_lbl = new System.Windows.Forms.Label();
+            this.objID_lbl = new System.Windows.Forms.Label();
+            this.id_tb = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.warp_btn = new System.Windows.Forms.Button();
+            this.warpTo_tb = new System.Windows.Forms.TextBox();
+            this.warpTo_lbl = new System.Windows.Forms.Label();
+            this.id_lbl = new System.Windows.Forms.Label();
+            this.updateScript_tb = new System.Windows.Forms.TextBox();
+            this.updateName_tb = new System.Windows.Forms.TextBox();
+            this.script_lbl = new System.Windows.Forms.Label();
+            this.label22 = new System.Windows.Forms.Label();
+            this.changeLM_btn = new System.Windows.Forms.Button();
+            this.changeLM_ofd = new System.Windows.Forms.OpenFileDialog();
+            this.objectMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.CamSpeed_tb = new System.Windows.Forms.TrackBar();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label2 = new System.Windows.Forms.Label();
+            this.baseLevel_tb = new System.Windows.Forms.TextBox();
+            this.extraModel_tb = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.replaceModelEx_btn = new System.Windows.Forms.Button();
+            this.replaceModel_btn = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.replacemodel_gb = new System.Windows.Forms.GroupBox();
+            this.clear_btn = new System.Windows.Forms.Button();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.openFileDialog2 = new System.Windows.Forms.OpenFileDialog();
+            this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
+            this.replaceSetup_ofd = new System.Windows.Forms.OpenFileDialog();
+            this.saveSetupFileDialog = new System.Windows.Forms.SaveFileDialog();
+            this.openSetupFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.saveAsRomFileDialog = new System.Windows.Forms.SaveFileDialog();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.path_gb = new System.Windows.Forms.GroupBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.pathControllers_dgv = new System.Windows.Forms.DataGridView();
+            this.nodeID_gb = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel13 = new System.Windows.Forms.TableLayoutPanel();
+            this.label69 = new System.Windows.Forms.Label();
+            this.nodeID_tb = new System.Windows.Forms.TextBox();
+            this.label70 = new System.Windows.Forms.Label();
+            this.node18_tb = new System.Windows.Forms.TextBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.sNode_gb = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.label61 = new System.Windows.Forms.Label();
+            this.sNodeF_tb = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.pathID_tb = new System.Windows.Forms.TextBox();
+            this.sNodeUNK3_tb = new System.Windows.Forms.TextBox();
+            this.label67 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.useAnimation_cb = new System.Windows.Forms.CheckBox();
+            this.animation_cb = new System.Windows.Forms.ComboBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.usePause_cb = new System.Windows.Forms.CheckBox();
+            this.pauseTime_tb = new System.Windows.Forms.TextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.useSpeed_cb = new System.Windows.Forms.CheckBox();
+            this.sNodeSpeed_tb = new System.Windows.Forms.TextBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.animation_lbl = new System.Windows.Forms.Label();
+            this.label62 = new System.Windows.Forms.Label();
+            this.label63 = new System.Windows.Forms.Label();
+            this.sNodeW1_tb = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.nodeProperties_gb = new System.Windows.Forms.Panel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.nodeProperties_lp = new System.Windows.Forms.TableLayoutPanel();
+            this.label53 = new System.Windows.Forms.Label();
+            this.nodeX_tb = new System.Windows.Forms.TextBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.nodeY_tb = new System.Windows.Forms.TextBox();
+            this.nodeZ_tb = new System.Windows.Forms.TextBox();
+            this.col_selPath_btn = new System.Windows.Forms.Button();
+            this.pathObject_gb = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel16 = new System.Windows.Forms.TableLayoutPanel();
+            this.label60 = new System.Windows.Forms.Label();
+            this.objectNode_tb = new System.Windows.Forms.TextBox();
+            this.path_dgv = new System.Windows.Forms.DataGridView();
+            this.col_obj_details_btn = new System.Windows.Forms.Button();
+            this.col_cam_btn = new System.Windows.Forms.Button();
+            this.cam3_gb = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel10 = new System.Windows.Forms.TableLayoutPanel();
+            this.label33 = new System.Windows.Forms.Label();
+            this.label34 = new System.Windows.Forms.Label();
+            this.label35 = new System.Windows.Forms.Label();
+            this.camFDist_tb = new System.Windows.Forms.TextBox();
+            this.camCDist_tb = new System.Windows.Forms.TextBox();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label48 = new System.Windows.Forms.Label();
+            this.camZ_tb = new System.Windows.Forms.TextBox();
+            this.camY_tb = new System.Windows.Forms.TextBox();
+            this.camX_tb = new System.Windows.Forms.TextBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.camHSpeed_tb = new System.Windows.Forms.TextBox();
+            this.label44 = new System.Windows.Forms.Label();
+            this.camVSpeed_tb = new System.Windows.Forms.TextBox();
+            this.label45 = new System.Windows.Forms.Label();
+            this.camRotation_tb = new System.Windows.Forms.TextBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.camAccel_tb = new System.Windows.Forms.TextBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.camPitch_tb = new System.Windows.Forms.TextBox();
+            this.camYaw_tb = new System.Windows.Forms.TextBox();
+            this.camRoll_tb = new System.Windows.Forms.TextBox();
+            this.cam3A5_tb = new System.Windows.Forms.TextBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
+            this.label47 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.camID_tb = new System.Windows.Forms.TextBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.col_replacemodel_btn = new System.Windows.Forms.Button();
+            this.col_levelbounds_btn = new System.Windows.Forms.Button();
+            this.bounds_gb = new System.Windows.Forms.GroupBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.updateBounds_btn = new System.Windows.Forms.Button();
+            this.tableLayoutPanel8 = new System.Windows.Forms.TableLayoutPanel();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label23 = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.minZ_Bounds_tb = new System.Windows.Forms.TextBox();
+            this.minY_Bounds_tb = new System.Windows.Forms.TextBox();
+            this.minX_Bounds_tb = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.maxX_Bounds_tb = new System.Windows.Forms.TextBox();
+            this.maxY_Bounds_tb = new System.Windows.Forms.TextBox();
+            this.maxZ_Bounds_tb = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.col_levelentries_btn = new System.Windows.Forms.Button();
+            this.levelEntries_gb = new System.Windows.Forms.GroupBox();
+            this.levelEntries_dgv = new System.Windows.Forms.DataGridView();
+            this.col_objects_btn = new System.Windows.Forms.Button();
+            this.objects_gb = new System.Windows.Forms.GroupBox();
+            this.objects_dgv = new System.Windows.Forms.DataGridView();
+            this.col_structs_btn = new System.Windows.Forms.Button();
+            this.structs_gb = new System.Windows.Forms.GroupBox();
+            this.structs_dgv = new System.Windows.Forms.DataGridView();
+            this.tableLayoutPanel6 = new System.Windows.Forms.TableLayoutPanel();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.tableLayoutPanel7 = new System.Windows.Forms.TableLayoutPanel();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
+            this.tableLayoutPanel9 = new System.Windows.Forms.TableLayoutPanel();
+            this.label31 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel11 = new System.Windows.Forms.TableLayoutPanel();
+            this.label41 = new System.Windows.Forms.Label();
+            this.label42 = new System.Windows.Forms.Label();
+            this.cameraMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.createCameraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.createGameplayCameraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.createGameplayTiggerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.injectDialog = new System.Windows.Forms.OpenFileDialog();
+            this.tableLayoutPanel14 = new System.Windows.Forms.TableLayoutPanel();
+            this.label52 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tableLayoutPanel15 = new System.Windows.Forms.TableLayoutPanel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.mode_lbl = new System.Windows.Forms.ToolStripLabel();
+            this.mode_cb = new System.Windows.Forms.ToolStripComboBox();
+            this.rectSelect_btn = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.cam_moveToCurrent_btn = new System.Windows.Forms.ToolStripButton();
+            this.obj_move_btn = new System.Windows.Forms.ToolStripButton();
+            this.obj_rot_btn = new System.Windows.Forms.ToolStripButton();
+            this.obj_scale_btn = new System.Windows.Forms.ToolStripButton();
+            this.obj_duplicate_btn = new System.Windows.Forms.ToolStripButton();
+            this.cam_yaw_btn = new System.Windows.Forms.ToolStripButton();
+            this.cam_pitch_btn = new System.Windows.Forms.ToolStripButton();
+            this.cam_roll_btn = new System.Windows.Forms.ToolStripButton();
+            this.deselect_btn = new System.Windows.Forms.ToolStripButton();
+            this.delete_btn = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.yOffset_tb = new System.Windows.Forms.ToolStripTextBox();
+            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
+            this.lockZ_btn = new System.Windows.Forms.ToolStripButton();
+            this.lockY_btn = new System.Windows.Forms.ToolStripButton();
+            this.lockX_btn = new System.Windows.Forms.ToolStripButton();
+            this.assignObject_btn = new System.Windows.Forms.ToolStripButton();
+            this.moveNode_btn = new System.Windows.Forms.ToolStripButton();
+            this.linkMode_btn = new System.Windows.Forms.ToolStripButton();
+            this.removeNode_btn = new System.Windows.Forms.ToolStripButton();
+            this.endNode_btn = new System.Windows.Forms.ToolStripButton();
+            this.startNewPath_btn = new System.Windows.Forms.ToolStripButton();
+            this.addNode_btn = new System.Windows.Forms.ToolStripButton();
+            this.addControllerNode_btn = new System.Windows.Forms.ToolStripButton();
+            this.deselectPath_btn = new System.Windows.Forms.ToolStripButton();
+            this.deletePath_btn = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            this.eraseAll_btn = new System.Windows.Forms.ToolStripButton();
+            this.button3 = new System.Windows.Forms.Button();
+            this.bgA_cb = new System.Windows.Forms.CheckBox();
+            this.bgB_btn = new System.Windows.Forms.CheckBox();
+            this.objs_cb = new System.Windows.Forms.CheckBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label64 = new System.Windows.Forms.Label();
+            this.label65 = new System.Windows.Forms.Label();
+            this.cameras_cb = new System.Windows.Forms.CheckBox();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.levelBoundAlpha_cb = new System.Windows.Forms.CheckBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.levelStats_cb = new System.Windows.Forms.CheckBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label58 = new System.Windows.Forms.Label();
+            this.levelBound_cb = new System.Windows.Forms.CheckBox();
+            this.label75 = new System.Windows.Forms.Label();
+            this.unknownRadius_cb = new System.Windows.Forms.CheckBox();
+            this.flagRadius_cb = new System.Windows.Forms.Label();
+            this.showFlagRadius_cb = new System.Windows.Forms.CheckBox();
+            this.label72 = new System.Windows.Forms.Label();
+            this.enemyRadius_cb = new System.Windows.Forms.CheckBox();
+            this.label71 = new System.Windows.Forms.Label();
+            this.warpRadius_cb = new System.Windows.Forms.CheckBox();
+            this.label66 = new System.Windows.Forms.Label();
+            this.camTrigger_cb = new System.Windows.Forms.CheckBox();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.drawDist_tb = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.LevelViewer = new OpenTK.GLControl();
+            this.menuStrip1.SuspendLayout();
+            this.textUpdate_gb.SuspendLayout();
+            this.tableLayoutPanel4.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CamSpeed_tb)).BeginInit();
+            this.replacemodel_gb.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
+            this.path_gb.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pathControllers_dgv)).BeginInit();
+            this.nodeID_gb.SuspendLayout();
+            this.tableLayoutPanel13.SuspendLayout();
+            this.sNode_gb.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
+            this.nodeProperties_gb.SuspendLayout();
+            this.nodeProperties_lp.SuspendLayout();
+            this.pathObject_gb.SuspendLayout();
+            this.tableLayoutPanel16.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.path_dgv)).BeginInit();
+            this.cam3_gb.SuspendLayout();
+            this.tableLayoutPanel10.SuspendLayout();
+            this.bounds_gb.SuspendLayout();
+            this.tableLayoutPanel8.SuspendLayout();
+            this.levelEntries_gb.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.levelEntries_dgv)).BeginInit();
+            this.objects_gb.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.objects_dgv)).BeginInit();
+            this.structs_gb.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.structs_dgv)).BeginInit();
+            this.tableLayoutPanel6.SuspendLayout();
+            this.tableLayoutPanel7.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.tableLayoutPanel9.SuspendLayout();
+            this.tableLayoutPanel11.SuspendLayout();
+            this.cameraMenu.SuspendLayout();
+            this.tableLayoutPanel14.SuspendLayout();
+            this.tableLayoutPanel15.SuspendLayout();
+            this.toolStrip1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem,
+            this.editToolStripMenuItem,
+            this.optionsToolStripMenuItem,
+            this.toolsToolStripMenuItem,
+            this.helpToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1190, 24);
+            this.menuStrip1.TabIndex = 3;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // fileToolStripMenuItem
+            // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.openRomToolStripMenuItem,
+            this.openSetupFileToolStripMenuItem,
+            this.loadSetupFileToolStripMenuItem,
+            this.saveSetupFileToolStripMenuItem,
+            this.save_tsmi,
+            this.saveAsRomToolStripMenuItem,
+            this.saveAsRomskillToolStripMenuItem});
+            this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Text = "File";
+            // 
+            // openRomToolStripMenuItem
+            // 
+            this.openRomToolStripMenuItem.Name = "openRomToolStripMenuItem";
+            this.openRomToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.openRomToolStripMenuItem.Text = "Open Rom";
+            this.openRomToolStripMenuItem.Click += new System.EventHandler(this.openRomToolStripMenuItem_Click);
+            // 
+            // openSetupFileToolStripMenuItem
+            // 
+            this.openSetupFileToolStripMenuItem.Enabled = false;
+            this.openSetupFileToolStripMenuItem.Name = "openSetupFileToolStripMenuItem";
+            this.openSetupFileToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.openSetupFileToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.openSetupFileToolStripMenuItem.Text = "Open Setup File From Rom";
+            this.openSetupFileToolStripMenuItem.Click += new System.EventHandler(this.openSetupFileToolStripMenuItem_Click);
+            // 
+            // loadSetupFileToolStripMenuItem
+            // 
+            this.loadSetupFileToolStripMenuItem.Enabled = false;
+            this.loadSetupFileToolStripMenuItem.Name = "loadSetupFileToolStripMenuItem";
+            this.loadSetupFileToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
+            this.loadSetupFileToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.loadSetupFileToolStripMenuItem.Text = "Load Setup File";
+            this.loadSetupFileToolStripMenuItem.Click += new System.EventHandler(this.loadSetupFileToolStripMenuItem_Click);
+            // 
+            // saveSetupFileToolStripMenuItem
+            // 
+            this.saveSetupFileToolStripMenuItem.Enabled = false;
+            this.saveSetupFileToolStripMenuItem.Name = "saveSetupFileToolStripMenuItem";
+            this.saveSetupFileToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.saveSetupFileToolStripMenuItem.Text = "Save Setup File";
+            this.saveSetupFileToolStripMenuItem.Click += new System.EventHandler(this.saveSetupFileToolStripMenuItem_Click);
+            // 
+            // save_tsmi
+            // 
+            this.save_tsmi.Enabled = false;
+            this.save_tsmi.Name = "save_tsmi";
+            this.save_tsmi.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.save_tsmi.Size = new System.Drawing.Size(259, 22);
+            this.save_tsmi.Text = "Save To Rom";
+            this.save_tsmi.Click += new System.EventHandler(this.save_tsmi_Click);
+            // 
+            // saveAsRomToolStripMenuItem
+            // 
+            this.saveAsRomToolStripMenuItem.Enabled = false;
+            this.saveAsRomToolStripMenuItem.Name = "saveAsRomToolStripMenuItem";
+            this.saveAsRomToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
+            | System.Windows.Forms.Keys.S)));
+            this.saveAsRomToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.saveAsRomToolStripMenuItem.Text = "Save As Rom";
+            this.saveAsRomToolStripMenuItem.Click += new System.EventHandler(this.saveAsRomToolStripMenuItem_Click);
+            // 
+            // saveAsRomskillToolStripMenuItem
+            // 
+            this.saveAsRomskillToolStripMenuItem.Name = "saveAsRomskillToolStripMenuItem";
+            this.saveAsRomskillToolStripMenuItem.Size = new System.Drawing.Size(259, 22);
+            this.saveAsRomskillToolStripMenuItem.Text = "Save As Rom (injected)";
+            this.saveAsRomskillToolStripMenuItem.Visible = false;
+            this.saveAsRomskillToolStripMenuItem.Click += new System.EventHandler(this.saveAsRomskillToolStripMenuItem_Click);
+            // 
+            // editToolStripMenuItem
+            // 
+            this.editToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.undoToolStripMenuItem,
+            this.redoToolStripMenuItem,
+            this.historyToolStripMenuItem});
+            this.editToolStripMenuItem.Name = "editToolStripMenuItem";
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.editToolStripMenuItem.Text = "Edit";
+            this.editToolStripMenuItem.Click += new System.EventHandler(this.editToolStripMenuItem_Click);
+            // 
+            // undoToolStripMenuItem
+            // 
+            this.undoToolStripMenuItem.Name = "undoToolStripMenuItem";
+            this.undoToolStripMenuItem.ShortcutKeyDisplayString = "CTRL+Z";
+            this.undoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.undoToolStripMenuItem.Text = "Undo";
+            this.undoToolStripMenuItem.Click += new System.EventHandler(this.undoToolStripMenuItem_Click);
+            // 
+            // redoToolStripMenuItem
+            // 
+            this.redoToolStripMenuItem.Name = "redoToolStripMenuItem";
+            this.redoToolStripMenuItem.ShortcutKeyDisplayString = "CTRL+Y";
+            this.redoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.redoToolStripMenuItem.Text = "Redo";
+            this.redoToolStripMenuItem.Click += new System.EventHandler(this.redoToolStripMenuItem_Click);
+            // 
+            // historyToolStripMenuItem
+            // 
+            this.historyToolStripMenuItem.Name = "historyToolStripMenuItem";
+            this.historyToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.historyToolStripMenuItem.Text = "History";
+            this.historyToolStripMenuItem.Click += new System.EventHandler(this.historyToolStripMenuItem_Click);
+            // 
+            // optionsToolStripMenuItem
+            // 
+            this.optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.knowAllMovesToolStripMenuItem,
+            this.haveNoMovesToolStripMenuItem,
+            this.includeCameraTriggersWhenSavingToolStripMenuItem,
+            this.removeNumbersFromNotedoorToolStripMenuItem,
+            this.hideUnknownBytesToolStripMenuItem});
+            this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
+            this.optionsToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.optionsToolStripMenuItem.Text = "Options";
+            // 
+            // knowAllMovesToolStripMenuItem
+            // 
+            this.knowAllMovesToolStripMenuItem.Enabled = false;
+            this.knowAllMovesToolStripMenuItem.Name = "knowAllMovesToolStripMenuItem";
+            this.knowAllMovesToolStripMenuItem.Size = new System.Drawing.Size(267, 22);
+            this.knowAllMovesToolStripMenuItem.Text = "Have all moves";
+            this.knowAllMovesToolStripMenuItem.Click += new System.EventHandler(this.knowAllMovesToolStripMenuItem_Click);
+            // 
+            // haveNoMovesToolStripMenuItem
+            // 
+            this.haveNoMovesToolStripMenuItem.Enabled = false;
+            this.haveNoMovesToolStripMenuItem.Name = "haveNoMovesToolStripMenuItem";
+            this.haveNoMovesToolStripMenuItem.Size = new System.Drawing.Size(267, 22);
+            this.haveNoMovesToolStripMenuItem.Text = "Have no moves";
+            this.haveNoMovesToolStripMenuItem.Click += new System.EventHandler(this.haveNoMovesToolStripMenuItem_Click);
+            // 
+            // includeCameraTriggersWhenSavingToolStripMenuItem
+            // 
+            this.includeCameraTriggersWhenSavingToolStripMenuItem.Checked = true;
+            this.includeCameraTriggersWhenSavingToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.includeCameraTriggersWhenSavingToolStripMenuItem.Name = "includeCameraTriggersWhenSavingToolStripMenuItem";
+            this.includeCameraTriggersWhenSavingToolStripMenuItem.Size = new System.Drawing.Size(267, 22);
+            this.includeCameraTriggersWhenSavingToolStripMenuItem.Text = "Include camera triggers when saving";
+            this.includeCameraTriggersWhenSavingToolStripMenuItem.Click += new System.EventHandler(this.includeCameraTriggersWhenSavingToolStripMenuItem_Click);
+            // 
+            // removeNumbersFromNotedoorToolStripMenuItem
+            // 
+            this.removeNumbersFromNotedoorToolStripMenuItem.Enabled = false;
+            this.removeNumbersFromNotedoorToolStripMenuItem.Name = "removeNumbersFromNotedoorToolStripMenuItem";
+            this.removeNumbersFromNotedoorToolStripMenuItem.Size = new System.Drawing.Size(267, 22);
+            this.removeNumbersFromNotedoorToolStripMenuItem.Text = "Remove Numbers from Note Doors";
+            this.removeNumbersFromNotedoorToolStripMenuItem.Click += new System.EventHandler(this.removeNumbersFromNotedoorToolStripMenuItem_Click);
+            // 
+            // hideUnknownBytesToolStripMenuItem
+            // 
+            this.hideUnknownBytesToolStripMenuItem.Checked = true;
+            this.hideUnknownBytesToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.hideUnknownBytesToolStripMenuItem.Name = "hideUnknownBytesToolStripMenuItem";
+            this.hideUnknownBytesToolStripMenuItem.Size = new System.Drawing.Size(267, 22);
+            this.hideUnknownBytesToolStripMenuItem.Text = "Hide Unknown Bytes";
+            this.hideUnknownBytesToolStripMenuItem.Click += new System.EventHandler(this.hideUnknownBytesToolStripMenuItem_Click);
+            // 
+            // toolsToolStripMenuItem
+            // 
+            this.toolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.importObjToolStripMenuItem,
+            this.modelEditorToolStripMenuItem,
+            this.textEditorToolStripMenuItem,
+            this.midiToolToolStripMenuItem,
+            this.puzzleEditorToolStripMenuItem,
+            this.injectorInToolStripMenuItem,
+            this.sNSEditorToolStripMenuItem,
+            this.spriteManagerToolStripMenuItem});
+            this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
+            this.toolsToolStripMenuItem.Size = new System.Drawing.Size(46, 20);
+            this.toolsToolStripMenuItem.Text = "Tools";
+            this.toolsToolStripMenuItem.Click += new System.EventHandler(this.toolsToolStripMenuItem_Click);
+            // 
+            // importObjToolStripMenuItem
+            // 
+            this.importObjToolStripMenuItem.Name = "importObjToolStripMenuItem";
+            this.importObjToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.importObjToolStripMenuItem.Text = "Model Importer";
+            this.importObjToolStripMenuItem.Click += new System.EventHandler(this.importObjToolStripMenuItem_Click);
+            // 
+            // modelEditorToolStripMenuItem
+            // 
+            this.modelEditorToolStripMenuItem.Name = "modelEditorToolStripMenuItem";
+            this.modelEditorToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.modelEditorToolStripMenuItem.Text = "Model Viewer";
+            this.modelEditorToolStripMenuItem.Click += new System.EventHandler(this.modelEditorToolStripMenuItem_Click);
+            // 
+            // textEditorToolStripMenuItem
+            // 
+            this.textEditorToolStripMenuItem.Enabled = false;
+            this.textEditorToolStripMenuItem.Name = "textEditorToolStripMenuItem";
+            this.textEditorToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.textEditorToolStripMenuItem.Text = "Text Editor";
+            this.textEditorToolStripMenuItem.Click += new System.EventHandler(this.textEditorToolStripMenuItem_Click);
+            // 
+            // midiToolToolStripMenuItem
+            // 
+            this.midiToolToolStripMenuItem.Enabled = false;
+            this.midiToolToolStripMenuItem.Name = "midiToolToolStripMenuItem";
+            this.midiToolToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.midiToolToolStripMenuItem.Text = "Midi Tool";
+            this.midiToolToolStripMenuItem.Click += new System.EventHandler(this.midiToolToolStripMenuItem_Click);
+            // 
+            // puzzleEditorToolStripMenuItem
+            // 
+            this.puzzleEditorToolStripMenuItem.Enabled = false;
+            this.puzzleEditorToolStripMenuItem.Name = "puzzleEditorToolStripMenuItem";
+            this.puzzleEditorToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.puzzleEditorToolStripMenuItem.Text = "General Game Settings";
+            this.puzzleEditorToolStripMenuItem.Click += new System.EventHandler(this.puzzleEditorToolStripMenuItem_Click);
+            // 
+            // injectorInToolStripMenuItem
+            // 
+            this.injectorInToolStripMenuItem.Name = "injectorInToolStripMenuItem";
+            this.injectorInToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.injectorInToolStripMenuItem.Text = "Injector";
+            this.injectorInToolStripMenuItem.Visible = false;
+            // 
+            // sNSEditorToolStripMenuItem
+            // 
+            this.sNSEditorToolStripMenuItem.Enabled = false;
+            this.sNSEditorToolStripMenuItem.Name = "sNSEditorToolStripMenuItem";
+            this.sNSEditorToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.sNSEditorToolStripMenuItem.Text = "SNS Editor";
+            this.sNSEditorToolStripMenuItem.Visible = false;
+            this.sNSEditorToolStripMenuItem.Click += new System.EventHandler(this.sNSEditorToolStripMenuItem_Click);
+            // 
+            // spriteManagerToolStripMenuItem
+            // 
+            this.spriteManagerToolStripMenuItem.Name = "spriteManagerToolStripMenuItem";
+            this.spriteManagerToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
+            this.spriteManagerToolStripMenuItem.Text = "Sprite Manager";
+            this.spriteManagerToolStripMenuItem.Click += new System.EventHandler(this.spriteManagerToolStripMenuItem_Click);
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.H)));
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // objectImages_il
+            // 
+            this.objectImages_il.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("objectImages_il.ImageStream")));
+            this.objectImages_il.TransparentColor = System.Drawing.Color.Transparent;
+            this.objectImages_il.Images.SetKeyName(0, "AnicentOne_head.png");
+            this.objectImages_il.Images.SetKeyName(1, "Ant_Head.png");
+            this.objectImages_il.Images.SetKeyName(2, "Banjo_Head.png");
+            this.objectImages_il.Images.SetKeyName(3, "BeeHive_Head.png");
+            this.objectImages_il.Images.SetKeyName(4, "Blubber_Head.png");
+            this.objectImages_il.Images.SetKeyName(5, "BlueEgg_Head.png");
+            this.objectImages_il.Images.SetKeyName(6, "BluePresent_Head.png");
+            this.objectImages_il.Images.SetKeyName(7, "Boggy_Head.png");
+            this.objectImages_il.Images.SetKeyName(8, "Boggy_Kid1_Head.png");
+            this.objectImages_il.Images.SetKeyName(9, "Bottles_Head.png");
+            this.objectImages_il.Images.SetKeyName(10, "Box_Head.png");
+            this.objectImages_il.Images.SetKeyName(11, "Brentilda_Head.png");
+            this.objectImages_il.Images.SetKeyName(12, "Caterpiller_Head.png");
+            this.objectImages_il.Images.SetKeyName(13, "Charmer_Head.png");
+            this.objectImages_il.Images.SetKeyName(14, "Cheato_Head.png");
+            this.objectImages_il.Images.SetKeyName(15, "Chest_Head.png");
+            this.objectImages_il.Images.SetKeyName(16, "Chimpy_Head.png");
+            this.objectImages_il.Images.SetKeyName(17, "Chomp_Head.png");
+            this.objectImages_il.Images.SetKeyName(18, "Claim_Head.png");
+            this.objectImages_il.Images.SetKeyName(19, "Clanker_Head.png");
+            this.objectImages_il.Images.SetKeyName(20, "Clock_Head.png");
+            this.objectImages_il.Images.SetKeyName(21, "Coldron_Head.png");
+            this.objectImages_il.Images.SetKeyName(22, "Conga_Head.png");
+            this.objectImages_il.Images.SetKeyName(23, "Crab_Head.png");
+            this.objectImages_il.Images.SetKeyName(24, "CrocBanjo_Head.png");
+            this.objectImages_il.Images.SetKeyName(25, "Croccos_Head.png");
+            this.objectImages_il.Images.SetKeyName(26, "Dingpot_Head.png");
+            this.objectImages_il.Images.SetKeyName(27, "Earie1_Head.png");
+            this.objectImages_il.Images.SetKeyName(28, "Earie2_Head.png");
+            this.objectImages_il.Images.SetKeyName(29, "EmptyCup_Head.png");
+            this.objectImages_il.Images.SetKeyName(30, "EmptyHoneyComb_Head.png");
+            this.objectImages_il.Images.SetKeyName(31, "ExtraHoneyComb_Head.png");
+            this.objectImages_il.Images.SetKeyName(32, "ExtraLife_Head.png");
+            this.objectImages_il.Images.SetKeyName(33, "Flip_Head.png");
+            this.objectImages_il.Images.SetKeyName(34, "Ghoul_Head.png");
+            this.objectImages_il.Images.SetKeyName(35, "Gloop_Head.png");
+            this.objectImages_il.Images.SetKeyName(36, "Gnawty_Head.png");
+            this.objectImages_il.Images.SetKeyName(37, "Gobi_Head.png");
+            this.objectImages_il.Images.SetKeyName(38, "GoldBars_Head.png");
+            this.objectImages_il.Images.SetKeyName(39, "GoldFeather_Head.png");
+            this.objectImages_il.Images.SetKeyName(40, "GreenPresent_Head.png");
+            this.objectImages_il.Images.SetKeyName(41, "Grunty_Head.png");
+            this.objectImages_il.Images.SetKeyName(42, "HoneyComb_Head.png");
+            this.objectImages_il.Images.SetKeyName(43, "Ice_Head.png");
+            this.objectImages_il.Images.SetKeyName(44, "Jiggy_Head.png");
+            this.objectImages_il.Images.SetKeyName(45, "JinjoBlue_Head.png");
+            this.objectImages_il.Images.SetKeyName(46, "JinjoGreen_Head.png");
+            this.objectImages_il.Images.SetKeyName(47, "JinjoOrange_Head.png");
+            this.objectImages_il.Images.SetKeyName(48, "JinjoPurple_Head.png");
+            this.objectImages_il.Images.SetKeyName(49, "JinjoYellow_Head.png");
+            this.objectImages_il.Images.SetKeyName(50, "Kazooie_Head.png");
+            this.objectImages_il.Images.SetKeyName(51, "Klungo_Head.png");
+            this.objectImages_il.Images.SetKeyName(52, "Leaky_Head.png");
+            this.objectImages_il.Images.SetKeyName(53, "Loggo_Head.png");
+            this.objectImages_il.Images.SetKeyName(54, "Mozzartz_Head.png");
+            this.objectImages_il.Images.SetKeyName(55, "MrVile_Head.png");
+            this.objectImages_il.Images.SetKeyName(56, "Mumbo_Head.png");
+            this.objectImages_il.Images.SetKeyName(57, "MumboToken_Head.png");
+            this.objectImages_il.Images.SetKeyName(58, "Mummy_Head.png");
+            this.objectImages_il.Images.SetKeyName(59, "Note_Head.png");
+            this.objectImages_il.Images.SetKeyName(60, "Nubnut_Head.png");
+            this.objectImages_il.Images.SetKeyName(61, "Orange_Head.png");
+            this.objectImages_il.Images.SetKeyName(62, "Pirana_Head.png");
+            this.objectImages_il.Images.SetKeyName(63, "RedCrab_Head.png");
+            this.objectImages_il.Images.SetKeyName(64, "RedFeather_Head.png");
+            this.objectImages_il.Images.SetKeyName(65, "RedPresent_Head.png");
+            this.objectImages_il.Images.SetKeyName(66, "RunningShoes_Head.png");
+            this.objectImages_il.Images.SetKeyName(67, "SexyGrunty_Head.png");
+            this.objectImages_il.Images.SetKeyName(68, "Slapper.png");
+            this.objectImages_il.Images.SetKeyName(69, "Snacker_Head.png");
+            this.objectImages_il.Images.SetKeyName(70, "Snake_Head.png");
+            this.objectImages_il.Images.SetKeyName(71, "Snipper_Head.png");
+            this.objectImages_il.Images.SetKeyName(72, "Snorkles_Head.png");
+            this.objectImages_il.Images.SetKeyName(73, "Sphinix_Head.png");
+            this.objectImages_il.Images.SetKeyName(74, "TipTop_Head.png");
+            this.objectImages_il.Images.SetKeyName(75, "TipTopJr_Head.png");
+            this.objectImages_il.Images.SetKeyName(76, "Tooty_Head.png");
+            this.objectImages_il.Images.SetKeyName(77, "Totem_Head.png");
+            this.objectImages_il.Images.SetKeyName(78, "Tree_Head.png");
+            this.objectImages_il.Images.SetKeyName(79, "Turtle_Head.png");
+            this.objectImages_il.Images.SetKeyName(80, "Twinkle_Head.png");
+            this.objectImages_il.Images.SetKeyName(81, "UglyTooty_Head.png");
+            this.objectImages_il.Images.SetKeyName(82, "unknown.png");
+            this.objectImages_il.Images.SetKeyName(83, "WaddingBoots_Head.png");
+            this.objectImages_il.Images.SetKeyName(84, "Wazza_Head.png");
+            this.objectImages_il.Images.SetKeyName(85, "Zumba_Head.png");
+            // 
+            // textUpdate_gb
+            // 
+            this.textUpdate_gb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.textUpdate_gb.Controls.Add(this.updateRad_tb);
+            this.textUpdate_gb.Controls.Add(this.rad_lbl);
+            this.textUpdate_gb.Controls.Add(this.flag_tb);
+            this.textUpdate_gb.Controls.Add(this.flag_lbl);
+            this.textUpdate_gb.Controls.Add(this.address_lbl);
+            this.textUpdate_gb.Controls.Add(this.tableLayoutPanel4);
+            this.textUpdate_gb.Controls.Add(this.tableLayoutPanel3);
+            this.textUpdate_gb.Controls.Add(this.objID_lbl);
+            this.textUpdate_gb.Controls.Add(this.id_tb);
+            this.textUpdate_gb.Controls.Add(this.label1);
+            this.textUpdate_gb.Controls.Add(this.warp_btn);
+            this.textUpdate_gb.Controls.Add(this.warpTo_tb);
+            this.textUpdate_gb.Controls.Add(this.warpTo_lbl);
+            this.textUpdate_gb.Controls.Add(this.id_lbl);
+            this.textUpdate_gb.Controls.Add(this.updateScript_tb);
+            this.textUpdate_gb.Controls.Add(this.updateName_tb);
+            this.textUpdate_gb.Controls.Add(this.script_lbl);
+            this.textUpdate_gb.Controls.Add(this.label22);
+            this.textUpdate_gb.Location = new System.Drawing.Point(3, 781);
+            this.textUpdate_gb.Name = "textUpdate_gb";
+            this.textUpdate_gb.Padding = new System.Windows.Forms.Padding(0);
+            this.textUpdate_gb.Size = new System.Drawing.Size(200, 317);
+            this.textUpdate_gb.TabIndex = 4;
+            this.textUpdate_gb.TabStop = false;
+            // 
+            // updateRad_tb
+            // 
+            this.updateRad_tb.Location = new System.Drawing.Point(149, 62);
+            this.updateRad_tb.Name = "updateRad_tb";
+            this.updateRad_tb.Size = new System.Drawing.Size(45, 20);
+            this.updateRad_tb.TabIndex = 17;
+            this.updateRad_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            this.updateRad_tb.KeyUp += new System.Windows.Forms.KeyEventHandler(this.updateRad_tb_KeyUp);
+            this.updateRad_tb.Leave += new System.EventHandler(this.updateRad_tb_Leave);
+            // 
+            // rad_lbl
+            // 
+            this.rad_lbl.AutoSize = true;
+            this.rad_lbl.Location = new System.Drawing.Point(106, 65);
+            this.rad_lbl.Name = "rad_lbl";
+            this.rad_lbl.Size = new System.Drawing.Size(40, 13);
+            this.rad_lbl.TabIndex = 65;
+            this.rad_lbl.Text = "Radius";
+            // 
+            // flag_tb
+            // 
+            this.flag_tb.Location = new System.Drawing.Point(58, 61);
+            this.flag_tb.Name = "flag_tb";
+            this.flag_tb.Size = new System.Drawing.Size(45, 20);
+            this.flag_tb.TabIndex = 16;
+            // 
+            // flag_lbl
+            // 
+            this.flag_lbl.AutoSize = true;
+            this.flag_lbl.Location = new System.Drawing.Point(4, 62);
+            this.flag_lbl.Name = "flag_lbl";
+            this.flag_lbl.Size = new System.Drawing.Size(27, 13);
+            this.flag_lbl.TabIndex = 62;
+            this.flag_lbl.Text = "Flag";
+            // 
+            // address_lbl
+            // 
+            this.address_lbl.AutoSize = true;
+            this.address_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.address_lbl.Location = new System.Drawing.Point(136, 288);
+            this.address_lbl.Name = "address_lbl";
+            this.address_lbl.Size = new System.Drawing.Size(24, 13);
+            this.address_lbl.TabIndex = 42;
+            this.address_lbl.Text = "0x0";
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.ColumnCount = 4;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel4.Controls.Add(this.updateB17_tb, 3, 2);
+            this.tableLayoutPanel4.Controls.Add(this.updateB16_tb, 1, 2);
+            this.tableLayoutPanel4.Controls.Add(this.b10_lbl, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.updateB10_tb, 1, 0);
+            this.tableLayoutPanel4.Controls.Add(this.updateB18_tb, 3, 1);
+            this.tableLayoutPanel4.Controls.Add(this.updateB13_tb, 3, 0);
+            this.tableLayoutPanel4.Controls.Add(this.b18_lbl, 2, 1);
+            this.tableLayoutPanel4.Controls.Add(this.b11_lbl, 0, 1);
+            this.tableLayoutPanel4.Controls.Add(this.updateB11_tb, 1, 1);
+            this.tableLayoutPanel4.Controls.Add(this.b13_lbl, 2, 0);
+            this.tableLayoutPanel4.Controls.Add(this.b16_lbl, 0, 2);
+            this.tableLayoutPanel4.Controls.Add(this.b17_lbl, 2, 2);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(-1, 185);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 3;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(190, 71);
+            this.tableLayoutPanel4.TabIndex = 61;
+            // 
+            // updateB17_tb
+            // 
+            this.updateB17_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.updateB17_tb.Location = new System.Drawing.Point(144, 53);
+            this.updateB17_tb.Name = "updateB17_tb";
+            this.updateB17_tb.Size = new System.Drawing.Size(43, 20);
+            this.updateB17_tb.TabIndex = 63;
+            this.updateB17_tb.Leave += new System.EventHandler(this.updateB11_tb_Leave);
+            // 
+            // updateB16_tb
+            // 
+            this.updateB16_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.updateB16_tb.Location = new System.Drawing.Point(50, 53);
+            this.updateB16_tb.Name = "updateB16_tb";
+            this.updateB16_tb.Size = new System.Drawing.Size(41, 20);
+            this.updateB16_tb.TabIndex = 62;
+            this.updateB16_tb.Leave += new System.EventHandler(this.updateB11_tb_Leave);
+            // 
+            // b10_lbl
+            // 
+            this.b10_lbl.AutoSize = true;
+            this.b10_lbl.Location = new System.Drawing.Point(3, 0);
+            this.b10_lbl.Name = "b10_lbl";
+            this.b10_lbl.Size = new System.Drawing.Size(26, 13);
+            this.b10_lbl.TabIndex = 50;
+            this.b10_lbl.Text = "B10";
+            // 
+            // updateB10_tb
+            // 
+            this.updateB10_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.updateB10_tb.Enabled = false;
+            this.updateB10_tb.Location = new System.Drawing.Point(50, 3);
+            this.updateB10_tb.Name = "updateB10_tb";
+            this.updateB10_tb.Size = new System.Drawing.Size(41, 20);
+            this.updateB10_tb.TabIndex = 23;
+            this.updateB10_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.updateB10_tb_KeyDown);
+            this.updateB10_tb.Leave += new System.EventHandler(this.updateB10_tb_Leave);
+            // 
+            // updateB18_tb
+            // 
+            this.updateB18_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.updateB18_tb.Enabled = false;
+            this.updateB18_tb.Location = new System.Drawing.Point(144, 28);
+            this.updateB18_tb.Name = "updateB18_tb";
+            this.updateB18_tb.Size = new System.Drawing.Size(43, 20);
+            this.updateB18_tb.TabIndex = 26;
+            this.updateB18_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.updateB18_tb_KeyDown);
+            this.updateB18_tb.Leave += new System.EventHandler(this.updateB18_tb_Leave);
+            // 
+            // updateB13_tb
+            // 
+            this.updateB13_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.updateB13_tb.Enabled = false;
+            this.updateB13_tb.Location = new System.Drawing.Point(144, 3);
+            this.updateB13_tb.Name = "updateB13_tb";
+            this.updateB13_tb.Size = new System.Drawing.Size(43, 20);
+            this.updateB13_tb.TabIndex = 24;
+            this.updateB13_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.updateB13_tb_KeyDown);
+            this.updateB13_tb.Leave += new System.EventHandler(this.updateB13_tb_Leave);
+            // 
+            // b18_lbl
+            // 
+            this.b18_lbl.AutoSize = true;
+            this.b18_lbl.Location = new System.Drawing.Point(97, 25);
+            this.b18_lbl.Name = "b18_lbl";
+            this.b18_lbl.Size = new System.Drawing.Size(26, 13);
+            this.b18_lbl.TabIndex = 59;
+            this.b18_lbl.Text = "B18";
+            // 
+            // b11_lbl
+            // 
+            this.b11_lbl.AutoSize = true;
+            this.b11_lbl.Location = new System.Drawing.Point(3, 25);
+            this.b11_lbl.Name = "b11_lbl";
+            this.b11_lbl.Size = new System.Drawing.Size(26, 13);
+            this.b11_lbl.TabIndex = 51;
+            this.b11_lbl.Text = "B11";
+            // 
+            // updateB11_tb
+            // 
+            this.updateB11_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.updateB11_tb.Enabled = false;
+            this.updateB11_tb.Location = new System.Drawing.Point(50, 28);
+            this.updateB11_tb.Name = "updateB11_tb";
+            this.updateB11_tb.Size = new System.Drawing.Size(41, 20);
+            this.updateB11_tb.TabIndex = 25;
+            this.updateB11_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.updateB11_tb_KeyDown);
+            this.updateB11_tb.Leave += new System.EventHandler(this.updateB11_tb_Leave);
+            // 
+            // b13_lbl
+            // 
+            this.b13_lbl.AutoSize = true;
+            this.b13_lbl.Location = new System.Drawing.Point(97, 0);
+            this.b13_lbl.Name = "b13_lbl";
+            this.b13_lbl.Size = new System.Drawing.Size(26, 13);
+            this.b13_lbl.TabIndex = 52;
+            this.b13_lbl.Text = "B13";
+            // 
+            // b16_lbl
+            // 
+            this.b16_lbl.AutoSize = true;
+            this.b16_lbl.Location = new System.Drawing.Point(3, 50);
+            this.b16_lbl.Name = "b16_lbl";
+            this.b16_lbl.Size = new System.Drawing.Size(26, 13);
+            this.b16_lbl.TabIndex = 60;
+            this.b16_lbl.Text = "B16";
+            // 
+            // b17_lbl
+            // 
+            this.b17_lbl.AutoSize = true;
+            this.b17_lbl.Location = new System.Drawing.Point(97, 50);
+            this.b17_lbl.Name = "b17_lbl";
+            this.b17_lbl.Size = new System.Drawing.Size(26, 13);
+            this.b17_lbl.TabIndex = 61;
+            this.b17_lbl.Text = "B17";
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.ColumnCount = 4;
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.5F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.5F));
+            this.tableLayoutPanel3.Controls.Add(this.label19, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.updateX_tb, 1, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label17, 0, 2);
+            this.tableLayoutPanel3.Controls.Add(this.label18, 0, 1);
+            this.tableLayoutPanel3.Controls.Add(this.updateY_tb, 1, 1);
+            this.tableLayoutPanel3.Controls.Add(this.updateZ_tb, 1, 2);
+            this.tableLayoutPanel3.Controls.Add(this.size_lbl, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.rotByte_lbl, 2, 1);
+            this.tableLayoutPanel3.Controls.Add(this.updateSize_tb, 3, 0);
+            this.tableLayoutPanel3.Controls.Add(this.updateRot_tb, 3, 1);
+            this.tableLayoutPanel3.Controls.Add(this.cc_failsafe_cb, 3, 2);
+            this.tableLayoutPanel3.Controls.Add(this.failsafe_lbl, 2, 2);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(-1, 100);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            this.tableLayoutPanel3.RowCount = 3;
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(190, 83);
+            this.tableLayoutPanel3.TabIndex = 60;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(3, 0);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(13, 13);
+            this.label19.TabIndex = 28;
+            this.label19.Text = "X";
+            // 
+            // updateX_tb
+            // 
+            this.updateX_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.updateX_tb.Enabled = false;
+            this.updateX_tb.Location = new System.Drawing.Point(22, 3);
+            this.updateX_tb.Name = "updateX_tb";
+            this.updateX_tb.Size = new System.Drawing.Size(51, 20);
+            this.updateX_tb.TabIndex = 18;
+            this.updateX_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.updateX_tb_KeyDown);
+            this.updateX_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            this.updateX_tb.Leave += new System.EventHandler(this.objectPropertyLeave);
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(3, 54);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(13, 13);
+            this.label17.TabIndex = 30;
+            this.label17.Text = "Z";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(3, 27);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(13, 13);
+            this.label18.TabIndex = 29;
+            this.label18.Text = "Y";
+            // 
+            // updateY_tb
+            // 
+            this.updateY_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.updateY_tb.Enabled = false;
+            this.updateY_tb.Location = new System.Drawing.Point(22, 30);
+            this.updateY_tb.Name = "updateY_tb";
+            this.updateY_tb.Size = new System.Drawing.Size(51, 20);
+            this.updateY_tb.TabIndex = 19;
+            this.updateY_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.updateY_tb_KeyDown);
+            this.updateY_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            this.updateY_tb.Leave += new System.EventHandler(this.objectPropertyLeave);
+            // 
+            // updateZ_tb
+            // 
+            this.updateZ_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.updateZ_tb.Enabled = false;
+            this.updateZ_tb.Location = new System.Drawing.Point(22, 57);
+            this.updateZ_tb.Name = "updateZ_tb";
+            this.updateZ_tb.Size = new System.Drawing.Size(51, 20);
+            this.updateZ_tb.TabIndex = 20;
+            this.updateZ_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.updateZ_tb_KeyDown);
+            this.updateZ_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            this.updateZ_tb.Leave += new System.EventHandler(this.objectPropertyLeave);
+            // 
+            // size_lbl
+            // 
+            this.size_lbl.AutoSize = true;
+            this.size_lbl.Location = new System.Drawing.Point(79, 0);
+            this.size_lbl.Name = "size_lbl";
+            this.size_lbl.Size = new System.Drawing.Size(27, 13);
+            this.size_lbl.TabIndex = 25;
+            this.size_lbl.Text = "Size";
+            // 
+            // rotByte_lbl
+            // 
+            this.rotByte_lbl.AutoSize = true;
+            this.rotByte_lbl.Location = new System.Drawing.Point(79, 27);
+            this.rotByte_lbl.Name = "rotByte_lbl";
+            this.rotByte_lbl.Size = new System.Drawing.Size(47, 13);
+            this.rotByte_lbl.TabIndex = 31;
+            this.rotByte_lbl.Text = "Rotation";
+            // 
+            // updateSize_tb
+            // 
+            this.updateSize_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.updateSize_tb.Enabled = false;
+            this.updateSize_tb.Location = new System.Drawing.Point(136, 3);
+            this.updateSize_tb.Name = "updateSize_tb";
+            this.updateSize_tb.Size = new System.Drawing.Size(51, 20);
+            this.updateSize_tb.TabIndex = 21;
+            this.updateSize_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.updateSize_tb_KeyDown);
+            this.updateSize_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            this.updateSize_tb.Leave += new System.EventHandler(this.objectPropertyLeave);
+            // 
+            // updateRot_tb
+            // 
+            this.updateRot_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.updateRot_tb.Enabled = false;
+            this.updateRot_tb.Location = new System.Drawing.Point(136, 30);
+            this.updateRot_tb.Name = "updateRot_tb";
+            this.updateRot_tb.Size = new System.Drawing.Size(51, 20);
+            this.updateRot_tb.TabIndex = 22;
+            this.updateRot_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.updateRot_tb_KeyDown);
+            this.updateRot_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            this.updateRot_tb.Leave += new System.EventHandler(this.objectPropertyLeave);
+            // 
+            // cc_failsafe_cb
+            // 
+            this.cc_failsafe_cb.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.cc_failsafe_cb.Location = new System.Drawing.Point(136, 57);
+            this.cc_failsafe_cb.Name = "cc_failsafe_cb";
+            this.cc_failsafe_cb.Size = new System.Drawing.Size(31, 20);
+            this.cc_failsafe_cb.TabIndex = 66;
+            this.cc_failsafe_cb.UseVisualStyleBackColor = true;
+            this.cc_failsafe_cb.CheckedChanged += new System.EventHandler(this.cc_failsafe_cb_CheckedChanged);
+            // 
+            // failsafe_lbl
+            // 
+            this.failsafe_lbl.Location = new System.Drawing.Point(79, 54);
+            this.failsafe_lbl.Name = "failsafe_lbl";
+            this.failsafe_lbl.Size = new System.Drawing.Size(51, 20);
+            this.failsafe_lbl.TabIndex = 67;
+            this.failsafe_lbl.Text = "Failsafe";
+            // 
+            // objID_lbl
+            // 
+            this.objID_lbl.AutoSize = true;
+            this.objID_lbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.objID_lbl.Location = new System.Drawing.Point(13, 288);
+            this.objID_lbl.Name = "objID_lbl";
+            this.objID_lbl.Size = new System.Drawing.Size(31, 13);
+            this.objID_lbl.TabIndex = 48;
+            this.objID_lbl.Text = "none";
+            this.objID_lbl.Visible = false;
+            // 
+            // id_tb
+            // 
+            this.id_tb.Location = new System.Drawing.Point(58, 39);
+            this.id_tb.Name = "id_tb";
+            this.id_tb.Size = new System.Drawing.Size(45, 20);
+            this.id_tb.TabIndex = 14;
+            this.id_tb.KeyUp += new System.Windows.Forms.KeyEventHandler(this.id_tb_KeyUp);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(91, 287);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(43, 13);
+            this.label1.TabIndex = 46;
+            this.label1.Text = "File Loc";
+            // 
+            // warp_btn
+            // 
+            this.warp_btn.Location = new System.Drawing.Point(163, 262);
+            this.warp_btn.Name = "warp_btn";
+            this.warp_btn.Size = new System.Drawing.Size(26, 20);
+            this.warp_btn.TabIndex = 28;
+            this.warp_btn.Text = "...";
+            this.warp_btn.UseVisualStyleBackColor = true;
+            this.warp_btn.Click += new System.EventHandler(this.warp_btn_Click);
+            // 
+            // warpTo_tb
+            // 
+            this.warpTo_tb.Location = new System.Drawing.Point(58, 264);
+            this.warpTo_tb.Name = "warpTo_tb";
+            this.warpTo_tb.Size = new System.Drawing.Size(94, 20);
+            this.warpTo_tb.TabIndex = 27;
+            // 
+            // warpTo_lbl
+            // 
+            this.warpTo_lbl.AutoSize = true;
+            this.warpTo_lbl.Location = new System.Drawing.Point(9, 266);
+            this.warpTo_lbl.Name = "warpTo_lbl";
+            this.warpTo_lbl.Size = new System.Drawing.Size(54, 13);
+            this.warpTo_lbl.TabIndex = 43;
+            this.warpTo_lbl.Text = "Warps To";
+            // 
+            // id_lbl
+            // 
+            this.id_lbl.AutoSize = true;
+            this.id_lbl.Location = new System.Drawing.Point(3, 39);
+            this.id_lbl.Name = "id_lbl";
+            this.id_lbl.Size = new System.Drawing.Size(52, 13);
+            this.id_lbl.TabIndex = 41;
+            this.id_lbl.Text = "Object ID";
+            // 
+            // updateScript_tb
+            // 
+            this.updateScript_tb.Location = new System.Drawing.Point(149, 39);
+            this.updateScript_tb.Name = "updateScript_tb";
+            this.updateScript_tb.Size = new System.Drawing.Size(45, 20);
+            this.updateScript_tb.TabIndex = 15;
+            this.updateScript_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.updateScript_tb_KeyDown);
+            this.updateScript_tb.Leave += new System.EventHandler(this.updateScript_tb_Leave);
+            // 
+            // updateName_tb
+            // 
+            this.updateName_tb.Enabled = false;
+            this.updateName_tb.Location = new System.Drawing.Point(47, 13);
+            this.updateName_tb.Name = "updateName_tb";
+            this.updateName_tb.Size = new System.Drawing.Size(147, 20);
+            this.updateName_tb.TabIndex = 13;
+            // 
+            // script_lbl
+            // 
+            this.script_lbl.AutoSize = true;
+            this.script_lbl.Location = new System.Drawing.Point(106, 39);
+            this.script_lbl.Name = "script_lbl";
+            this.script_lbl.Size = new System.Drawing.Size(34, 13);
+            this.script_lbl.TabIndex = 25;
+            this.script_lbl.Text = "Script";
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(3, 13);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(35, 13);
+            this.label22.TabIndex = 25;
+            this.label22.Text = "Name";
+            // 
+            // changeLM_btn
+            // 
+            this.changeLM_btn.Location = new System.Drawing.Point(94, 77);
+            this.changeLM_btn.Name = "changeLM_btn";
+            this.changeLM_btn.Size = new System.Drawing.Size(75, 23);
+            this.changeLM_btn.TabIndex = 63;
+            this.changeLM_btn.Text = "Update";
+            this.changeLM_btn.UseVisualStyleBackColor = true;
+            this.changeLM_btn.Click += new System.EventHandler(this.ChangeLM_Click);
+            // 
+            // changeLM_ofd
+            // 
+            this.changeLM_ofd.FileName = "replaceModel";
+            // 
+            // objectMenu
+            // 
+            this.objectMenu.Name = "contextMenuStrip1";
+            this.objectMenu.Size = new System.Drawing.Size(61, 4);
+            this.objectMenu.MouseClick += new System.Windows.Forms.MouseEventHandler(this.contextMenuStrip1_MouseClick);
+            // 
+            // CamSpeed_tb
+            // 
+            this.CamSpeed_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.CamSpeed_tb.AutoSize = false;
+            this.CamSpeed_tb.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.CamSpeed_tb.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CamSpeed_tb.Location = new System.Drawing.Point(1039, 2);
+            this.CamSpeed_tb.Maximum = 100;
+            this.CamSpeed_tb.Minimum = 5;
+            this.CamSpeed_tb.Name = "CamSpeed_tb";
+            this.CamSpeed_tb.Size = new System.Drawing.Size(150, 19);
+            this.CamSpeed_tb.TabIndex = 0;
+            this.CamSpeed_tb.TickFrequency = 5;
+            this.CamSpeed_tb.Value = 30;
+            this.CamSpeed_tb.Scroll += new System.EventHandler(this.CamSpeed_tb_Scroll);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 30;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick_1);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(10, 23);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(52, 13);
+            this.label2.TabIndex = 53;
+            this.label2.Text = "Model (A)";
+            // 
+            // baseLevel_tb
+            // 
+            this.baseLevel_tb.Enabled = false;
+            this.baseLevel_tb.Location = new System.Drawing.Point(68, 20);
+            this.baseLevel_tb.Name = "baseLevel_tb";
+            this.baseLevel_tb.Size = new System.Drawing.Size(78, 20);
+            this.baseLevel_tb.TabIndex = 64;
+            // 
+            // extraModel_tb
+            // 
+            this.extraModel_tb.Enabled = false;
+            this.extraModel_tb.Location = new System.Drawing.Point(68, 48);
+            this.extraModel_tb.Name = "extraModel_tb";
+            this.extraModel_tb.Size = new System.Drawing.Size(78, 20);
+            this.extraModel_tb.TabIndex = 65;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(10, 51);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(52, 13);
+            this.label3.TabIndex = 55;
+            this.label3.Text = "Model (B)";
+            // 
+            // replaceModelEx_btn
+            // 
+            this.replaceModelEx_btn.Location = new System.Drawing.Point(152, 49);
+            this.replaceModelEx_btn.Name = "replaceModelEx_btn";
+            this.replaceModelEx_btn.Size = new System.Drawing.Size(31, 23);
+            this.replaceModelEx_btn.TabIndex = 61;
+            this.replaceModelEx_btn.Text = "...";
+            this.replaceModelEx_btn.UseVisualStyleBackColor = true;
+            this.replaceModelEx_btn.Click += new System.EventHandler(this.replaceModelEx_btn_Click);
+            // 
+            // replaceModel_btn
+            // 
+            this.replaceModel_btn.Location = new System.Drawing.Point(152, 18);
+            this.replaceModel_btn.Name = "replaceModel_btn";
+            this.replaceModel_btn.Size = new System.Drawing.Size(31, 23);
+            this.replaceModel_btn.TabIndex = 60;
+            this.replaceModel_btn.Text = "...";
+            this.replaceModel_btn.UseVisualStyleBackColor = true;
+            this.replaceModel_btn.Click += new System.EventHandler(this.replaceModel_btn_Click);
+            // 
+            // label4
+            // 
+            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label4.Location = new System.Drawing.Point(954, 6);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(77, 13);
+            this.label4.TabIndex = 59;
+            this.label4.Text = "Camera Speed";
+            // 
+            // replacemodel_gb
+            // 
+            this.replacemodel_gb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.replacemodel_gb.Controls.Add(this.clear_btn);
+            this.replacemodel_gb.Controls.Add(this.baseLevel_tb);
+            this.replacemodel_gb.Controls.Add(this.label2);
+            this.replacemodel_gb.Controls.Add(this.replaceModel_btn);
+            this.replacemodel_gb.Controls.Add(this.label3);
+            this.replacemodel_gb.Controls.Add(this.replaceModelEx_btn);
+            this.replacemodel_gb.Controls.Add(this.extraModel_tb);
+            this.replacemodel_gb.Controls.Add(this.changeLM_btn);
+            this.replacemodel_gb.Location = new System.Drawing.Point(3, 1534);
+            this.replacemodel_gb.Name = "replacemodel_gb";
+            this.replacemodel_gb.Size = new System.Drawing.Size(200, 106);
+            this.replacemodel_gb.TabIndex = 5;
+            this.replacemodel_gb.TabStop = false;
+            // 
+            // clear_btn
+            // 
+            this.clear_btn.Location = new System.Drawing.Point(13, 78);
+            this.clear_btn.Name = "clear_btn";
+            this.clear_btn.Size = new System.Drawing.Size(75, 23);
+            this.clear_btn.TabIndex = 62;
+            this.clear_btn.Text = "Clear";
+            this.clear_btn.UseVisualStyleBackColor = true;
+            this.clear_btn.Click += new System.EventHandler(this.clear_btn_Click);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.Filter = "Rom Files|*.z64;*.v64;*rom";
+            // 
+            // openFileDialog2
+            // 
+            this.openFileDialog2.Filter = "Rom Files|*.z64;*.v64;*rom";
+            // 
+            // saveFileDialog
+            // 
+            this.saveFileDialog.DefaultExt = "z64";
+            // 
+            // replaceSetup_ofd
+            // 
+            this.replaceSetup_ofd.FileName = "SetupFile.bin";
+            this.replaceSetup_ofd.Filter = "bin files|*.bin";
+            // 
+            // saveSetupFileDialog
+            // 
+            this.saveSetupFileDialog.DefaultExt = "bin";
+            this.saveSetupFileDialog.FileName = "my_setup.bin";
+            this.saveSetupFileDialog.Filter = "Bin Files|*.bin";
+            // 
+            // openSetupFileDialog
+            // 
+            this.openSetupFileDialog.DefaultExt = "bin";
+            this.openSetupFileDialog.Filter = "Bin Files|*.bin";
+            // 
+            // saveAsRomFileDialog
+            // 
+            this.saveAsRomFileDialog.DefaultExt = "z64";
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.flowLayoutPanel1.Controls.Add(this.path_gb);
+            this.flowLayoutPanel1.Controls.Add(this.col_obj_details_btn);
+            this.flowLayoutPanel1.Controls.Add(this.textUpdate_gb);
+            this.flowLayoutPanel1.Controls.Add(this.col_cam_btn);
+            this.flowLayoutPanel1.Controls.Add(this.cam3_gb);
+            this.flowLayoutPanel1.Controls.Add(this.col_replacemodel_btn);
+            this.flowLayoutPanel1.Controls.Add(this.replacemodel_gb);
+            this.flowLayoutPanel1.Controls.Add(this.col_levelbounds_btn);
+            this.flowLayoutPanel1.Controls.Add(this.bounds_gb);
+            this.flowLayoutPanel1.Controls.Add(this.col_levelentries_btn);
+            this.flowLayoutPanel1.Controls.Add(this.levelEntries_gb);
+            this.flowLayoutPanel1.Controls.Add(this.col_objects_btn);
+            this.flowLayoutPanel1.Controls.Add(this.objects_gb);
+            this.flowLayoutPanel1.Controls.Add(this.col_structs_btn);
+            this.flowLayoutPanel1.Controls.Add(this.structs_gb);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(960, 158);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(233, 343);
+            this.flowLayoutPanel1.TabIndex = 66;
+            this.flowLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayoutPanel1_Paint);
+            // 
+            // path_gb
+            // 
+            this.path_gb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.path_gb.Controls.Add(this.label11);
+            this.path_gb.Controls.Add(this.label10);
+            this.path_gb.Controls.Add(this.pathControllers_dgv);
+            this.path_gb.Controls.Add(this.nodeID_gb);
+            this.path_gb.Controls.Add(this.sNode_gb);
+            this.path_gb.Controls.Add(this.nodeProperties_gb);
+            this.path_gb.Controls.Add(this.col_selPath_btn);
+            this.path_gb.Controls.Add(this.pathObject_gb);
+            this.path_gb.Controls.Add(this.path_dgv);
+            this.path_gb.Location = new System.Drawing.Point(3, 3);
+            this.path_gb.Name = "path_gb";
+            this.path_gb.Size = new System.Drawing.Size(211, 749);
+            this.path_gb.TabIndex = 80;
+            this.path_gb.TabStop = false;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(6, 184);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(56, 13);
+            this.label11.TabIndex = 87;
+            this.label11.Text = "Controllers";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(6, 74);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(84, 13);
+            this.label10.TabIndex = 86;
+            this.label10.Text = "Standard Nodes";
+            // 
+            // pathControllers_dgv
+            // 
+            this.pathControllers_dgv.AllowUserToAddRows = false;
+            this.pathControllers_dgv.AllowUserToDeleteRows = false;
+            this.pathControllers_dgv.AllowUserToOrderColumns = true;
+            this.pathControllers_dgv.AllowUserToResizeRows = false;
+            this.pathControllers_dgv.BackgroundColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.pathControllers_dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.pathControllers_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.pathControllers_dgv.DefaultCellStyle = dataGridViewCellStyle2;
+            this.pathControllers_dgv.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.pathControllers_dgv.Location = new System.Drawing.Point(6, 200);
+            this.pathControllers_dgv.Margin = new System.Windows.Forms.Padding(3, 3, 3, 30);
+            this.pathControllers_dgv.Name = "pathControllers_dgv";
+            this.pathControllers_dgv.ReadOnly = true;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.pathControllers_dgv.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.pathControllers_dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.pathControllers_dgv.Size = new System.Drawing.Size(197, 80);
+            this.pathControllers_dgv.TabIndex = 85;
+            this.pathControllers_dgv.DoubleClick += new System.EventHandler(this.pathControllers_dgv_DoubleClick);
+            // 
+            // nodeID_gb
+            // 
+            this.nodeID_gb.Controls.Add(this.tableLayoutPanel13);
+            this.nodeID_gb.Controls.Add(this.button6);
+            this.nodeID_gb.Location = new System.Drawing.Point(3, 285);
+            this.nodeID_gb.Name = "nodeID_gb";
+            this.nodeID_gb.Size = new System.Drawing.Size(200, 85);
+            this.nodeID_gb.TabIndex = 83;
+            // 
+            // tableLayoutPanel13
+            // 
+            this.tableLayoutPanel13.BackColor = System.Drawing.Color.White;
+            this.tableLayoutPanel13.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel13.ColumnCount = 2;
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18.75F));
+            this.tableLayoutPanel13.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 31.25F));
+            this.tableLayoutPanel13.Controls.Add(this.label69, 0, 0);
+            this.tableLayoutPanel13.Controls.Add(this.nodeID_tb, 1, 0);
+            this.tableLayoutPanel13.Controls.Add(this.label70, 0, 1);
+            this.tableLayoutPanel13.Controls.Add(this.node18_tb, 1, 1);
+            this.tableLayoutPanel13.Location = new System.Drawing.Point(0, 25);
+            this.tableLayoutPanel13.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel13.Name = "tableLayoutPanel13";
+            this.tableLayoutPanel13.RowCount = 2;
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel13.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel13.Size = new System.Drawing.Size(200, 55);
+            this.tableLayoutPanel13.TabIndex = 61;
+            // 
+            // label69
+            // 
+            this.label69.AutoSize = true;
+            this.label69.Location = new System.Drawing.Point(4, 1);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(18, 13);
+            this.label69.TabIndex = 28;
+            this.label69.Text = "ID";
+            // 
+            // nodeID_tb
+            // 
+            this.nodeID_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.nodeID_tb.Enabled = false;
+            this.nodeID_tb.Location = new System.Drawing.Point(78, 4);
+            this.nodeID_tb.Name = "nodeID_tb";
+            this.nodeID_tb.Size = new System.Drawing.Size(118, 20);
+            this.nodeID_tb.TabIndex = 18;
+            // 
+            // label70
+            // 
+            this.label70.AutoSize = true;
+            this.label70.Location = new System.Drawing.Point(4, 28);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(22, 13);
+            this.label70.TabIndex = 29;
+            this.label70.Text = "TO";
+            // 
+            // node18_tb
+            // 
+            this.node18_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.node18_tb.Location = new System.Drawing.Point(78, 31);
+            this.node18_tb.Name = "node18_tb";
+            this.node18_tb.Size = new System.Drawing.Size(118, 20);
+            this.node18_tb.TabIndex = 20;
+            this.node18_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.node_tb_KeyDown);
+            this.node18_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.hexOnly_KeyPress);
+            this.node18_tb.Leave += new System.EventHandler(this.node_tb_Leave);
+            // 
+            // button6
+            // 
+            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(236)))), ((int)(((byte)(250)))));
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button6.Location = new System.Drawing.Point(0, 0);
+            this.button6.Margin = new System.Windows.Forms.Padding(0);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(199, 25);
+            this.button6.TabIndex = 83;
+            this.button6.Text = "ID/TO";
+            this.button6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button6.UseVisualStyleBackColor = false;
+            // 
+            // sNode_gb
+            // 
+            this.sNode_gb.Controls.Add(this.tableLayoutPanel2);
+            this.sNode_gb.Controls.Add(this.button5);
+            this.sNode_gb.Location = new System.Drawing.Point(4, 480);
+            this.sNode_gb.Name = "sNode_gb";
+            this.sNode_gb.Size = new System.Drawing.Size(200, 244);
+            this.sNode_gb.TabIndex = 84;
+            // 
+            // tableLayoutPanel2
+            // 
+            this.tableLayoutPanel2.BackColor = System.Drawing.Color.White;
+            this.tableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel2.ColumnCount = 2;
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 34.34343F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 65.65656F));
+            this.tableLayoutPanel2.Controls.Add(this.label61, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.sNodeF_tb, 1, 1);
+            this.tableLayoutPanel2.Controls.Add(this.label9, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.pathID_tb, 1, 0);
+            this.tableLayoutPanel2.Controls.Add(this.sNodeUNK3_tb, 1, 5);
+            this.tableLayoutPanel2.Controls.Add(this.label67, 0, 5);
+            this.tableLayoutPanel2.Controls.Add(this.panel1, 1, 2);
+            this.tableLayoutPanel2.Controls.Add(this.panel2, 1, 3);
+            this.tableLayoutPanel2.Controls.Add(this.panel3, 1, 4);
+            this.tableLayoutPanel2.Controls.Add(this.label57, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.animation_lbl, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.label62, 0, 4);
+            this.tableLayoutPanel2.Controls.Add(this.label63, 0, 6);
+            this.tableLayoutPanel2.Controls.Add(this.sNodeW1_tb, 1, 6);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(1, 25);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            this.tableLayoutPanel2.RowCount = 7;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 26F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 31F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 28F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 8F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(199, 212);
+            this.tableLayoutPanel2.TabIndex = 84;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Location = new System.Drawing.Point(4, 28);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(60, 13);
+            this.label61.TabIndex = 28;
+            this.label61.Text = "Act Time %";
+            // 
+            // sNodeF_tb
+            // 
+            this.sNodeF_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.sNodeF_tb.Location = new System.Drawing.Point(72, 31);
+            this.sNodeF_tb.Name = "sNodeF_tb";
+            this.sNodeF_tb.Size = new System.Drawing.Size(123, 20);
+            this.sNodeF_tb.TabIndex = 18;
+            this.sNodeF_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.node_tb_KeyDown);
+            this.sNodeF_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            this.sNodeF_tb.Leave += new System.EventHandler(this.sNode_tb_Leave);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(4, 1);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(43, 13);
+            this.label9.TabIndex = 71;
+            this.label9.Text = "Path ID";
+            // 
+            // pathID_tb
+            // 
+            this.pathID_tb.Location = new System.Drawing.Point(72, 4);
+            this.pathID_tb.Name = "pathID_tb";
+            this.pathID_tb.Size = new System.Drawing.Size(123, 20);
+            this.pathID_tb.TabIndex = 72;
+            this.pathID_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.node_tb_KeyDown);
+            this.pathID_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.hexOnly_KeyPress);
+            this.pathID_tb.Leave += new System.EventHandler(this.sNode_tb_Leave);
+            // 
+            // sNodeUNK3_tb
+            // 
+            this.sNodeUNK3_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.sNodeUNK3_tb.Location = new System.Drawing.Point(72, 158);
+            this.sNodeUNK3_tb.Name = "sNodeUNK3_tb";
+            this.sNodeUNK3_tb.Size = new System.Drawing.Size(123, 20);
+            this.sNodeUNK3_tb.TabIndex = 51;
+            this.sNodeUNK3_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.node_tb_KeyDown);
+            this.sNodeUNK3_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.hexOnly_KeyPress);
+            this.sNodeUNK3_tb.Leave += new System.EventHandler(this.sNode_tb_Leave);
+            // 
+            // label67
+            // 
+            this.label67.AutoSize = true;
+            this.label67.Location = new System.Drawing.Point(4, 155);
+            this.label67.Name = "label67";
+            this.label67.Size = new System.Drawing.Size(36, 13);
+            this.label67.TabIndex = 48;
+            this.label67.Text = "UNK3";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.useAnimation_cb);
+            this.panel1.Controls.Add(this.animation_cb);
+            this.panel1.Location = new System.Drawing.Point(72, 58);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(123, 27);
+            this.panel1.TabIndex = 79;
+            // 
+            // useAnimation_cb
+            // 
+            this.useAnimation_cb.AutoSize = true;
+            this.useAnimation_cb.Location = new System.Drawing.Point(2, 4);
+            this.useAnimation_cb.Name = "useAnimation_cb";
+            this.useAnimation_cb.Size = new System.Drawing.Size(15, 14);
+            this.useAnimation_cb.TabIndex = 76;
+            this.useAnimation_cb.UseVisualStyleBackColor = true;
+            this.useAnimation_cb.Leave += new System.EventHandler(this.controller_cb_Leave);
+            // 
+            // animation_cb
+            // 
+            this.animation_cb.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.animation_cb.FormattingEnabled = true;
+            this.animation_cb.Location = new System.Drawing.Point(21, 1);
+            this.animation_cb.Name = "animation_cb";
+            this.animation_cb.Size = new System.Drawing.Size(100, 20);
+            this.animation_cb.TabIndex = 67;
+            this.animation_cb.SelectedIndexChanged += new System.EventHandler(this.animation_cb_SelectedIndexChanged);
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.usePause_cb);
+            this.panel2.Controls.Add(this.pauseTime_tb);
+            this.panel2.Location = new System.Drawing.Point(72, 92);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(123, 27);
+            this.panel2.TabIndex = 80;
+            // 
+            // usePause_cb
+            // 
+            this.usePause_cb.AutoSize = true;
+            this.usePause_cb.Location = new System.Drawing.Point(2, 3);
+            this.usePause_cb.Name = "usePause_cb";
+            this.usePause_cb.Size = new System.Drawing.Size(15, 14);
+            this.usePause_cb.TabIndex = 77;
+            this.usePause_cb.UseVisualStyleBackColor = true;
+            this.usePause_cb.Leave += new System.EventHandler(this.controller_cb_Leave);
+            // 
+            // pauseTime_tb
+            // 
+            this.pauseTime_tb.Location = new System.Drawing.Point(21, 2);
+            this.pauseTime_tb.Name = "pauseTime_tb";
+            this.pauseTime_tb.Size = new System.Drawing.Size(99, 20);
+            this.pauseTime_tb.TabIndex = 70;
+            this.pauseTime_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.pauseTime_tb_KeyDown);
+            this.pauseTime_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            this.pauseTime_tb.Leave += new System.EventHandler(this.pauseTime_tb_Leave);
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.useSpeed_cb);
+            this.panel3.Controls.Add(this.sNodeSpeed_tb);
+            this.panel3.Location = new System.Drawing.Point(72, 126);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(122, 24);
+            this.panel3.TabIndex = 81;
+            // 
+            // useSpeed_cb
+            // 
+            this.useSpeed_cb.AutoSize = true;
+            this.useSpeed_cb.Location = new System.Drawing.Point(2, 6);
+            this.useSpeed_cb.Name = "useSpeed_cb";
+            this.useSpeed_cb.Size = new System.Drawing.Size(15, 14);
+            this.useSpeed_cb.TabIndex = 78;
+            this.useSpeed_cb.UseVisualStyleBackColor = true;
+            this.useSpeed_cb.Leave += new System.EventHandler(this.controller_cb_Leave);
+            // 
+            // sNodeSpeed_tb
+            // 
+            this.sNodeSpeed_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.sNodeSpeed_tb.Location = new System.Drawing.Point(21, 2);
+            this.sNodeSpeed_tb.Name = "sNodeSpeed_tb";
+            this.sNodeSpeed_tb.Size = new System.Drawing.Size(97, 20);
+            this.sNodeSpeed_tb.TabIndex = 47;
+            this.sNodeSpeed_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.node_tb_KeyDown);
+            this.sNodeSpeed_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.hexOnly_KeyPress);
+            this.sNodeSpeed_tb.Leave += new System.EventHandler(this.sNode_tb_Leave);
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(4, 89);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(40, 26);
+            this.label57.TabIndex = 69;
+            this.label57.Text = "Pause Time";
+            // 
+            // animation_lbl
+            // 
+            this.animation_lbl.AutoSize = true;
+            this.animation_lbl.Location = new System.Drawing.Point(4, 55);
+            this.animation_lbl.Name = "animation_lbl";
+            this.animation_lbl.Size = new System.Drawing.Size(53, 13);
+            this.animation_lbl.TabIndex = 66;
+            this.animation_lbl.Text = "Animation";
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Location = new System.Drawing.Point(4, 123);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(38, 13);
+            this.label62.TabIndex = 30;
+            this.label62.Text = "Speed";
+            // 
+            // label63
+            // 
+            this.label63.AutoSize = true;
+            this.label63.Location = new System.Drawing.Point(4, 184);
+            this.label63.Name = "label63";
+            this.label63.Size = new System.Drawing.Size(30, 13);
+            this.label63.TabIndex = 29;
+            this.label63.Text = "UNK";
+            // 
+            // sNodeW1_tb
+            // 
+            this.sNodeW1_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.sNodeW1_tb.Location = new System.Drawing.Point(72, 187);
+            this.sNodeW1_tb.Name = "sNodeW1_tb";
+            this.sNodeW1_tb.Size = new System.Drawing.Size(123, 20);
+            this.sNodeW1_tb.TabIndex = 19;
+            this.sNodeW1_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.node_tb_KeyDown);
+            this.sNodeW1_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.hexOnly_KeyPress);
+            this.sNodeW1_tb.Leave += new System.EventHandler(this.sNode_tb_Leave);
+            // 
+            // button5
+            // 
+            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(236)))), ((int)(((byte)(250)))));
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button5.Location = new System.Drawing.Point(2, 0);
+            this.button5.Margin = new System.Windows.Forms.Padding(0);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(196, 25);
+            this.button5.TabIndex = 83;
+            this.button5.Text = "Node Properties";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button5.UseVisualStyleBackColor = false;
+            // 
+            // nodeProperties_gb
+            // 
+            this.nodeProperties_gb.Controls.Add(this.button4);
+            this.nodeProperties_gb.Controls.Add(this.nodeProperties_lp);
+            this.nodeProperties_gb.Location = new System.Drawing.Point(4, 376);
+            this.nodeProperties_gb.Name = "nodeProperties_gb";
+            this.nodeProperties_gb.Size = new System.Drawing.Size(200, 97);
+            this.nodeProperties_gb.TabIndex = 83;
+            // 
+            // button4
+            // 
+            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(236)))), ((int)(((byte)(250)))));
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button4.Location = new System.Drawing.Point(0, 0);
+            this.button4.Margin = new System.Windows.Forms.Padding(0);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(200, 25);
+            this.button4.TabIndex = 82;
+            this.button4.Text = "Location";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.UseVisualStyleBackColor = false;
+            // 
+            // nodeProperties_lp
+            // 
+            this.nodeProperties_lp.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.nodeProperties_lp.BackColor = System.Drawing.Color.White;
+            this.nodeProperties_lp.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.nodeProperties_lp.ColumnCount = 2;
+            this.nodeProperties_lp.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 37.5F));
+            this.nodeProperties_lp.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 62.49999F));
+            this.nodeProperties_lp.Controls.Add(this.label53, 0, 0);
+            this.nodeProperties_lp.Controls.Add(this.nodeX_tb, 1, 0);
+            this.nodeProperties_lp.Controls.Add(this.label55, 0, 1);
+            this.nodeProperties_lp.Controls.Add(this.label54, 0, 2);
+            this.nodeProperties_lp.Controls.Add(this.nodeY_tb, 1, 1);
+            this.nodeProperties_lp.Controls.Add(this.nodeZ_tb, 1, 2);
+            this.nodeProperties_lp.Location = new System.Drawing.Point(0, 25);
+            this.nodeProperties_lp.Margin = new System.Windows.Forms.Padding(0);
+            this.nodeProperties_lp.Name = "nodeProperties_lp";
+            this.nodeProperties_lp.RowCount = 3;
+            this.nodeProperties_lp.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.nodeProperties_lp.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.nodeProperties_lp.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.nodeProperties_lp.Size = new System.Drawing.Size(200, 68);
+            this.nodeProperties_lp.TabIndex = 61;
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(4, 1);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(14, 13);
+            this.label53.TabIndex = 28;
+            this.label53.Text = "X";
+            // 
+            // nodeX_tb
+            // 
+            this.nodeX_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.nodeX_tb.Location = new System.Drawing.Point(75, 1);
+            this.nodeX_tb.Margin = new System.Windows.Forms.Padding(0);
+            this.nodeX_tb.Name = "nodeX_tb";
+            this.nodeX_tb.Size = new System.Drawing.Size(124, 20);
+            this.nodeX_tb.TabIndex = 18;
+            this.nodeX_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nodeX_tb_KeyDown);
+            this.nodeX_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            this.nodeX_tb.Leave += new System.EventHandler(this.node_tb_Leave);
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Location = new System.Drawing.Point(4, 23);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(14, 13);
+            this.label55.TabIndex = 29;
+            this.label55.Text = "Y";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Location = new System.Drawing.Point(4, 45);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(14, 13);
+            this.label54.TabIndex = 30;
+            this.label54.Text = "Z";
+            // 
+            // nodeY_tb
+            // 
+            this.nodeY_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.nodeY_tb.Location = new System.Drawing.Point(75, 23);
+            this.nodeY_tb.Margin = new System.Windows.Forms.Padding(0);
+            this.nodeY_tb.Name = "nodeY_tb";
+            this.nodeY_tb.Size = new System.Drawing.Size(124, 20);
+            this.nodeY_tb.TabIndex = 19;
+            this.nodeY_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nodeY_tb_KeyDown);
+            this.nodeY_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            this.nodeY_tb.Leave += new System.EventHandler(this.node_tb_Leave);
+            // 
+            // nodeZ_tb
+            // 
+            this.nodeZ_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.nodeZ_tb.Location = new System.Drawing.Point(75, 45);
+            this.nodeZ_tb.Margin = new System.Windows.Forms.Padding(0);
+            this.nodeZ_tb.Name = "nodeZ_tb";
+            this.nodeZ_tb.Size = new System.Drawing.Size(124, 20);
+            this.nodeZ_tb.TabIndex = 47;
+            this.nodeZ_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.nodeZ_tb_KeyDown);
+            this.nodeZ_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            this.nodeZ_tb.Leave += new System.EventHandler(this.node_tb_Leave);
+            // 
+            // col_selPath_btn
+            // 
+            this.col_selPath_btn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.col_selPath_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(236)))), ((int)(((byte)(250)))));
+            this.col_selPath_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.col_selPath_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.col_selPath_btn.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.col_selPath_btn.Location = new System.Drawing.Point(-1, -6);
+            this.col_selPath_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.col_selPath_btn.Name = "col_selPath_btn";
+            this.col_selPath_btn.Size = new System.Drawing.Size(214, 23);
+            this.col_selPath_btn.TabIndex = 79;
+            this.col_selPath_btn.Text = "- Selected Path";
+            this.col_selPath_btn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.col_selPath_btn.UseVisualStyleBackColor = false;
+            // 
+            // pathObject_gb
+            // 
+            this.pathObject_gb.Controls.Add(this.tableLayoutPanel16);
+            this.pathObject_gb.Location = new System.Drawing.Point(5, 20);
+            this.pathObject_gb.Name = "pathObject_gb";
+            this.pathObject_gb.Size = new System.Drawing.Size(200, 50);
+            this.pathObject_gb.TabIndex = 63;
+            this.pathObject_gb.TabStop = false;
+            // 
+            // tableLayoutPanel16
+            // 
+            this.tableLayoutPanel16.ColumnCount = 2;
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45.78947F));
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 54.21053F));
+            this.tableLayoutPanel16.Controls.Add(this.label60, 0, 0);
+            this.tableLayoutPanel16.Controls.Add(this.objectNode_tb, 1, 0);
+            this.tableLayoutPanel16.Location = new System.Drawing.Point(6, 14);
+            this.tableLayoutPanel16.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel16.Name = "tableLayoutPanel16";
+            this.tableLayoutPanel16.RowCount = 1;
+            this.tableLayoutPanel16.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel16.Size = new System.Drawing.Size(190, 27);
+            this.tableLayoutPanel16.TabIndex = 61;
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Location = new System.Drawing.Point(3, 0);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(49, 13);
+            this.label60.TabIndex = 28;
+            this.label60.Text = "To Node";
+            // 
+            // objectNode_tb
+            // 
+            this.objectNode_tb.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.objectNode_tb.Enabled = false;
+            this.objectNode_tb.Location = new System.Drawing.Point(89, 3);
+            this.objectNode_tb.Name = "objectNode_tb";
+            this.objectNode_tb.Size = new System.Drawing.Size(98, 20);
+            this.objectNode_tb.TabIndex = 21;
+            this.objectNode_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.objectNode_tb_KeyDown);
+            this.objectNode_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.hexOnly_KeyPress);
+            // 
+            // path_dgv
+            // 
+            this.path_dgv.AllowUserToAddRows = false;
+            this.path_dgv.AllowUserToDeleteRows = false;
+            this.path_dgv.AllowUserToOrderColumns = true;
+            this.path_dgv.AllowUserToResizeRows = false;
+            this.path_dgv.BackgroundColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.path_dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            this.path_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.path_dgv.DefaultCellStyle = dataGridViewCellStyle5;
+            this.path_dgv.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.path_dgv.Location = new System.Drawing.Point(5, 93);
+            this.path_dgv.Margin = new System.Windows.Forms.Padding(3, 3, 3, 30);
+            this.path_dgv.Name = "path_dgv";
+            this.path_dgv.ReadOnly = true;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.path_dgv.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            this.path_dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.path_dgv.Size = new System.Drawing.Size(197, 86);
+            this.path_dgv.TabIndex = 0;
+            this.path_dgv.DoubleClick += new System.EventHandler(this.path_dgv_DoubleClick);
+            // 
+            // col_obj_details_btn
+            // 
+            this.col_obj_details_btn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.col_obj_details_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(236)))), ((int)(((byte)(250)))));
+            this.col_obj_details_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.col_obj_details_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.col_obj_details_btn.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.col_obj_details_btn.Location = new System.Drawing.Point(0, 755);
+            this.col_obj_details_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.col_obj_details_btn.Name = "col_obj_details_btn";
+            this.col_obj_details_btn.Size = new System.Drawing.Size(210, 23);
+            this.col_obj_details_btn.TabIndex = 3;
+            this.col_obj_details_btn.Text = "- Object Details";
+            this.col_obj_details_btn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.col_obj_details_btn.UseVisualStyleBackColor = false;
+            this.col_obj_details_btn.Click += new System.EventHandler(this.col_obj_details_btn_Click);
+            // 
+            // col_cam_btn
+            // 
+            this.col_cam_btn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.col_cam_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(236)))), ((int)(((byte)(250)))));
+            this.col_cam_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.col_cam_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.col_cam_btn.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.col_cam_btn.Location = new System.Drawing.Point(0, 1101);
+            this.col_cam_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.col_cam_btn.Name = "col_cam_btn";
+            this.col_cam_btn.Size = new System.Drawing.Size(210, 23);
+            this.col_cam_btn.TabIndex = 81;
+            this.col_cam_btn.Text = "- Camera";
+            this.col_cam_btn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.col_cam_btn.UseVisualStyleBackColor = false;
+            // 
+            // cam3_gb
+            // 
+            this.cam3_gb.Controls.Add(this.tableLayoutPanel10);
+            this.cam3_gb.Controls.Add(this.label39);
+            this.cam3_gb.Controls.Add(this.camID_tb);
+            this.cam3_gb.Controls.Add(this.label40);
+            this.cam3_gb.Location = new System.Drawing.Point(3, 1127);
+            this.cam3_gb.Name = "cam3_gb";
+            this.cam3_gb.Size = new System.Drawing.Size(205, 378);
+            this.cam3_gb.TabIndex = 70;
+            this.cam3_gb.TabStop = false;
+            // 
+            // tableLayoutPanel10
+            // 
+            this.tableLayoutPanel10.BackColor = System.Drawing.Color.White;
+            this.tableLayoutPanel10.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel10.ColumnCount = 2;
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 44.67005F));
+            this.tableLayoutPanel10.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 55.32995F));
+            this.tableLayoutPanel10.Controls.Add(this.label33, 0, 0);
+            this.tableLayoutPanel10.Controls.Add(this.label34, 0, 2);
+            this.tableLayoutPanel10.Controls.Add(this.label35, 0, 1);
+            this.tableLayoutPanel10.Controls.Add(this.camFDist_tb, 1, 12);
+            this.tableLayoutPanel10.Controls.Add(this.camCDist_tb, 1, 11);
+            this.tableLayoutPanel10.Controls.Add(this.label49, 0, 12);
+            this.tableLayoutPanel10.Controls.Add(this.label48, 0, 11);
+            this.tableLayoutPanel10.Controls.Add(this.camZ_tb, 1, 2);
+            this.tableLayoutPanel10.Controls.Add(this.camY_tb, 1, 1);
+            this.tableLayoutPanel10.Controls.Add(this.camX_tb, 1, 0);
+            this.tableLayoutPanel10.Controls.Add(this.label43, 0, 3);
+            this.tableLayoutPanel10.Controls.Add(this.camHSpeed_tb, 1, 3);
+            this.tableLayoutPanel10.Controls.Add(this.label44, 0, 4);
+            this.tableLayoutPanel10.Controls.Add(this.camVSpeed_tb, 1, 4);
+            this.tableLayoutPanel10.Controls.Add(this.label45, 0, 5);
+            this.tableLayoutPanel10.Controls.Add(this.camRotation_tb, 1, 5);
+            this.tableLayoutPanel10.Controls.Add(this.label46, 0, 6);
+            this.tableLayoutPanel10.Controls.Add(this.camAccel_tb, 1, 6);
+            this.tableLayoutPanel10.Controls.Add(this.label36, 0, 7);
+            this.tableLayoutPanel10.Controls.Add(this.camPitch_tb, 1, 7);
+            this.tableLayoutPanel10.Controls.Add(this.camYaw_tb, 1, 8);
+            this.tableLayoutPanel10.Controls.Add(this.camRoll_tb, 1, 9);
+            this.tableLayoutPanel10.Controls.Add(this.cam3A5_tb, 1, 10);
+            this.tableLayoutPanel10.Controls.Add(this.label37, 0, 8);
+            this.tableLayoutPanel10.Controls.Add(this.label38, 0, 9);
+            this.tableLayoutPanel10.Controls.Add(this.label47, 0, 10);
+            this.tableLayoutPanel10.Location = new System.Drawing.Point(3, 40);
+            this.tableLayoutPanel10.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel10.Name = "tableLayoutPanel10";
+            this.tableLayoutPanel10.RowCount = 13;
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.692307F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.692307F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.692307F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.692307F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.692307F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.692307F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.692307F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.692307F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.692307F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.692307F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.692307F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.692307F));
+            this.tableLayoutPanel10.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 7.692307F));
+            this.tableLayoutPanel10.Size = new System.Drawing.Size(194, 331);
+            this.tableLayoutPanel10.TabIndex = 61;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(4, 1);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(14, 13);
+            this.label33.TabIndex = 28;
+            this.label33.Text = "X";
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(4, 51);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(14, 13);
+            this.label34.TabIndex = 30;
+            this.label34.Text = "Z";
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(4, 26);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(14, 13);
+            this.label35.TabIndex = 29;
+            this.label35.Text = "Y";
+            // 
+            // camFDist_tb
+            // 
+            this.camFDist_tb.Location = new System.Drawing.Point(90, 304);
+            this.camFDist_tb.Name = "camFDist_tb";
+            this.camFDist_tb.Size = new System.Drawing.Size(100, 20);
+            this.camFDist_tb.TabIndex = 53;
+            this.camFDist_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.camera_properties_update);
+            this.camFDist_tb.Leave += new System.EventHandler(this.camera_properties_update);
+            // 
+            // camCDist_tb
+            // 
+            this.camCDist_tb.Location = new System.Drawing.Point(90, 279);
+            this.camCDist_tb.Name = "camCDist_tb";
+            this.camCDist_tb.Size = new System.Drawing.Size(100, 20);
+            this.camCDist_tb.TabIndex = 52;
+            this.camCDist_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.camera_properties_update);
+            this.camCDist_tb.Leave += new System.EventHandler(this.camera_properties_update);
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(4, 301);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(67, 13);
+            this.label49.TabIndex = 53;
+            this.label49.Text = "Far Distance";
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(4, 276);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(78, 13);
+            this.label48.TabIndex = 52;
+            this.label48.Text = "Close Distance";
+            // 
+            // camZ_tb
+            // 
+            this.camZ_tb.Location = new System.Drawing.Point(90, 54);
+            this.camZ_tb.Name = "camZ_tb";
+            this.camZ_tb.Size = new System.Drawing.Size(100, 20);
+            this.camZ_tb.TabIndex = 43;
+            this.camZ_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.camera_properties_update);
+            this.camZ_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            this.camZ_tb.KeyUp += new System.Windows.Forms.KeyEventHandler(this.cam_tb_KeyUp);
+            this.camZ_tb.Leave += new System.EventHandler(this.camera_properties_update);
+            // 
+            // camY_tb
+            // 
+            this.camY_tb.Location = new System.Drawing.Point(90, 29);
+            this.camY_tb.Name = "camY_tb";
+            this.camY_tb.Size = new System.Drawing.Size(100, 20);
+            this.camY_tb.TabIndex = 42;
+            this.camY_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.camera_properties_update);
+            this.camY_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            this.camY_tb.KeyUp += new System.Windows.Forms.KeyEventHandler(this.cam_tb_KeyUp);
+            this.camY_tb.Leave += new System.EventHandler(this.camera_properties_update);
+            // 
+            // camX_tb
+            // 
+            this.camX_tb.Location = new System.Drawing.Point(90, 4);
+            this.camX_tb.Name = "camX_tb";
+            this.camX_tb.Size = new System.Drawing.Size(100, 20);
+            this.camX_tb.TabIndex = 41;
+            this.camX_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.camera_properties_update);
+            this.camX_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            this.camX_tb.KeyUp += new System.Windows.Forms.KeyEventHandler(this.cam_tb_KeyUp);
+            this.camX_tb.Leave += new System.EventHandler(this.camera_properties_update);
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(4, 76);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(49, 13);
+            this.label43.TabIndex = 43;
+            this.label43.Text = "H Speed";
+            // 
+            // camHSpeed_tb
+            // 
+            this.camHSpeed_tb.Location = new System.Drawing.Point(90, 79);
+            this.camHSpeed_tb.Name = "camHSpeed_tb";
+            this.camHSpeed_tb.Size = new System.Drawing.Size(100, 20);
+            this.camHSpeed_tb.TabIndex = 44;
+            this.camHSpeed_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.camera_properties_update);
+            this.camHSpeed_tb.Leave += new System.EventHandler(this.camera_properties_update);
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(4, 101);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(48, 13);
+            this.label44.TabIndex = 44;
+            this.label44.Text = "V Speed";
+            // 
+            // camVSpeed_tb
+            // 
+            this.camVSpeed_tb.Location = new System.Drawing.Point(90, 104);
+            this.camVSpeed_tb.Name = "camVSpeed_tb";
+            this.camVSpeed_tb.Size = new System.Drawing.Size(100, 20);
+            this.camVSpeed_tb.TabIndex = 45;
+            this.camVSpeed_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.camera_properties_update);
+            this.camVSpeed_tb.Leave += new System.EventHandler(this.camera_properties_update);
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(4, 126);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(50, 24);
+            this.label45.TabIndex = 47;
+            this.label45.Text = "Rotation Speed";
+            // 
+            // camRotation_tb
+            // 
+            this.camRotation_tb.Location = new System.Drawing.Point(90, 129);
+            this.camRotation_tb.Name = "camRotation_tb";
+            this.camRotation_tb.Size = new System.Drawing.Size(100, 20);
+            this.camRotation_tb.TabIndex = 50;
+            this.camRotation_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.camera_properties_update);
+            this.camRotation_tb.Leave += new System.EventHandler(this.camera_properties_update);
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(4, 151);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(66, 13);
+            this.label46.TabIndex = 48;
+            this.label46.Text = "Acceleration";
+            // 
+            // camAccel_tb
+            // 
+            this.camAccel_tb.Location = new System.Drawing.Point(90, 154);
+            this.camAccel_tb.Name = "camAccel_tb";
+            this.camAccel_tb.Size = new System.Drawing.Size(100, 20);
+            this.camAccel_tb.TabIndex = 51;
+            this.camAccel_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.camera_properties_update);
+            this.camAccel_tb.Leave += new System.EventHandler(this.camera_properties_update);
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(4, 176);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(31, 13);
+            this.label36.TabIndex = 40;
+            this.label36.Text = "Pitch";
+            // 
+            // camPitch_tb
+            // 
+            this.camPitch_tb.Location = new System.Drawing.Point(90, 179);
+            this.camPitch_tb.Name = "camPitch_tb";
+            this.camPitch_tb.Size = new System.Drawing.Size(100, 20);
+            this.camPitch_tb.TabIndex = 47;
+            this.camPitch_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.camera_properties_update);
+            this.camPitch_tb.Leave += new System.EventHandler(this.camera_properties_update);
+            // 
+            // camYaw_tb
+            // 
+            this.camYaw_tb.Location = new System.Drawing.Point(90, 204);
+            this.camYaw_tb.Name = "camYaw_tb";
+            this.camYaw_tb.Size = new System.Drawing.Size(100, 20);
+            this.camYaw_tb.TabIndex = 48;
+            this.camYaw_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.camera_properties_update);
+            this.camYaw_tb.Leave += new System.EventHandler(this.camera_properties_update);
+            // 
+            // camRoll_tb
+            // 
+            this.camRoll_tb.Location = new System.Drawing.Point(90, 229);
+            this.camRoll_tb.Name = "camRoll_tb";
+            this.camRoll_tb.Size = new System.Drawing.Size(100, 20);
+            this.camRoll_tb.TabIndex = 49;
+            this.camRoll_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.camera_properties_update);
+            this.camRoll_tb.Leave += new System.EventHandler(this.camera_properties_update);
+            // 
+            // cam3A5_tb
+            // 
+            this.cam3A5_tb.Location = new System.Drawing.Point(90, 254);
+            this.cam3A5_tb.Name = "cam3A5_tb";
+            this.cam3A5_tb.Size = new System.Drawing.Size(100, 20);
+            this.cam3A5_tb.TabIndex = 46;
+            this.cam3A5_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.camera_properties_update);
+            this.cam3A5_tb.Leave += new System.EventHandler(this.camera_properties_update);
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(4, 201);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(28, 13);
+            this.label37.TabIndex = 41;
+            this.label37.Text = "Yaw";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(4, 226);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(25, 13);
+            this.label38.TabIndex = 42;
+            this.label38.Text = "Roll";
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(4, 251);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(20, 13);
+            this.label47.TabIndex = 51;
+            this.label47.Text = "A5";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(122, 16);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(0, 13);
+            this.label39.TabIndex = 43;
+            // 
+            // camID_tb
+            // 
+            this.camID_tb.Location = new System.Drawing.Point(71, 13);
+            this.camID_tb.Name = "camID_tb";
+            this.camID_tb.Size = new System.Drawing.Size(45, 20);
+            this.camID_tb.TabIndex = 40;
+            this.camID_tb.KeyDown += new System.Windows.Forms.KeyEventHandler(this.camera_properties_update);
+            this.camID_tb.KeyUp += new System.Windows.Forms.KeyEventHandler(this.cam_tb_KeyUp);
+            this.camID_tb.Leave += new System.EventHandler(this.camera_properties_update);
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(6, 16);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(60, 13);
+            this.label40.TabIndex = 0;
+            this.label40.Text = "Camera ID:";
+            // 
+            // col_replacemodel_btn
+            // 
+            this.col_replacemodel_btn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.col_replacemodel_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(236)))), ((int)(((byte)(250)))));
+            this.col_replacemodel_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.col_replacemodel_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.col_replacemodel_btn.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.col_replacemodel_btn.Location = new System.Drawing.Point(0, 1508);
+            this.col_replacemodel_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.col_replacemodel_btn.Name = "col_replacemodel_btn";
+            this.col_replacemodel_btn.Size = new System.Drawing.Size(210, 23);
+            this.col_replacemodel_btn.TabIndex = 66;
+            this.col_replacemodel_btn.Text = "- Replace Level Model";
+            this.col_replacemodel_btn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.col_replacemodel_btn.UseVisualStyleBackColor = false;
+            this.col_replacemodel_btn.Click += new System.EventHandler(this.col_replacemodel_btn_Click);
+            // 
+            // col_levelbounds_btn
+            // 
+            this.col_levelbounds_btn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.col_levelbounds_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(236)))), ((int)(((byte)(250)))));
+            this.col_levelbounds_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.col_levelbounds_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.col_levelbounds_btn.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.col_levelbounds_btn.Location = new System.Drawing.Point(0, 1643);
+            this.col_levelbounds_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.col_levelbounds_btn.Name = "col_levelbounds_btn";
+            this.col_levelbounds_btn.Size = new System.Drawing.Size(210, 23);
+            this.col_levelbounds_btn.TabIndex = 67;
+            this.col_levelbounds_btn.Text = "- Level Boundaries";
+            this.col_levelbounds_btn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.col_levelbounds_btn.UseVisualStyleBackColor = false;
+            this.col_levelbounds_btn.Click += new System.EventHandler(this.col_levelbounds_btn_Click);
+            // 
+            // bounds_gb
+            // 
+            this.bounds_gb.Controls.Add(this.label29);
+            this.bounds_gb.Controls.Add(this.updateBounds_btn);
+            this.bounds_gb.Controls.Add(this.tableLayoutPanel8);
+            this.bounds_gb.Controls.Add(this.label28);
+            this.bounds_gb.Location = new System.Drawing.Point(3, 1669);
+            this.bounds_gb.Name = "bounds_gb";
+            this.bounds_gb.Size = new System.Drawing.Size(200, 152);
+            this.bounds_gb.TabIndex = 67;
+            this.bounds_gb.TabStop = false;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(4, 107);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(160, 13);
+            this.label29.TabIndex = 63;
+            this.label29.Text = "WARNING will update model file";
+            // 
+            // updateBounds_btn
+            // 
+            this.updateBounds_btn.Location = new System.Drawing.Point(119, 123);
+            this.updateBounds_btn.Name = "updateBounds_btn";
+            this.updateBounds_btn.Size = new System.Drawing.Size(75, 23);
+            this.updateBounds_btn.TabIndex = 62;
+            this.updateBounds_btn.Text = "Update";
+            this.updateBounds_btn.UseVisualStyleBackColor = true;
+            this.updateBounds_btn.Click += new System.EventHandler(this.updateBounds_btn_Click);
+            // 
+            // tableLayoutPanel8
+            // 
+            this.tableLayoutPanel8.ColumnCount = 4;
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.57895F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.89474F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel8.Controls.Add(this.label21, 0, 0);
+            this.tableLayoutPanel8.Controls.Add(this.label23, 0, 2);
+            this.tableLayoutPanel8.Controls.Add(this.label24, 0, 1);
+            this.tableLayoutPanel8.Controls.Add(this.minZ_Bounds_tb, 1, 2);
+            this.tableLayoutPanel8.Controls.Add(this.minY_Bounds_tb, 1, 1);
+            this.tableLayoutPanel8.Controls.Add(this.minX_Bounds_tb, 1, 0);
+            this.tableLayoutPanel8.Controls.Add(this.label25, 2, 0);
+            this.tableLayoutPanel8.Controls.Add(this.label26, 2, 1);
+            this.tableLayoutPanel8.Controls.Add(this.label27, 2, 2);
+            this.tableLayoutPanel8.Controls.Add(this.maxX_Bounds_tb, 3, 0);
+            this.tableLayoutPanel8.Controls.Add(this.maxY_Bounds_tb, 3, 1);
+            this.tableLayoutPanel8.Controls.Add(this.maxZ_Bounds_tb, 3, 2);
+            this.tableLayoutPanel8.Location = new System.Drawing.Point(7, 16);
+            this.tableLayoutPanel8.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel8.Name = "tableLayoutPanel8";
+            this.tableLayoutPanel8.RowCount = 3;
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel8.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel8.Size = new System.Drawing.Size(190, 83);
+            this.tableLayoutPanel8.TabIndex = 61;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(3, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(34, 13);
+            this.label21.TabIndex = 28;
+            this.label21.Text = "Min-X";
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(3, 54);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(34, 13);
+            this.label23.TabIndex = 30;
+            this.label23.Text = "Min-Z";
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(3, 27);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(34, 13);
+            this.label24.TabIndex = 29;
+            this.label24.Text = "Min-Y";
+            // 
+            // minZ_Bounds_tb
+            // 
+            this.minZ_Bounds_tb.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.minZ_Bounds_tb.Location = new System.Drawing.Point(44, 57);
+            this.minZ_Bounds_tb.Name = "minZ_Bounds_tb";
+            this.minZ_Bounds_tb.Size = new System.Drawing.Size(47, 20);
+            this.minZ_Bounds_tb.TabIndex = 74;
+            this.minZ_Bounds_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            // 
+            // minY_Bounds_tb
+            // 
+            this.minY_Bounds_tb.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.minY_Bounds_tb.Location = new System.Drawing.Point(44, 30);
+            this.minY_Bounds_tb.Name = "minY_Bounds_tb";
+            this.minY_Bounds_tb.Size = new System.Drawing.Size(47, 20);
+            this.minY_Bounds_tb.TabIndex = 72;
+            this.minY_Bounds_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            // 
+            // minX_Bounds_tb
+            // 
+            this.minX_Bounds_tb.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.minX_Bounds_tb.Location = new System.Drawing.Point(44, 3);
+            this.minX_Bounds_tb.Name = "minX_Bounds_tb";
+            this.minX_Bounds_tb.Size = new System.Drawing.Size(47, 20);
+            this.minX_Bounds_tb.TabIndex = 70;
+            this.minX_Bounds_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(97, 0);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(37, 13);
+            this.label25.TabIndex = 34;
+            this.label25.Text = "Max-X";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(97, 27);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(37, 13);
+            this.label26.TabIndex = 35;
+            this.label26.Text = "Max-Y";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(97, 54);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(37, 13);
+            this.label27.TabIndex = 36;
+            this.label27.Text = "Max-Z";
+            // 
+            // maxX_Bounds_tb
+            // 
+            this.maxX_Bounds_tb.Location = new System.Drawing.Point(144, 3);
+            this.maxX_Bounds_tb.Name = "maxX_Bounds_tb";
+            this.maxX_Bounds_tb.Size = new System.Drawing.Size(43, 20);
+            this.maxX_Bounds_tb.TabIndex = 71;
+            this.maxX_Bounds_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            // 
+            // maxY_Bounds_tb
+            // 
+            this.maxY_Bounds_tb.Location = new System.Drawing.Point(144, 30);
+            this.maxY_Bounds_tb.Name = "maxY_Bounds_tb";
+            this.maxY_Bounds_tb.Size = new System.Drawing.Size(43, 20);
+            this.maxY_Bounds_tb.TabIndex = 73;
+            this.maxY_Bounds_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            // 
+            // maxZ_Bounds_tb
+            // 
+            this.maxZ_Bounds_tb.Location = new System.Drawing.Point(144, 57);
+            this.maxZ_Bounds_tb.Name = "maxZ_Bounds_tb";
+            this.maxZ_Bounds_tb.Size = new System.Drawing.Size(43, 20);
+            this.maxZ_Bounds_tb.TabIndex = 75;
+            this.maxZ_Bounds_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(122, 16);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(0, 13);
+            this.label28.TabIndex = 43;
+            // 
+            // col_levelentries_btn
+            // 
+            this.col_levelentries_btn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.col_levelentries_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(236)))), ((int)(((byte)(250)))));
+            this.col_levelentries_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.col_levelentries_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.col_levelentries_btn.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.col_levelentries_btn.Location = new System.Drawing.Point(0, 1824);
+            this.col_levelentries_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.col_levelentries_btn.Name = "col_levelentries_btn";
+            this.col_levelentries_btn.Size = new System.Drawing.Size(210, 23);
+            this.col_levelentries_btn.TabIndex = 69;
+            this.col_levelentries_btn.Text = "- Level Entries";
+            this.col_levelentries_btn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.col_levelentries_btn.UseVisualStyleBackColor = false;
+            this.col_levelentries_btn.Click += new System.EventHandler(this.col_levelentries_btn_Click);
+            // 
+            // levelEntries_gb
+            // 
+            this.levelEntries_gb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.levelEntries_gb.Controls.Add(this.levelEntries_dgv);
+            this.levelEntries_gb.Location = new System.Drawing.Point(3, 1850);
+            this.levelEntries_gb.Name = "levelEntries_gb";
+            this.levelEntries_gb.Size = new System.Drawing.Size(207, 150);
+            this.levelEntries_gb.TabIndex = 68;
+            this.levelEntries_gb.TabStop = false;
+            // 
+            // levelEntries_dgv
+            // 
+            this.levelEntries_dgv.AllowUserToAddRows = false;
+            this.levelEntries_dgv.AllowUserToDeleteRows = false;
+            this.levelEntries_dgv.AllowUserToOrderColumns = true;
+            this.levelEntries_dgv.AllowUserToResizeRows = false;
+            this.levelEntries_dgv.BackgroundColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.levelEntries_dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            this.levelEntries_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.levelEntries_dgv.DefaultCellStyle = dataGridViewCellStyle8;
+            this.levelEntries_dgv.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.levelEntries_dgv.Location = new System.Drawing.Point(7, 11);
+            this.levelEntries_dgv.Margin = new System.Windows.Forms.Padding(3, 3, 3, 30);
+            this.levelEntries_dgv.Name = "levelEntries_dgv";
+            this.levelEntries_dgv.ReadOnly = true;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle9.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle9.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.levelEntries_dgv.RowHeadersDefaultCellStyle = dataGridViewCellStyle9;
+            this.levelEntries_dgv.Size = new System.Drawing.Size(194, 133);
+            this.levelEntries_dgv.TabIndex = 0;
+            // 
+            // col_objects_btn
+            // 
+            this.col_objects_btn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.col_objects_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(236)))), ((int)(((byte)(250)))));
+            this.col_objects_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.col_objects_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.col_objects_btn.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.col_objects_btn.Location = new System.Drawing.Point(0, 2003);
+            this.col_objects_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.col_objects_btn.Name = "col_objects_btn";
+            this.col_objects_btn.Size = new System.Drawing.Size(210, 23);
+            this.col_objects_btn.TabIndex = 71;
+            this.col_objects_btn.Text = "- Objects";
+            this.col_objects_btn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.col_objects_btn.UseVisualStyleBackColor = false;
+            this.col_objects_btn.Click += new System.EventHandler(this.col_objects_btn_Click);
+            // 
+            // objects_gb
+            // 
+            this.objects_gb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.objects_gb.Controls.Add(this.objects_dgv);
+            this.objects_gb.Location = new System.Drawing.Point(3, 2029);
+            this.objects_gb.Name = "objects_gb";
+            this.objects_gb.Size = new System.Drawing.Size(207, 242);
+            this.objects_gb.TabIndex = 72;
+            this.objects_gb.TabStop = false;
+            // 
+            // objects_dgv
+            // 
+            this.objects_dgv.AllowUserToAddRows = false;
+            this.objects_dgv.AllowUserToDeleteRows = false;
+            this.objects_dgv.AllowUserToOrderColumns = true;
+            this.objects_dgv.AllowUserToResizeRows = false;
+            this.objects_dgv.BackgroundColor = System.Drawing.Color.White;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.objects_dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            this.objects_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.objects_dgv.DefaultCellStyle = dataGridViewCellStyle11;
+            this.objects_dgv.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.objects_dgv.Location = new System.Drawing.Point(7, 11);
+            this.objects_dgv.Margin = new System.Windows.Forms.Padding(3, 3, 3, 30);
+            this.objects_dgv.Name = "objects_dgv";
+            this.objects_dgv.ReadOnly = true;
+            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.objects_dgv.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            this.objects_dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.objects_dgv.Size = new System.Drawing.Size(194, 219);
+            this.objects_dgv.TabIndex = 0;
+            this.objects_dgv.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.objects_dgv_CellDoubleClick);
+            // 
+            // col_structs_btn
+            // 
+            this.col_structs_btn.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.col_structs_btn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(236)))), ((int)(((byte)(250)))));
+            this.col_structs_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.col_structs_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.col_structs_btn.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.col_structs_btn.Location = new System.Drawing.Point(0, 2274);
+            this.col_structs_btn.Margin = new System.Windows.Forms.Padding(0);
+            this.col_structs_btn.Name = "col_structs_btn";
+            this.col_structs_btn.Size = new System.Drawing.Size(210, 23);
+            this.col_structs_btn.TabIndex = 73;
+            this.col_structs_btn.Text = "- Structs";
+            this.col_structs_btn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.col_structs_btn.UseVisualStyleBackColor = false;
+            this.col_structs_btn.Click += new System.EventHandler(this.col_structs_btn_Click);
+            // 
+            // structs_gb
+            // 
+            this.structs_gb.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.structs_gb.Controls.Add(this.structs_dgv);
+            this.structs_gb.Location = new System.Drawing.Point(3, 2300);
+            this.structs_gb.Name = "structs_gb";
+            this.structs_gb.Size = new System.Drawing.Size(207, 242);
+            this.structs_gb.TabIndex = 74;
+            this.structs_gb.TabStop = false;
+            // 
+            // structs_dgv
+            // 
+            this.structs_dgv.AllowUserToAddRows = false;
+            this.structs_dgv.AllowUserToDeleteRows = false;
+            this.structs_dgv.AllowUserToOrderColumns = true;
+            this.structs_dgv.AllowUserToResizeRows = false;
+            this.structs_dgv.BackgroundColor = System.Drawing.Color.White;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle13.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.structs_dgv.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            this.structs_dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.structs_dgv.DefaultCellStyle = dataGridViewCellStyle14;
+            this.structs_dgv.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.structs_dgv.Location = new System.Drawing.Point(7, 11);
+            this.structs_dgv.Margin = new System.Windows.Forms.Padding(3, 3, 3, 30);
+            this.structs_dgv.Name = "structs_dgv";
+            this.structs_dgv.ReadOnly = true;
+            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle15.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.structs_dgv.RowHeadersDefaultCellStyle = dataGridViewCellStyle15;
+            this.structs_dgv.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.structs_dgv.Size = new System.Drawing.Size(194, 219);
+            this.structs_dgv.TabIndex = 0;
+            this.structs_dgv.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.structs_dgv_CellDoubleClick);
+            // 
+            // tableLayoutPanel6
+            // 
+            this.tableLayoutPanel6.ColumnCount = 4;
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.5F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel6.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.5F));
+            this.tableLayoutPanel6.Controls.Add(this.label6, 0, 0);
+            this.tableLayoutPanel6.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel6.Name = "tableLayoutPanel6";
+            this.tableLayoutPanel6.RowCount = 1;
+            this.tableLayoutPanel6.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel6.Size = new System.Drawing.Size(200, 100);
+            this.tableLayoutPanel6.TabIndex = 0;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(3, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(14, 13);
+            this.label6.TabIndex = 28;
+            this.label6.Text = "X";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(3, 12);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(1, 8);
+            this.label7.TabIndex = 30;
+            this.label7.Text = "Z";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 100);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            // 
+            // tableLayoutPanel7
+            // 
+            this.tableLayoutPanel7.ColumnCount = 4;
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.5F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.5F));
+            this.tableLayoutPanel7.Controls.Add(this.label8, 0, 0);
+            this.tableLayoutPanel7.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel7.Name = "tableLayoutPanel7";
+            this.tableLayoutPanel7.RowCount = 1;
+            this.tableLayoutPanel7.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel7.Size = new System.Drawing.Size(200, 100);
+            this.tableLayoutPanel7.TabIndex = 0;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(3, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(14, 13);
+            this.label8.TabIndex = 28;
+            this.label8.Text = "X";
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(3, 54);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(13, 13);
+            this.label20.TabIndex = 30;
+            this.label20.Text = "Z";
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(236)))), ((int)(((byte)(250)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.Location = new System.Drawing.Point(0, 405);
+            this.button1.Margin = new System.Windows.Forms.Padding(0);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(210, 23);
+            this.button1.TabIndex = 69;
+            this.button1.Text = "- Level Boundaries";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.label30);
+            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Location = new System.Drawing.Point(0, 0);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(200, 100);
+            this.groupBox2.TabIndex = 0;
+            this.groupBox2.TabStop = false;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(4, 107);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(160, 13);
+            this.label30.TabIndex = 63;
+            this.label30.Text = "WARNING will update model file";
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(119, 123);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 62;
+            this.button2.Text = "Update";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel9
+            // 
+            this.tableLayoutPanel9.ColumnCount = 4;
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 21.57895F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.89474F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel9.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel9.Controls.Add(this.label31, 0, 0);
+            this.tableLayoutPanel9.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel9.Name = "tableLayoutPanel9";
+            this.tableLayoutPanel9.RowCount = 1;
+            this.tableLayoutPanel9.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel9.Size = new System.Drawing.Size(200, 100);
+            this.tableLayoutPanel9.TabIndex = 0;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(3, 0);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(34, 13);
+            this.label31.TabIndex = 28;
+            this.label31.Text = "Min-X";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(3, 54);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(34, 13);
+            this.label32.TabIndex = 30;
+            this.label32.Text = "Min-Z";
+            // 
+            // tableLayoutPanel11
+            // 
+            this.tableLayoutPanel11.ColumnCount = 4;
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.5F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel11.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.5F));
+            this.tableLayoutPanel11.Controls.Add(this.label41, 0, 0);
+            this.tableLayoutPanel11.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel11.Name = "tableLayoutPanel11";
+            this.tableLayoutPanel11.RowCount = 1;
+            this.tableLayoutPanel11.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel11.Size = new System.Drawing.Size(200, 100);
+            this.tableLayoutPanel11.TabIndex = 0;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(3, 0);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(14, 13);
+            this.label41.TabIndex = 28;
+            this.label41.Text = "X";
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(3, 12);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(1, 8);
+            this.label42.TabIndex = 30;
+            this.label42.Text = "Z";
+            // 
+            // cameraMenu
+            // 
+            this.cameraMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.createCameraToolStripMenuItem,
+            this.createGameplayCameraToolStripMenuItem,
+            this.createGameplayTiggerToolStripMenuItem});
+            this.cameraMenu.Name = "contextMenuStrip2";
+            this.cameraMenu.Size = new System.Drawing.Size(209, 70);
+            this.cameraMenu.Opening += new System.ComponentModel.CancelEventHandler(this.cameraMenu_Opening);
+            // 
+            // createCameraToolStripMenuItem
+            // 
+            this.createCameraToolStripMenuItem.Name = "createCameraToolStripMenuItem";
+            this.createCameraToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.createCameraToolStripMenuItem.Text = "Create Cutscene Camera";
+            this.createCameraToolStripMenuItem.Click += new System.EventHandler(this.createCameraToolStripMenuItem_Click);
+            // 
+            // createGameplayCameraToolStripMenuItem
+            // 
+            this.createGameplayCameraToolStripMenuItem.Name = "createGameplayCameraToolStripMenuItem";
+            this.createGameplayCameraToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.createGameplayCameraToolStripMenuItem.Text = "Create Gameplay Camera";
+            this.createGameplayCameraToolStripMenuItem.Click += new System.EventHandler(this.createGameplayCameraToolStripMenuItem_Click);
+            // 
+            // createGameplayTiggerToolStripMenuItem
+            // 
+            this.createGameplayTiggerToolStripMenuItem.Name = "createGameplayTiggerToolStripMenuItem";
+            this.createGameplayTiggerToolStripMenuItem.Size = new System.Drawing.Size(208, 22);
+            this.createGameplayTiggerToolStripMenuItem.Tag = "Cam Trigger";
+            this.createGameplayTiggerToolStripMenuItem.Text = "Create Camera Trigger";
+            this.createGameplayTiggerToolStripMenuItem.Click += new System.EventHandler(this.createItem_MouseClick);
+            // 
+            // tableLayoutPanel14
+            // 
+            this.tableLayoutPanel14.ColumnCount = 4;
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.5F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel14.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.5F));
+            this.tableLayoutPanel14.Controls.Add(this.label52, 0, 0);
+            this.tableLayoutPanel14.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel14.Name = "tableLayoutPanel14";
+            this.tableLayoutPanel14.RowCount = 1;
+            this.tableLayoutPanel14.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel14.Size = new System.Drawing.Size(200, 100);
+            this.tableLayoutPanel14.TabIndex = 0;
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Location = new System.Drawing.Point(3, 0);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(14, 13);
+            this.label52.TabIndex = 28;
+            this.label52.Text = "X";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox1.Enabled = false;
+            this.textBox1.Location = new System.Drawing.Point(22, 3);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(51, 20);
+            this.textBox1.TabIndex = 18;
+            // 
+            // tableLayoutPanel15
+            // 
+            this.tableLayoutPanel15.ColumnCount = 4;
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.5F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30F));
+            this.tableLayoutPanel15.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.5F));
+            this.tableLayoutPanel15.Controls.Add(this.textBox2, 0, 2);
+            this.tableLayoutPanel15.Controls.Add(this.label56, 0, 0);
+            this.tableLayoutPanel15.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel15.Name = "tableLayoutPanel15";
+            this.tableLayoutPanel15.RowCount = 3;
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel15.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel15.Size = new System.Drawing.Size(200, 100);
+            this.tableLayoutPanel15.TabIndex = 0;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox2.Location = new System.Drawing.Point(3, 43);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(14, 20);
+            this.textBox2.TabIndex = 47;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(3, 0);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(14, 13);
+            this.label56.TabIndex = 28;
+            this.label56.Text = "X";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox3.Location = new System.Drawing.Point(22, 3);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(51, 20);
+            this.textBox3.TabIndex = 18;
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Location = new System.Drawing.Point(0, 0);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(200, 100);
+            this.groupBox3.TabIndex = 0;
+            this.groupBox3.TabStop = false;
+            // 
+            // toolStrip1
+            // 
+            this.toolStrip1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.toolStrip1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mode_lbl,
+            this.mode_cb,
+            this.rectSelect_btn,
+            this.toolStripSeparator1,
+            this.cam_moveToCurrent_btn,
+            this.obj_move_btn,
+            this.obj_rot_btn,
+            this.obj_scale_btn,
+            this.obj_duplicate_btn,
+            this.cam_yaw_btn,
+            this.cam_pitch_btn,
+            this.cam_roll_btn,
+            this.deselect_btn,
+            this.delete_btn,
+            this.toolStripSeparator3,
+            this.yOffset_tb,
+            this.toolStripLabel2,
+            this.lockZ_btn,
+            this.lockY_btn,
+            this.lockX_btn,
+            this.assignObject_btn,
+            this.moveNode_btn,
+            this.linkMode_btn,
+            this.removeNode_btn,
+            this.endNode_btn,
+            this.startNewPath_btn,
+            this.addNode_btn,
+            this.addControllerNode_btn,
+            this.deselectPath_btn,
+            this.deletePath_btn,
+            this.toolStripSeparator4,
+            this.eraseAll_btn});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 504);
+            this.toolStrip1.Name = "toolStrip1";
+            this.toolStrip1.Size = new System.Drawing.Size(1190, 26);
+            this.toolStrip1.TabIndex = 74;
+            // 
+            // mode_lbl
+            // 
+            this.mode_lbl.Name = "mode_lbl";
+            this.mode_lbl.Size = new System.Drawing.Size(38, 23);
+            this.mode_lbl.Text = "Mode";
+            // 
+            // mode_cb
+            // 
+            this.mode_cb.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.mode_cb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.mode_cb.Enabled = false;
+            this.mode_cb.ForeColor = System.Drawing.Color.White;
+            this.mode_cb.Items.AddRange(new object[] {
+            "Select Mode",
+            "Create Mode",
+            "Camera Mode",
+            "Path Mode"});
+            this.mode_cb.Name = "mode_cb";
+            this.mode_cb.Size = new System.Drawing.Size(100, 26);
+            this.mode_cb.SelectedIndexChanged += new System.EventHandler(this.mode_cb_SelectedIndexChanged);
+            // 
+            // rectSelect_btn
+            // 
+            this.rectSelect_btn.AutoToolTip = false;
+            this.rectSelect_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.rectSelect_btn.Image = ((System.Drawing.Image)(resources.GetObject("rectSelect_btn.Image")));
+            this.rectSelect_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.rectSelect_btn.Name = "rectSelect_btn";
+            this.rectSelect_btn.Size = new System.Drawing.Size(97, 23);
+            this.rectSelect_btn.Text = "Rectangle Select";
+            this.rectSelect_btn.Click += new System.EventHandler(this.rectSelect_btn_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 26);
+            // 
+            // cam_moveToCurrent_btn
+            // 
+            this.cam_moveToCurrent_btn.AutoToolTip = false;
+            this.cam_moveToCurrent_btn.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.cam_moveToCurrent_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.cam_moveToCurrent_btn.Image = ((System.Drawing.Image)(resources.GetObject("cam_moveToCurrent_btn.Image")));
+            this.cam_moveToCurrent_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.cam_moveToCurrent_btn.Name = "cam_moveToCurrent_btn";
+            this.cam_moveToCurrent_btn.Size = new System.Drawing.Size(102, 23);
+            this.cam_moveToCurrent_btn.Text = "Set to BB Camera";
+            this.cam_moveToCurrent_btn.Click += new System.EventHandler(this.cam_moveToCurrent_btn_Click);
+            // 
+            // obj_move_btn
+            // 
+            this.obj_move_btn.AutoToolTip = false;
+            this.obj_move_btn.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.obj_move_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.obj_move_btn.Image = ((System.Drawing.Image)(resources.GetObject("obj_move_btn.Image")));
+            this.obj_move_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.obj_move_btn.Name = "obj_move_btn";
+            this.obj_move_btn.Size = new System.Drawing.Size(41, 23);
+            this.obj_move_btn.Text = "Move";
+            this.obj_move_btn.Click += new System.EventHandler(this.obj_move_btn_Click);
+            // 
+            // obj_rot_btn
+            // 
+            this.obj_rot_btn.AutoToolTip = false;
+            this.obj_rot_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.obj_rot_btn.Image = ((System.Drawing.Image)(resources.GetObject("obj_rot_btn.Image")));
+            this.obj_rot_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.obj_rot_btn.Name = "obj_rot_btn";
+            this.obj_rot_btn.Size = new System.Drawing.Size(45, 23);
+            this.obj_rot_btn.Text = "Rotate";
+            this.obj_rot_btn.Click += new System.EventHandler(this.obj_rot_btn_Click);
+            // 
+            // obj_scale_btn
+            // 
+            this.obj_scale_btn.AutoToolTip = false;
+            this.obj_scale_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.obj_scale_btn.Image = ((System.Drawing.Image)(resources.GetObject("obj_scale_btn.Image")));
+            this.obj_scale_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.obj_scale_btn.Name = "obj_scale_btn";
+            this.obj_scale_btn.Size = new System.Drawing.Size(38, 23);
+            this.obj_scale_btn.Text = "Scale";
+            this.obj_scale_btn.Click += new System.EventHandler(this.obj_scale_btn_Click);
+            // 
+            // obj_duplicate_btn
+            // 
+            this.obj_duplicate_btn.AutoToolTip = false;
+            this.obj_duplicate_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.obj_duplicate_btn.Image = ((System.Drawing.Image)(resources.GetObject("obj_duplicate_btn.Image")));
+            this.obj_duplicate_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.obj_duplicate_btn.Name = "obj_duplicate_btn";
+            this.obj_duplicate_btn.Size = new System.Drawing.Size(61, 23);
+            this.obj_duplicate_btn.Text = "Duplicate";
+            this.obj_duplicate_btn.Click += new System.EventHandler(this.obj_duplicate_btn_Click);
+            // 
+            // cam_yaw_btn
+            // 
+            this.cam_yaw_btn.AutoToolTip = false;
+            this.cam_yaw_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.cam_yaw_btn.Image = ((System.Drawing.Image)(resources.GetObject("cam_yaw_btn.Image")));
+            this.cam_yaw_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.cam_yaw_btn.Name = "cam_yaw_btn";
+            this.cam_yaw_btn.Size = new System.Drawing.Size(32, 23);
+            this.cam_yaw_btn.Text = "Yaw";
+            this.cam_yaw_btn.Click += new System.EventHandler(this.cam_yaw_btn_Click);
+            // 
+            // cam_pitch_btn
+            // 
+            this.cam_pitch_btn.AutoToolTip = false;
+            this.cam_pitch_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.cam_pitch_btn.Image = ((System.Drawing.Image)(resources.GetObject("cam_pitch_btn.Image")));
+            this.cam_pitch_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.cam_pitch_btn.Name = "cam_pitch_btn";
+            this.cam_pitch_btn.Size = new System.Drawing.Size(38, 23);
+            this.cam_pitch_btn.Text = "Pitch";
+            this.cam_pitch_btn.Click += new System.EventHandler(this.cam_pitch_btn_Click);
+            // 
+            // cam_roll_btn
+            // 
+            this.cam_roll_btn.AutoToolTip = false;
+            this.cam_roll_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.cam_roll_btn.Image = ((System.Drawing.Image)(resources.GetObject("cam_roll_btn.Image")));
+            this.cam_roll_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.cam_roll_btn.Name = "cam_roll_btn";
+            this.cam_roll_btn.Size = new System.Drawing.Size(31, 23);
+            this.cam_roll_btn.Text = "Roll";
+            this.cam_roll_btn.Click += new System.EventHandler(this.cam_roll_btn_Click);
+            // 
+            // deselect_btn
+            // 
+            this.deselect_btn.AutoToolTip = false;
+            this.deselect_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.deselect_btn.Image = ((System.Drawing.Image)(resources.GetObject("deselect_btn.Image")));
+            this.deselect_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.deselect_btn.Name = "deselect_btn";
+            this.deselect_btn.Size = new System.Drawing.Size(55, 23);
+            this.deselect_btn.Text = "Deselect";
+            this.deselect_btn.Click += new System.EventHandler(this.deselect_btn_Click);
+            // 
+            // delete_btn
+            // 
+            this.delete_btn.AutoToolTip = false;
+            this.delete_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.delete_btn.Image = ((System.Drawing.Image)(resources.GetObject("delete_btn.Image")));
+            this.delete_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.delete_btn.Name = "delete_btn";
+            this.delete_btn.Size = new System.Drawing.Size(44, 23);
+            this.delete_btn.Text = "Delete";
+            this.delete_btn.Click += new System.EventHandler(this.delete_btn_Click);
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 26);
+            // 
+            // yOffset_tb
+            // 
+            this.yOffset_tb.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.yOffset_tb.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.yOffset_tb.Margin = new System.Windows.Forms.Padding(3, 0, 0, 3);
+            this.yOffset_tb.Name = "yOffset_tb";
+            this.yOffset_tb.Size = new System.Drawing.Size(40, 23);
+            this.yOffset_tb.Text = "0";
+            this.yOffset_tb.Leave += new System.EventHandler(this.yOffset_tb_Leave);
+            this.yOffset_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            // 
+            // toolStripLabel2
+            // 
+            this.toolStripLabel2.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.toolStripLabel2.Name = "toolStripLabel2";
+            this.toolStripLabel2.Size = new System.Drawing.Size(51, 23);
+            this.toolStripLabel2.Text = "Y-Offset";
+            // 
+            // lockZ_btn
+            // 
+            this.lockZ_btn.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.lockZ_btn.AutoToolTip = false;
+            this.lockZ_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.lockZ_btn.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold);
+            this.lockZ_btn.Image = ((System.Drawing.Image)(resources.GetObject("lockZ_btn.Image")));
+            this.lockZ_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.lockZ_btn.Name = "lockZ_btn";
+            this.lockZ_btn.Size = new System.Drawing.Size(36, 23);
+            this.lockZ_btn.Text = "LOCK Z";
+            this.lockZ_btn.Click += new System.EventHandler(this.lockZ_btn_Click);
+            // 
+            // lockY_btn
+            // 
+            this.lockY_btn.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.lockY_btn.AutoToolTip = false;
+            this.lockY_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.lockY_btn.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold);
+            this.lockY_btn.Image = ((System.Drawing.Image)(resources.GetObject("lockY_btn.Image")));
+            this.lockY_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.lockY_btn.Name = "lockY_btn";
+            this.lockY_btn.Size = new System.Drawing.Size(36, 23);
+            this.lockY_btn.Text = "LOCK Y";
+            this.lockY_btn.Click += new System.EventHandler(this.lockY_btn_Click);
+            // 
+            // lockX_btn
+            // 
+            this.lockX_btn.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
+            this.lockX_btn.AutoToolTip = false;
+            this.lockX_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.lockX_btn.Font = new System.Drawing.Font("Segoe UI", 6F, System.Drawing.FontStyle.Bold);
+            this.lockX_btn.Image = ((System.Drawing.Image)(resources.GetObject("lockX_btn.Image")));
+            this.lockX_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.lockX_btn.Name = "lockX_btn";
+            this.lockX_btn.Size = new System.Drawing.Size(36, 23);
+            this.lockX_btn.Text = "LOCK X";
+            this.lockX_btn.Click += new System.EventHandler(this.lockX_btn_Click);
+            // 
+            // assignObject_btn
+            // 
+            this.assignObject_btn.AutoToolTip = false;
+            this.assignObject_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.assignObject_btn.Image = ((System.Drawing.Image)(resources.GetObject("assignObject_btn.Image")));
+            this.assignObject_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.assignObject_btn.Name = "assignObject_btn";
+            this.assignObject_btn.Size = new System.Drawing.Size(69, 23);
+            this.assignObject_btn.Text = "Assign OBJ";
+            this.assignObject_btn.Click += new System.EventHandler(this.assignObject_btn_Click);
+            // 
+            // moveNode_btn
+            // 
+            this.moveNode_btn.AutoToolTip = false;
+            this.moveNode_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.moveNode_btn.Image = ((System.Drawing.Image)(resources.GetObject("moveNode_btn.Image")));
+            this.moveNode_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.moveNode_btn.Name = "moveNode_btn";
+            this.moveNode_btn.Size = new System.Drawing.Size(73, 23);
+            this.moveNode_btn.Text = "Move Node";
+            this.moveNode_btn.Click += new System.EventHandler(this.moveNode_btn_Click);
+            // 
+            // linkMode_btn
+            // 
+            this.linkMode_btn.AutoToolTip = false;
+            this.linkMode_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.linkMode_btn.Image = ((System.Drawing.Image)(resources.GetObject("linkMode_btn.Image")));
+            this.linkMode_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.linkMode_btn.Name = "linkMode_btn";
+            this.linkMode_btn.Size = new System.Drawing.Size(33, 23);
+            this.linkMode_btn.Text = "Link";
+            this.linkMode_btn.Click += new System.EventHandler(this.linkMode_btn_Click);
+            // 
+            // removeNode_btn
+            // 
+            this.removeNode_btn.AutoToolTip = false;
+            this.removeNode_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.removeNode_btn.Image = ((System.Drawing.Image)(resources.GetObject("removeNode_btn.Image")));
+            this.removeNode_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.removeNode_btn.Name = "removeNode_btn";
+            this.removeNode_btn.Size = new System.Drawing.Size(63, 19);
+            this.removeNode_btn.Text = "Del. Node";
+            this.removeNode_btn.Click += new System.EventHandler(this.removeNode_btn_Click);
+            // 
+            // endNode_btn
+            // 
+            this.endNode_btn.AutoToolTip = false;
+            this.endNode_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.endNode_btn.Image = ((System.Drawing.Image)(resources.GetObject("endNode_btn.Image")));
+            this.endNode_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.endNode_btn.Name = "endNode_btn";
+            this.endNode_btn.Size = new System.Drawing.Size(63, 19);
+            this.endNode_btn.Text = "End Node";
+            this.endNode_btn.Click += new System.EventHandler(this.endNode_btn_Click);
+            // 
+            // startNewPath_btn
+            // 
+            this.startNewPath_btn.AutoToolTip = false;
+            this.startNewPath_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.startNewPath_btn.Image = ((System.Drawing.Image)(resources.GetObject("startNewPath_btn.Image")));
+            this.startNewPath_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.startNewPath_btn.Name = "startNewPath_btn";
+            this.startNewPath_btn.Size = new System.Drawing.Size(62, 19);
+            this.startNewPath_btn.Text = "New Path";
+            this.startNewPath_btn.Click += new System.EventHandler(this.startNewPath_btn_Click);
+            // 
+            // addNode_btn
+            // 
+            this.addNode_btn.AutoToolTip = false;
+            this.addNode_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.addNode_btn.Image = ((System.Drawing.Image)(resources.GetObject("addNode_btn.Image")));
+            this.addNode_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.addNode_btn.Name = "addNode_btn";
+            this.addNode_btn.Size = new System.Drawing.Size(65, 19);
+            this.addNode_btn.Text = "Add Node";
+            this.addNode_btn.Click += new System.EventHandler(this.addNode_btn_Click_1);
+            // 
+            // addControllerNode_btn
+            // 
+            this.addControllerNode_btn.AutoToolTip = false;
+            this.addControllerNode_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.addControllerNode_btn.Image = ((System.Drawing.Image)(resources.GetObject("addControllerNode_btn.Image")));
+            this.addControllerNode_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.addControllerNode_btn.Name = "addControllerNode_btn";
+            this.addControllerNode_btn.Size = new System.Drawing.Size(116, 19);
+            this.addControllerNode_btn.Text = "Add Path Controller";
+            this.addControllerNode_btn.Click += new System.EventHandler(this.addAnimationNode_btn_Click);
+            // 
+            // deselectPath_btn
+            // 
+            this.deselectPath_btn.AutoToolTip = false;
+            this.deselectPath_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.deselectPath_btn.Image = ((System.Drawing.Image)(resources.GetObject("deselectPath_btn.Image")));
+            this.deselectPath_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.deselectPath_btn.Name = "deselectPath_btn";
+            this.deselectPath_btn.Size = new System.Drawing.Size(82, 19);
+            this.deselectPath_btn.Text = "Deselect Path";
+            this.deselectPath_btn.Click += new System.EventHandler(this.deselectPath_btn_Click);
+            // 
+            // deletePath_btn
+            // 
+            this.deletePath_btn.AutoToolTip = false;
+            this.deletePath_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.deletePath_btn.Image = ((System.Drawing.Image)(resources.GetObject("deletePath_btn.Image")));
+            this.deletePath_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.deletePath_btn.Name = "deletePath_btn";
+            this.deletePath_btn.Size = new System.Drawing.Size(71, 19);
+            this.deletePath_btn.Text = "Delete Path";
+            this.deletePath_btn.Click += new System.EventHandler(this.deletePath_btn_Click);
+            // 
+            // toolStripSeparator4
+            // 
+            this.toolStripSeparator4.Name = "toolStripSeparator4";
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 26);
+            // 
+            // eraseAll_btn
+            // 
+            this.eraseAll_btn.AutoToolTip = false;
+            this.eraseAll_btn.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+            this.eraseAll_btn.Image = ((System.Drawing.Image)(resources.GetObject("eraseAll_btn.Image")));
+            this.eraseAll_btn.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.eraseAll_btn.Name = "eraseAll_btn";
+            this.eraseAll_btn.Size = new System.Drawing.Size(55, 19);
+            this.eraseAll_btn.Text = "Erase All";
+            this.eraseAll_btn.Visible = false;
+            this.eraseAll_btn.Click += new System.EventHandler(this.eraseAll_btn_Click);
+            // 
+            // button3
+            // 
+            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(236)))), ((int)(((byte)(250)))));
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button3.Location = new System.Drawing.Point(960, 27);
+            this.button3.Margin = new System.Windows.Forms.Padding(0);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(230, 23);
+            this.button3.TabIndex = 80;
+            this.button3.Text = "Layers";
+            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button3.UseVisualStyleBackColor = false;
+            // 
+            // bgA_cb
+            // 
+            this.bgA_cb.AutoSize = true;
+            this.bgA_cb.Checked = true;
+            this.bgA_cb.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.bgA_cb.Location = new System.Drawing.Point(4, 4);
+            this.bgA_cb.Name = "bgA_cb";
+            this.bgA_cb.Size = new System.Drawing.Size(14, 14);
+            this.bgA_cb.TabIndex = 0;
+            this.bgA_cb.UseVisualStyleBackColor = true;
+            this.bgA_cb.CheckedChanged += new System.EventHandler(this.bgA_cb_CheckedChanged);
+            // 
+            // bgB_btn
+            // 
+            this.bgB_btn.AutoSize = true;
+            this.bgB_btn.Checked = true;
+            this.bgB_btn.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.bgB_btn.Location = new System.Drawing.Point(4, 29);
+            this.bgB_btn.Name = "bgB_btn";
+            this.bgB_btn.Size = new System.Drawing.Size(14, 14);
+            this.bgB_btn.TabIndex = 1;
+            this.bgB_btn.UseVisualStyleBackColor = true;
+            this.bgB_btn.CheckedChanged += new System.EventHandler(this.bgB_btn_CheckedChanged);
+            // 
+            // objs_cb
+            // 
+            this.objs_cb.AutoSize = true;
+            this.objs_cb.Checked = true;
+            this.objs_cb.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.objs_cb.Location = new System.Drawing.Point(4, 54);
+            this.objs_cb.Name = "objs_cb";
+            this.objs_cb.Size = new System.Drawing.Size(14, 14);
+            this.objs_cb.TabIndex = 2;
+            this.objs_cb.UseVisualStyleBackColor = true;
+            this.objs_cb.CheckedChanged += new System.EventHandler(this.objs_cb_CheckedChanged);
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Location = new System.Drawing.Point(25, 26);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(75, 13);
+            this.label59.TabIndex = 6;
+            this.label59.Text = "Background B";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(25, 1);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(75, 13);
+            this.label51.TabIndex = 5;
+            this.label51.Text = "Background A";
+            // 
+            // label64
+            // 
+            this.label64.AutoSize = true;
+            this.label64.Location = new System.Drawing.Point(25, 51);
+            this.label64.Name = "label64";
+            this.label64.Size = new System.Drawing.Size(43, 13);
+            this.label64.TabIndex = 7;
+            this.label64.Text = "Objects";
+            // 
+            // label65
+            // 
+            this.label65.AutoSize = true;
+            this.label65.Location = new System.Drawing.Point(25, 76);
+            this.label65.Name = "label65";
+            this.label65.Size = new System.Drawing.Size(48, 13);
+            this.label65.TabIndex = 8;
+            this.label65.Text = "Cameras";
+            // 
+            // cameras_cb
+            // 
+            this.cameras_cb.AutoSize = true;
+            this.cameras_cb.Checked = true;
+            this.cameras_cb.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.cameras_cb.Location = new System.Drawing.Point(4, 79);
+            this.cameras_cb.Name = "cameras_cb";
+            this.cameras_cb.Size = new System.Drawing.Size(14, 14);
+            this.cameras_cb.TabIndex = 9;
+            this.cameras_cb.UseVisualStyleBackColor = true;
+            this.cameras_cb.CheckedChanged += new System.EventHandler(this.cameras_cb_CheckedChanged);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.White;
+            this.tableLayoutPanel1.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Single;
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.5F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 89.5F));
+            this.tableLayoutPanel1.Controls.Add(this.levelBoundAlpha_cb, 0, 6);
+            this.tableLayoutPanel1.Controls.Add(this.label5, 1, 6);
+            this.tableLayoutPanel1.Controls.Add(this.levelStats_cb, 0, 4);
+            this.tableLayoutPanel1.Controls.Add(this.bgA_cb, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.bgB_btn, 0, 1);
+            this.tableLayoutPanel1.Controls.Add(this.objs_cb, 0, 2);
+            this.tableLayoutPanel1.Controls.Add(this.cameras_cb, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.label51, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.label59, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.label64, 1, 2);
+            this.tableLayoutPanel1.Controls.Add(this.label65, 1, 3);
+            this.tableLayoutPanel1.Controls.Add(this.label14, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.label58, 1, 5);
+            this.tableLayoutPanel1.Controls.Add(this.levelBound_cb, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(this.label75, 1, 11);
+            this.tableLayoutPanel1.Controls.Add(this.unknownRadius_cb, 0, 11);
+            this.tableLayoutPanel1.Controls.Add(this.flagRadius_cb, 1, 10);
+            this.tableLayoutPanel1.Controls.Add(this.showFlagRadius_cb, 0, 10);
+            this.tableLayoutPanel1.Controls.Add(this.label72, 1, 9);
+            this.tableLayoutPanel1.Controls.Add(this.enemyRadius_cb, 0, 9);
+            this.tableLayoutPanel1.Controls.Add(this.label71, 1, 8);
+            this.tableLayoutPanel1.Controls.Add(this.warpRadius_cb, 0, 8);
+            this.tableLayoutPanel1.Controls.Add(this.label66, 1, 7);
+            this.tableLayoutPanel1.Controls.Add(this.camTrigger_cb, 0, 7);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 12;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 9.090909F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(201, 300);
+            this.tableLayoutPanel1.TabIndex = 81;
+            // 
+            // levelBoundAlpha_cb
+            // 
+            this.levelBoundAlpha_cb.AutoSize = true;
+            this.levelBoundAlpha_cb.Location = new System.Drawing.Point(4, 154);
+            this.levelBoundAlpha_cb.Name = "levelBoundAlpha_cb";
+            this.levelBoundAlpha_cb.Size = new System.Drawing.Size(14, 14);
+            this.levelBoundAlpha_cb.TabIndex = 84;
+            this.levelBoundAlpha_cb.UseVisualStyleBackColor = true;
+            this.levelBoundAlpha_cb.CheckedChanged += new System.EventHandler(this.levelBoundAlpha_cb_CheckedChanged);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(25, 151);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(116, 13);
+            this.label5.TabIndex = 84;
+            this.label5.Text = "Level Boundary (alpha)";
+            // 
+            // levelStats_cb
+            // 
+            this.levelStats_cb.AutoSize = true;
+            this.levelStats_cb.Checked = true;
+            this.levelStats_cb.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.levelStats_cb.Location = new System.Drawing.Point(4, 104);
+            this.levelStats_cb.Name = "levelStats_cb";
+            this.levelStats_cb.Size = new System.Drawing.Size(14, 14);
+            this.levelStats_cb.TabIndex = 11;
+            this.levelStats_cb.UseVisualStyleBackColor = true;
+            this.levelStats_cb.CheckedChanged += new System.EventHandler(this.levelStats_cb_CheckedChanged);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(25, 101);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(60, 13);
+            this.label14.TabIndex = 10;
+            this.label14.Text = "Level Stats";
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Location = new System.Drawing.Point(25, 126);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(81, 13);
+            this.label58.TabIndex = 12;
+            this.label58.Text = "Level Boundary";
+            // 
+            // levelBound_cb
+            // 
+            this.levelBound_cb.AutoSize = true;
+            this.levelBound_cb.Location = new System.Drawing.Point(4, 129);
+            this.levelBound_cb.Name = "levelBound_cb";
+            this.levelBound_cb.Size = new System.Drawing.Size(14, 14);
+            this.levelBound_cb.TabIndex = 15;
+            this.levelBound_cb.UseVisualStyleBackColor = true;
+            this.levelBound_cb.CheckedChanged += new System.EventHandler(this.levelBound_cb_CheckedChanged);
+            // 
+            // label75
+            // 
+            this.label75.AutoSize = true;
+            this.label75.Location = new System.Drawing.Point(25, 276);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(123, 13);
+            this.label75.TabIndex = 23;
+            this.label75.Text = "Unknown Object Radius";
+            // 
+            // unknownRadius_cb
+            // 
+            this.unknownRadius_cb.AutoSize = true;
+            this.unknownRadius_cb.Location = new System.Drawing.Point(4, 279);
+            this.unknownRadius_cb.Name = "unknownRadius_cb";
+            this.unknownRadius_cb.Size = new System.Drawing.Size(14, 14);
+            this.unknownRadius_cb.TabIndex = 24;
+            this.unknownRadius_cb.UseVisualStyleBackColor = true;
+            this.unknownRadius_cb.CheckedChanged += new System.EventHandler(this.unknownRadius_cb_CheckedChanged);
+            // 
+            // flagRadius_cb
+            // 
+            this.flagRadius_cb.AutoSize = true;
+            this.flagRadius_cb.Location = new System.Drawing.Point(25, 251);
+            this.flagRadius_cb.Name = "flagRadius_cb";
+            this.flagRadius_cb.Size = new System.Drawing.Size(63, 13);
+            this.flagRadius_cb.TabIndex = 20;
+            this.flagRadius_cb.Text = "Flag Radius";
+            // 
+            // showFlagRadius_cb
+            // 
+            this.showFlagRadius_cb.AutoSize = true;
+            this.showFlagRadius_cb.Location = new System.Drawing.Point(4, 254);
+            this.showFlagRadius_cb.Name = "showFlagRadius_cb";
+            this.showFlagRadius_cb.Size = new System.Drawing.Size(14, 14);
+            this.showFlagRadius_cb.TabIndex = 22;
+            this.showFlagRadius_cb.UseVisualStyleBackColor = true;
+            this.showFlagRadius_cb.CheckedChanged += new System.EventHandler(this.showFlagRadius_cb_CheckedChanged);
+            // 
+            // label72
+            // 
+            this.label72.AutoSize = true;
+            this.label72.Location = new System.Drawing.Point(25, 226);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(75, 13);
+            this.label72.TabIndex = 19;
+            this.label72.Text = "Enemy Radius";
+            // 
+            // enemyRadius_cb
+            // 
+            this.enemyRadius_cb.AutoSize = true;
+            this.enemyRadius_cb.Location = new System.Drawing.Point(4, 229);
+            this.enemyRadius_cb.Name = "enemyRadius_cb";
+            this.enemyRadius_cb.Size = new System.Drawing.Size(14, 14);
+            this.enemyRadius_cb.TabIndex = 21;
+            this.enemyRadius_cb.UseVisualStyleBackColor = true;
+            this.enemyRadius_cb.CheckedChanged += new System.EventHandler(this.enemyRadius_cb_CheckedChanged);
+            // 
+            // label71
+            // 
+            this.label71.AutoSize = true;
+            this.label71.Location = new System.Drawing.Point(25, 201);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(69, 13);
+            this.label71.TabIndex = 17;
+            this.label71.Text = "Warp Radius";
+            // 
+            // warpRadius_cb
+            // 
+            this.warpRadius_cb.AutoSize = true;
+            this.warpRadius_cb.Location = new System.Drawing.Point(4, 204);
+            this.warpRadius_cb.Name = "warpRadius_cb";
+            this.warpRadius_cb.Size = new System.Drawing.Size(14, 14);
+            this.warpRadius_cb.TabIndex = 18;
+            this.warpRadius_cb.UseVisualStyleBackColor = true;
+            this.warpRadius_cb.CheckedChanged += new System.EventHandler(this.warpRadius_cb_CheckedChanged);
+            // 
+            // label66
+            // 
+            this.label66.AutoSize = true;
+            this.label66.Location = new System.Drawing.Point(25, 176);
+            this.label66.Name = "label66";
+            this.label66.Size = new System.Drawing.Size(115, 13);
+            this.label66.TabIndex = 13;
+            this.label66.Text = "Camera Trigger Radius";
+            // 
+            // camTrigger_cb
+            // 
+            this.camTrigger_cb.AutoSize = true;
+            this.camTrigger_cb.Location = new System.Drawing.Point(4, 179);
+            this.camTrigger_cb.Name = "camTrigger_cb";
+            this.camTrigger_cb.Size = new System.Drawing.Size(14, 14);
+            this.camTrigger_cb.TabIndex = 16;
+            this.camTrigger_cb.UseVisualStyleBackColor = true;
+            this.camTrigger_cb.CheckedChanged += new System.EventHandler(this.camTrigger_cb_CheckedChanged);
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.flowLayoutPanel2.AutoScroll = true;
+            this.flowLayoutPanel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.flowLayoutPanel2.Controls.Add(this.tableLayoutPanel1);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(960, 51);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(229, 102);
+            this.flowLayoutPanel2.TabIndex = 83;
+            // 
+            // drawDist_tb
+            // 
+            this.drawDist_tb.Location = new System.Drawing.Point(897, 3);
+            this.drawDist_tb.Name = "drawDist_tb";
+            this.drawDist_tb.Size = new System.Drawing.Size(53, 20);
+            this.drawDist_tb.TabIndex = 84;
+            this.drawDist_tb.Text = "5000";
+            this.drawDist_tb.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.numOnly_KeyPress);
+            this.drawDist_tb.Leave += new System.EventHandler(this.drawDist_tb_Leave);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.label12.Location = new System.Drawing.Point(780, 6);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(111, 13);
+            this.label12.TabIndex = 85;
+            this.label12.Text = "Object Draw Distance";
+            // 
+            // LevelViewer
+            // 
+            this.LevelViewer.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.LevelViewer.BackColor = System.Drawing.Color.Black;
+            this.LevelViewer.Location = new System.Drawing.Point(0, 27);
+            this.LevelViewer.Name = "LevelViewer";
+            this.LevelViewer.Size = new System.Drawing.Size(957, 474);
+            this.LevelViewer.TabIndex = 86;
+            this.LevelViewer.VSync = false;
+            this.LevelViewer.Load += new System.EventHandler(this.LevelViewer_Load);
+            this.LevelViewer.SizeChanged += new System.EventHandler(this.LevelViewer_SizeChanged);
+            this.LevelViewer.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LevelViewer_KeyDown);
+            this.LevelViewer.KeyUp += new System.Windows.Forms.KeyEventHandler(this.LevelViewer_KeyUp);
+            this.LevelViewer.MouseDown += new System.Windows.Forms.MouseEventHandler(this.LevelViewer_MouseDown);
+            this.LevelViewer.MouseMove += new System.Windows.Forms.MouseEventHandler(this.LevelViewer_MouseMove);
+            this.LevelViewer.MouseUp += new System.Windows.Forms.MouseEventHandler(this.LevelViewer_MouseUp);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(229)))), ((int)(((byte)(229)))));
+            this.ClientSize = new System.Drawing.Size(1190, 530);
+            this.Controls.Add(this.LevelViewer);
+            this.Controls.Add(this.drawDist_tb);
+            this.Controls.Add(this.flowLayoutPanel2);
+            this.Controls.Add(this.toolStrip1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.CamSpeed_tb);
+            this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.flowLayoutPanel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.KeyPreview = true;
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "Form1";
+            this.Text = "Banjo\'s Backpack";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResizeEnd += new System.EventHandler(this.Form1_ResizeEnd);
+            this.SizeChanged += new System.EventHandler(this.Form1_SizeChanged);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyUp);
+            this.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseUp);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.textUpdate_gb.ResumeLayout(false);
+            this.textUpdate_gb.PerformLayout();
+            this.tableLayoutPanel4.ResumeLayout(false);
+            this.tableLayoutPanel4.PerformLayout();
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.CamSpeed_tb)).EndInit();
+            this.replacemodel_gb.ResumeLayout(false);
+            this.replacemodel_gb.PerformLayout();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.path_gb.ResumeLayout(false);
+            this.path_gb.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pathControllers_dgv)).EndInit();
+            this.nodeID_gb.ResumeLayout(false);
+            this.tableLayoutPanel13.ResumeLayout(false);
+            this.tableLayoutPanel13.PerformLayout();
+            this.sNode_gb.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            this.nodeProperties_gb.ResumeLayout(false);
+            this.nodeProperties_lp.ResumeLayout(false);
+            this.nodeProperties_lp.PerformLayout();
+            this.pathObject_gb.ResumeLayout(false);
+            this.tableLayoutPanel16.ResumeLayout(false);
+            this.tableLayoutPanel16.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.path_dgv)).EndInit();
+            this.cam3_gb.ResumeLayout(false);
+            this.cam3_gb.PerformLayout();
+            this.tableLayoutPanel10.ResumeLayout(false);
+            this.tableLayoutPanel10.PerformLayout();
+            this.bounds_gb.ResumeLayout(false);
+            this.bounds_gb.PerformLayout();
+            this.tableLayoutPanel8.ResumeLayout(false);
+            this.tableLayoutPanel8.PerformLayout();
+            this.levelEntries_gb.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.levelEntries_dgv)).EndInit();
+            this.objects_gb.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.objects_dgv)).EndInit();
+            this.structs_gb.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.structs_dgv)).EndInit();
+            this.tableLayoutPanel6.ResumeLayout(false);
+            this.tableLayoutPanel6.PerformLayout();
+            this.tableLayoutPanel7.ResumeLayout(false);
+            this.tableLayoutPanel7.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.tableLayoutPanel9.ResumeLayout(false);
+            this.tableLayoutPanel9.PerformLayout();
+            this.tableLayoutPanel11.ResumeLayout(false);
+            this.tableLayoutPanel11.PerformLayout();
+            this.cameraMenu.ResumeLayout(false);
+            this.tableLayoutPanel14.ResumeLayout(false);
+            this.tableLayoutPanel14.PerformLayout();
+            this.tableLayoutPanel15.ResumeLayout(false);
+            this.tableLayoutPanel15.PerformLayout();
+            this.toolStrip1.ResumeLayout(false);
+            this.toolStrip1.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel1.PerformLayout();
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
     }
   }
 }
