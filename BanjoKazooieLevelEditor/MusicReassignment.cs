@@ -93,7 +93,7 @@ namespace BanjoKazooieLevelEditor
       this.Controls.Add((Control) this.update_btn);
       this.Controls.Add((Control) this.music_lb);
       this.FormBorderStyle = FormBorderStyle.FixedToolWindow;
-      this.Name = nameof (MusicReassignment);
+      this.Name = "MusicReassignment";
       this.ResumeLayout(false);
     }
   }

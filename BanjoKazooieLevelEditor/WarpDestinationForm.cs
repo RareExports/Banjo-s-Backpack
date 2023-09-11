@@ -95,7 +95,7 @@ namespace BanjoKazooieLevelEditor
       this.Controls.Add((Control) this.button1);
       this.MaximizeBox = false;
       this.MinimizeBox = false;
-      this.Name = nameof (WarpDestinationForm);
+      this.Name = "WarpDestinationForm";
       this.ShowIcon = false;
       this.Text = "Warp To";
       this.ResumeLayout(false);

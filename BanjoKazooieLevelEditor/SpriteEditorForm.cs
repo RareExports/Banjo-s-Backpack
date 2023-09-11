@@ -357,7 +357,7 @@ namespace BanjoKazooieLevelEditor
       this.Controls.Add((Control) this.label1);
       this.Controls.Add((Control) this.menuStrip1);
       this.Controls.Add((Control) this.sprites_dgv);
-      this.Name = nameof (SpriteEditorForm);
+      this.Name = "SpriteEditorForm";
       this.ShowIcon = false;
       this.Text = "Sprite Editor";
       this.Load += new EventHandler(this.SpriteEditorForm_Load);

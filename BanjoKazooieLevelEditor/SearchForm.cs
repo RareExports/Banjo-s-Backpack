@@ -408,7 +408,7 @@ namespace BanjoKazooieLevelEditor
       this.Controls.Add((Control) this.label1);
       this.MaximizeBox = false;
       this.MinimizeBox = false;
-      this.Name = nameof (SearchForm);
+      this.Name = "SearchForm";
       this.ShowIcon = false;
       this.Text = "Search";
       this.ResumeLayout(false);

@@ -183,7 +183,7 @@ namespace BanjoKazooieLevelEditor
       this.FormBorderStyle = FormBorderStyle.FixedSingle;
       this.MaximizeBox = false;
       this.MinimizeBox = false;
-      this.Name = nameof (AboutBox);
+      this.Name = "AboutBox";
       this.ShowIcon = false;
       this.Text = "About";
       this.ResumeLayout(false);

@@ -251,7 +251,7 @@ namespace BanjoKazooieLevelEditor
       this.Controls.Add((Control) this.midis_lv);
       this.MaximizeBox = false;
       this.MinimizeBox = false;
-      this.Name = nameof (MidiToolForm);
+      this.Name = "MidiToolForm";
       this.ShowIcon = false;
       this.Text = "Midi Tool";
       this.groupBox1.ResumeLayout(false);

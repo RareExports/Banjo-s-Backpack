@@ -98,7 +98,7 @@ namespace BanjoKazooieLevelEditor
       this.Controls.Add((Control) this.ok_btn);
       this.MaximizeBox = false;
       this.MinimizeBox = false;
-      this.Name = nameof (OpenSetFileForm);
+      this.Name = "OpenSetFileForm";
       this.ShowIcon = false;
       this.Text = "Setup File";
       this.ResumeLayout(false);

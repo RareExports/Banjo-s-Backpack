@@ -83,7 +83,7 @@ namespace BanjoKazooieLevelEditor
       this.Controls.Add((Control) this.info_lbl);
       this.Controls.Add((Control) this.progress_pb);
       this.FormBorderStyle = FormBorderStyle.None;
-      this.Name = nameof (Progress);
+      this.Name = "Progress";
       this.ResumeLayout(false);
       this.PerformLayout();
     }
