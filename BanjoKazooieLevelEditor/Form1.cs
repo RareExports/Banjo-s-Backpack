@@ -69,6 +69,8 @@ namespace BanjoKazooieLevelEditor
     private bool zoomOut;
     private bool left;
     private bool right;
+    private bool moveUp;
+    private bool moveDown;
     private GLCamera BBCamera = new GLCamera();
     private int newMouseX;
     private int newMouseY;
@@ -756,9 +758,9 @@ namespace BanjoKazooieLevelEditor
     private void camera()
     {
       bool flag = false;
-      if (this.zoomIn | this.zoomOut | this.left | this.right)
+      if (zoomIn | zoomOut | left | right | moveUp | moveDown)
       {
-        this.BBCamera.PanUpdate(this.zoomIn, this.zoomOut, this.left, this.right);
+        BBCamera.PanUpdate(zoomIn, zoomOut, left, right, moveUp, moveDown);
         flag = true;
       }
       Point mousePosition1 = Control.MousePosition;
@@ -2295,6 +2297,8 @@ namespace BanjoKazooieLevelEditor
       this.BBCamera.Reset();
       this.zoomIn = false;
       this.zoomOut = false;
+      moveUp = false;
+      moveDown = false;
       this.left = false;
       this.right = false;
       this.newMouseX = 0;
@@ -3141,25 +3145,25 @@ namespace BanjoKazooieLevelEditor
       {
         case Keys.ShiftKey:
         case Keys.Shift:
-          this.multiselect = true;
+          multiselect = true;
           break;
         case Keys.A:
-          this.right = true;
+          right = true;
           break;
         case Keys.D:
-          this.left = true;
+          left = true;
           break;
         case Keys.E:
-          this.zoomOut = true;
+          moveUp = true;
           break;
         case Keys.Q:
-          this.zoomIn = true;
+          moveDown = true;
           break;
         case Keys.S:
-          this.zoomOut = true;
+          zoomOut = true;
           break;
         case Keys.W:
-          this.zoomIn = true;
+          zoomIn = true;
           break;
       }
     }
@@ -3170,25 +3174,25 @@ namespace BanjoKazooieLevelEditor
       {
         case Keys.ShiftKey:
         case Keys.Shift:
-          this.multiselect = false;
+          multiselect = false;
           break;
         case Keys.A:
-          this.right = false;
+          right = false;
           break;
         case Keys.D:
-          this.left = false;
+          left = false;
           break;
         case Keys.E:
-          this.zoomOut = false;
+          moveUp = false;
           break;
         case Keys.Q:
-          this.zoomIn = false;
+          moveDown = false;
           break;
         case Keys.S:
-          this.zoomOut = false;
+          zoomOut = false;
           break;
         case Keys.W:
-          this.zoomIn = false;
+          zoomIn = false;
           break;
       }
     }
