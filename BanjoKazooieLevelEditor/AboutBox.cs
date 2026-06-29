@@ -26,17 +26,21 @@ namespace BanjoKazooieLevelEditor
     private Label label11;
     private Label label12;
     private LinkLabel linkLabel2;
+    private LinkLabel linkLabel3;
 
     public AboutBox()
     {
       this.InitializeComponent();
       this.linkLabel1.Links.Add(0, 40, (object) "http://www.banjosbackpack.com/");
       this.linkLabel2.Links.Add(0, 100, (object) "https://www.youtube.com/user/runehero124");
+      this.linkLabel3.Links.Add(0, 120, (object) "https://github.com/RareExports/Banjo-s-Backpack");
     }
 
     private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) => Process.Start(e.Link.LinkData.ToString());
 
     private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) => Process.Start(e.Link.LinkData.ToString());
+
+    private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e) => Process.Start(e.Link.LinkData.ToString());
 
     protected override void Dispose(bool disposing)
     {
@@ -58,6 +62,7 @@ namespace BanjoKazooieLevelEditor
       this.label11 = new Label();
       this.label12 = new Label();
       this.linkLabel2 = new LinkLabel();
+      this.linkLabel3 = new LinkLabel();
       this.SuspendLayout();
       this.label1.AutoSize = true;
       this.label1.BackColor = Color.Transparent;
@@ -100,7 +105,8 @@ namespace BanjoKazooieLevelEditor
       this.linkLabel1.BackColor = Color.Transparent;
       this.linkLabel1.Font = new Font("Microsoft Sans Serif", 10f, FontStyle.Regular, GraphicsUnit.Point, (byte) 0);
       this.linkLabel1.LinkColor = Color.White;
-      this.linkLabel1.Location = new Point(355, 235);
+      this.linkLabel1.Location = new Point(355, 255);
+      this.linkLabel1.Enabled = false; // No longer active website
       this.linkLabel1.Name = "linkLabel1";
       this.linkLabel1.Size = new Size(176, 17);
       this.linkLabel1.TabIndex = 7;
@@ -163,11 +169,25 @@ namespace BanjoKazooieLevelEditor
       this.linkLabel2.TabStop = true;
       this.linkLabel2.Text = "runehero124";
       this.linkLabel2.LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
+
+      this.linkLabel3.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+      this.linkLabel3.AutoSize = true;
+      this.linkLabel3.BackColor = Color.Transparent;
+      this.linkLabel3.Font = new Font("Microsoft Sans Serif", 10f, FontStyle.Regular, GraphicsUnit.Point, (byte)0);
+      this.linkLabel3.LinkColor = Color.White;
+      this.linkLabel3.Location = new Point(355, 235);
+      this.linkLabel3.Name = "linkLabel3";
+      this.linkLabel3.Size = new Size(176, 17);
+      this.linkLabel3.TabIndex = 7;
+      this.linkLabel3.TabStop = true;
+      this.linkLabel3.Text = "Github";
+      this.linkLabel3.LinkClicked += new LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
+
       this.AutoScaleDimensions = new SizeF(6f, 13f);
       this.AutoScaleMode = AutoScaleMode.Font;
       this.BackgroundImage = (Image) Resources.banjos_backpack;
       this.BackgroundImageLayout = ImageLayout.Stretch;
-      this.ClientSize = new Size(543, 256);
+      this.ClientSize = new Size(543, 286);
       this.Controls.Add((Control) this.linkLabel2);
       this.Controls.Add((Control) this.label12);
       this.Controls.Add((Control) this.label11);
@@ -175,6 +195,7 @@ namespace BanjoKazooieLevelEditor
       this.Controls.Add((Control) this.label9);
       this.Controls.Add((Control) this.label8);
       this.Controls.Add((Control) this.linkLabel1);
+      this.Controls.Add((Control)this.linkLabel3);
       this.Controls.Add((Control) this.label7);
       this.Controls.Add((Control) this.label5);
       this.Controls.Add((Control) this.label3);
